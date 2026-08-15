@@ -1,16 +1,68 @@
 {
- "scan_date_utc": "2026-08-15T09:41:29+00:00",
+ "scan_date_utc": "2026-08-15T12:01:37+00:00",
  "criteria": {
-  "ma": "koers raakt 200-weeks SMA (week-range of \u00b12%)",
-  "rsi": "RSI(14) weekly < 30"
+  "ma": "slotkoers binnen \u00b12% van de 200-weeks SMA",
+  "ma_intraweek": "week-range (high/low) raakte de 200-weeks SMA, slot verder weg",
+  "rsi": "RSI(14) weekly < 30",
+  "divergentie": "koers lagere bodem + RSI hogere bodem (regulier), of koers hogere bodem + RSI lagere bodem in stijgende trend (verborgen)"
  },
- "universe_size": 503,
- "tickers_scanned": 503,
- "signal_count": 34,
- "warnings": [
-  "Nasdaq-100: Nasdaq-100-tabel niet gevonden op Wikipedia"
- ],
+ "universe_size": 518,
+ "tickers_scanned": 518,
+ "signal_count": 51,
+ "intraweek_count": 11,
+ "divergence_count": 31,
+ "warnings": [],
  "signals": [
+  {
+   "close": 14.14,
+   "week_end": "2026-08-10",
+   "signals": [
+    "RSI<30",
+    "Bull.div"
+   ],
+   "rsi": 27.9,
+   "sma200w": 66.8,
+   "dist_pct": -78.83,
+   "divergence": {
+    "type": "regulier",
+    "weeks_apart": 17,
+    "age_weeks": 7,
+    "low1": 21.08,
+    "low2": 16.98,
+    "rsi1": 23.0,
+    "rsi2": 30.2,
+    "date1": "2026-02-23",
+    "date2": "2026-06-22"
+   },
+   "ticker": "TTD",
+   "name": "Trade Desk (The)",
+   "index": "S&P 500"
+  },
+  {
+   "close": 122.02,
+   "week_end": "2026-08-10",
+   "signals": [
+    "200WMA",
+    "Bull.div"
+   ],
+   "rsi": 69.9,
+   "sma200w": 122.46,
+   "dist_pct": -0.36,
+   "divergence": {
+    "type": "regulier",
+    "weeks_apart": 31,
+    "age_weeks": 7,
+    "low1": 108.0,
+    "low2": 93.02,
+    "rsi1": 23.8,
+    "rsi2": 49.0,
+    "date1": "2025-11-17",
+    "date2": "2026-06-22"
+   },
+   "ticker": "PAYX",
+   "name": "Paychex",
+   "index": "S&P 500 + Nasdaq-100"
+  },
   {
    "close": 36.2,
    "week_end": "2026-08-10",
@@ -20,6 +72,7 @@
    "rsi": 20.4,
    "sma200w": 47.63,
    "dist_pct": -23.99,
+   "divergence": null,
    "ticker": "ROL",
    "name": "Rollins, Inc.",
    "index": "S&P 500"
@@ -33,22 +86,10 @@
    "rsi": 23.6,
    "sma200w": 60.54,
    "dist_pct": -22.67,
+   "divergence": null,
    "ticker": "MNST",
    "name": "Monster Beverage",
-   "index": "S&P 500"
-  },
-  {
-   "close": 14.14,
-   "week_end": "2026-08-10",
-   "signals": [
-    "RSI<30"
-   ],
-   "rsi": 27.9,
-   "sma200w": 66.8,
-   "dist_pct": -78.83,
-   "ticker": "TTD",
-   "name": "Trade Desk (The)",
-   "index": "S&P 500"
+   "index": "S&P 500 + Nasdaq-100"
   },
   {
    "close": 73.79,
@@ -59,6 +100,7 @@
    "rsi": 28.7,
    "sma200w": 156.08,
    "dist_pct": -52.72,
+   "divergence": null,
    "ticker": "ZTS",
    "name": "Zoetis",
    "index": "S&P 500"
@@ -72,6 +114,7 @@
    "rsi": 37.8,
    "sma200w": 56.67,
    "dist_pct": 0.03,
+   "divergence": null,
    "ticker": "KR",
    "name": "Kroger",
    "index": "S&P 500"
@@ -85,6 +128,7 @@
    "rsi": 56.0,
    "sma200w": 136.45,
    "dist_pct": -0.18,
+   "divergence": null,
    "ticker": "AWK",
    "name": "American Water Works",
    "index": "S&P 500"
@@ -98,6 +142,7 @@
    "rsi": 58.8,
    "sma200w": 251.85,
    "dist_pct": -0.25,
+   "divergence": null,
    "ticker": "AJG",
    "name": "Arthur J. Gallagher & Co.",
    "index": "S&P 500"
@@ -111,6 +156,7 @@
    "rsi": 65.6,
    "sma200w": 121.08,
    "dist_pct": 0.26,
+   "divergence": null,
    "ticker": "SJM",
    "name": "J.M. Smucker Company (The)",
    "index": "S&P 500"
@@ -124,6 +170,7 @@
    "rsi": 53.8,
    "sma200w": 147.51,
    "dist_pct": 0.27,
+   "divergence": null,
    "ticker": "EXR",
    "name": "Extra Space Storage",
    "index": "S&P 500"
@@ -137,21 +184,9 @@
    "rsi": 49.6,
    "sma200w": 420.04,
    "dist_pct": -0.29,
+   "divergence": null,
    "ticker": "SPGI",
    "name": "S&P Global",
-   "index": "S&P 500"
-  },
-  {
-   "close": 122.02,
-   "week_end": "2026-08-10",
-   "signals": [
-    "200WMA"
-   ],
-   "rsi": 69.9,
-   "sma200w": 122.46,
-   "dist_pct": -0.36,
-   "ticker": "PAYX",
-   "name": "Paychex",
    "index": "S&P 500"
   },
   {
@@ -163,6 +198,7 @@
    "rsi": 45.2,
    "sma200w": 57.86,
    "dist_pct": 0.54,
+   "divergence": null,
    "ticker": "TSN",
    "name": "Tyson Foods",
    "index": "S&P 500"
@@ -176,6 +212,7 @@
    "rsi": 61.5,
    "sma200w": 208.64,
    "dist_pct": 0.57,
+   "divergence": null,
    "ticker": "BIIB",
    "name": "Biogen",
    "index": "S&P 500"
@@ -189,6 +226,7 @@
    "rsi": 49.6,
    "sma200w": 171.32,
    "dist_pct": -0.76,
+   "divergence": null,
    "ticker": "UHS",
    "name": "Universal Health Services",
    "index": "S&P 500"
@@ -202,6 +240,7 @@
    "rsi": 47.4,
    "sma200w": 19.2,
    "dist_pct": -0.97,
+   "divergence": null,
    "ticker": "NCLH",
    "name": "Norwegian Cruise Line Holdings",
    "index": "S&P 500"
@@ -215,6 +254,7 @@
    "rsi": 62.3,
    "sma200w": 112.43,
    "dist_pct": -1.05,
+   "divergence": null,
    "ticker": "ABT",
    "name": "Abbott Laboratories",
    "index": "S&P 500"
@@ -228,6 +268,7 @@
    "rsi": 48.5,
    "sma200w": 121.07,
    "dist_pct": -1.14,
+   "divergence": null,
    "ticker": "XYL",
    "name": "Xylem Inc.",
    "index": "S&P 500"
@@ -241,6 +282,7 @@
    "rsi": 51.7,
    "sma200w": 109.0,
    "dist_pct": 1.25,
+   "divergence": null,
    "ticker": "CPT",
    "name": "Camden Property Trust",
    "index": "S&P 500"
@@ -254,6 +296,7 @@
    "rsi": 51.2,
    "sma200w": 65.03,
    "dist_pct": 1.45,
+   "divergence": null,
    "ticker": "EQR",
    "name": "Equity Residential",
    "index": "S&P 500"
@@ -267,6 +310,7 @@
    "rsi": 55.3,
    "sma200w": 41.35,
    "dist_pct": -1.46,
+   "divergence": null,
    "ticker": "IP",
    "name": "International Paper",
    "index": "S&P 500"
@@ -280,6 +324,7 @@
    "rsi": 45.8,
    "sma200w": 148.13,
    "dist_pct": 1.61,
+   "divergence": null,
    "ticker": "ORCL",
    "name": "Oracle Corporation",
    "index": "S&P 500"
@@ -293,19 +338,720 @@
    "rsi": 56.2,
    "sma200w": 247.35,
    "dist_pct": 1.74,
+   "divergence": null,
    "ticker": "ADSK",
    "name": "Autodesk",
+   "index": "S&P 500 + Nasdaq-100"
+  },
+  {
+   "close": 182.61,
+   "week_end": "2026-08-10",
+   "signals": [
+    "Bull.div"
+   ],
+   "rsi": 44.9,
+   "sma200w": 187.36,
+   "dist_pct": -2.53,
+   "divergence": {
+    "type": "regulier",
+    "weeks_apart": 23,
+    "age_weeks": 6,
+    "low1": 181.36,
+    "low2": 165.66,
+    "rsi1": 29.8,
+    "rsi2": 37.8,
+    "date1": "2026-01-19",
+    "date2": "2026-06-29"
+   },
+   "ticker": "TMUS",
+   "name": "T-Mobile US",
+   "index": "S&P 500 + Nasdaq-100"
+  },
+  {
+   "close": 272.96,
+   "week_end": "2026-08-10",
+   "signals": [
+    "Bull.div"
+   ],
+   "rsi": 66.6,
+   "sma200w": 255.76,
+   "dist_pct": 6.73,
+   "divergence": {
+    "type": "regulier",
+    "weeks_apart": 25,
+    "age_weeks": 7,
+    "low1": 251.65,
+    "low2": 213.8,
+    "rsi1": 31.5,
+    "rsi2": 47.9,
+    "date1": "2025-12-29",
+    "date2": "2026-06-22"
+   },
+   "ticker": "ADP",
+   "name": "Automatic Data Processing",
+   "index": "S&P 500 + Nasdaq-100"
+  },
+  {
+   "close": 153.31,
+   "week_end": "2026-08-10",
+   "signals": [
+    "Bull.div"
+   ],
+   "rsi": 51.6,
+   "sma200w": 166.28,
+   "dist_pct": -7.8,
+   "divergence": {
+    "type": "regulier",
+    "weeks_apart": 38,
+    "age_weeks": 7,
+    "low1": 144.12,
+    "low2": 121.04,
+    "rsi1": 27.3,
+    "rsi2": 38.9,
+    "date1": "2025-09-29",
+    "date2": "2026-06-22"
+   },
+   "ticker": "JKHY",
+   "name": "Jack Henry & Associates",
    "index": "S&P 500"
   },
+  {
+   "close": 198.68,
+   "week_end": "2026-08-10",
+   "signals": [
+    "200WMA-intraweek",
+    "Bull.div"
+   ],
+   "rsi": 65.8,
+   "sma200w": 216.79,
+   "dist_pct": -8.35,
+   "divergence": {
+    "type": "regulier",
+    "weeks_apart": 17,
+    "age_weeks": 7,
+    "low1": 117.76,
+    "low2": 111.5,
+    "rsi1": 20.7,
+    "rsi2": 39.4,
+    "date1": "2026-02-23",
+    "date2": "2026-06-22"
+   },
+   "ticker": "WDAY",
+   "name": "Workday, Inc.",
+   "index": "S&P 500 + Nasdaq-100"
+  },
+  {
+   "close": 202.45,
+   "week_end": "2026-08-10",
+   "signals": [
+    "Bull.div"
+   ],
+   "rsi": 54.5,
+   "sma200w": 221.68,
+   "dist_pct": -8.68,
+   "divergence": {
+    "type": "regulier",
+    "weeks_apart": 17,
+    "age_weeks": 3,
+    "low1": 181.01,
+    "low2": 165.75,
+    "rsi1": 31.9,
+    "rsi2": 48.8,
+    "date1": "2026-03-23",
+    "date2": "2026-07-20"
+   },
+   "ticker": "DHR",
+   "name": "Danaher Corporation",
+   "index": "S&P 500"
+  },
+  {
+   "close": 6307.93,
+   "week_end": "2026-08-10",
+   "signals": [
+    "Bull.div"
+   ],
+   "rsi": 44.3,
+   "sma200w": 6992.89,
+   "dist_pct": -9.8,
+   "divergence": {
+    "type": "regulier",
+    "weeks_apart": 18,
+    "age_weeks": 3,
+    "low1": 6301.03,
+    "low2": 5919.25,
+    "rsi1": 30.2,
+    "rsi2": 44.9,
+    "date1": "2026-03-16",
+    "date2": "2026-07-20"
+   },
+   "ticker": "NVR",
+   "name": "NVR, Inc.",
+   "index": "S&P 500"
+  },
+  {
+   "close": 175.58,
+   "week_end": "2026-08-10",
+   "signals": [
+    "Bull.div"
+   ],
+   "rsi": 48.4,
+   "sma200w": 196.98,
+   "dist_pct": -10.86,
+   "divergence": {
+    "type": "regulier",
+    "weeks_apart": 35,
+    "age_weeks": 5,
+    "low1": 175.0,
+    "low2": 160.06,
+    "rsi1": 31.8,
+    "rsi2": 42.3,
+    "date1": "2025-11-03",
+    "date2": "2026-07-06"
+   },
+   "ticker": "AMT",
+   "name": "American Tower",
+   "index": "S&P 500"
+  },
+  {
+   "close": 171.01,
+   "week_end": "2026-08-10",
+   "signals": [
+    "Bull.div"
+   ],
+   "rsi": 54.5,
+   "sma200w": 194.12,
+   "dist_pct": -11.91,
+   "divergence": {
+    "type": "regulier",
+    "weeks_apart": 19,
+    "age_weeks": 7,
+    "low1": 163.71,
+    "low2": 133.83,
+    "rsi1": 20.8,
+    "rsi2": 29.2,
+    "date1": "2026-02-09",
+    "date2": "2026-06-22"
+   },
+   "ticker": "BR",
+   "name": "Broadridge Financial Solutions",
+   "index": "S&P 500"
+  },
+  {
+   "close": 124.0,
+   "week_end": "2026-08-10",
+   "signals": [
+    "Bull.div"
+   ],
+   "rsi": 55.4,
+   "sma200w": 141.63,
+   "dist_pct": -12.45,
+   "divergence": {
+    "type": "regulier",
+    "weeks_apart": 23,
+    "age_weeks": 3,
+    "low1": 98.0,
+    "low2": 91.53,
+    "rsi1": 26.4,
+    "rsi2": 43.1,
+    "date1": "2026-02-09",
+    "date2": "2026-07-20"
+   },
+   "ticker": "NOW",
+   "name": "ServiceNow",
+   "index": "S&P 500"
+  },
+  {
+   "close": 243.75,
+   "week_end": "2026-08-10",
+   "signals": [
+    "Bull.div"
+   ],
+   "rsi": 66.4,
+   "sma200w": 209.2,
+   "dist_pct": 16.52,
+   "divergence": {
+    "type": "regulier",
+    "weeks_apart": 18,
+    "age_weeks": 8,
+    "low1": 168.14,
+    "low2": 150.39,
+    "rsi1": 25.9,
+    "rsi2": 36.1,
+    "date1": "2026-02-09",
+    "date2": "2026-06-15"
+   },
+   "ticker": "VEEV",
+   "name": "Veeva Systems",
+   "index": "S&P 500"
+  },
+  {
+   "close": 113.69,
+   "week_end": "2026-08-10",
+   "signals": [
+    "Verborgen bull.div"
+   ],
+   "rsi": 49.4,
+   "sma200w": 97.56,
+   "dist_pct": 16.54,
+   "divergence": {
+    "type": "verborgen",
+    "weeks_apart": 27,
+    "age_weeks": 6,
+    "low1": 88.24,
+    "low2": 104.12,
+    "rsi1": 51.4,
+    "rsi2": 41.5,
+    "date1": "2025-12-22",
+    "date2": "2026-06-29"
+   },
+   "ticker": "BG",
+   "name": "Bunge Global",
+   "index": "S&P 500"
+  },
+  {
+   "close": 196.21,
+   "week_end": "2026-08-10",
+   "signals": [
+    "Bull.div"
+   ],
+   "rsi": 53.9,
+   "sma200w": 236.1,
+   "dist_pct": -16.9,
+   "divergence": {
+    "type": "regulier",
+    "weeks_apart": 11,
+    "age_weeks": 7,
+    "low1": 163.52,
+    "low2": 146.32,
+    "rsi1": 30.9,
+    "rsi2": 36.6,
+    "date1": "2026-04-06",
+    "date2": "2026-06-22"
+   },
+   "ticker": "CRM",
+   "name": "Salesforce",
+   "index": "S&P 500"
+  },
+  {
+   "close": 399.34,
+   "week_end": "2026-08-10",
+   "signals": [
+    "Bull.div"
+   ],
+   "rsi": 59.8,
+   "sma200w": 485.92,
+   "dist_pct": -17.82,
+   "divergence": {
+    "type": "regulier",
+    "weeks_apart": 13,
+    "age_weeks": 7,
+    "low1": 340.41,
+    "low2": 320.11,
+    "rsi1": 28.5,
+    "rsi2": 39.3,
+    "date1": "2026-03-23",
+    "date2": "2026-06-22"
+   },
+   "ticker": "ROP",
+   "name": "Roper Technologies",
+   "index": "S&P 500 + Nasdaq-100"
+  },
+  {
+   "close": 25.51,
+   "week_end": "2026-08-10",
+   "signals": [
+    "Bull.div"
+   ],
+   "rsi": 55.7,
+   "sma200w": 31.78,
+   "dist_pct": -19.72,
+   "divergence": {
+    "type": "regulier",
+    "weeks_apart": 33,
+    "age_weeks": 7,
+    "low1": 23.7,
+    "low2": 22.0,
+    "rsi1": 31.3,
+    "rsi2": 50.0,
+    "date1": "2025-11-03",
+    "date2": "2026-06-22"
+   },
+   "ticker": "KHC",
+   "name": "Kraft Heinz",
+   "index": "S&P 500 + Nasdaq-100"
+  },
+  {
+   "close": 180.85,
+   "week_end": "2026-08-10",
+   "signals": [
+    "Bull.div"
+   ],
+   "rsi": 50.1,
+   "sma200w": 225.58,
+   "dist_pct": -19.83,
+   "divergence": {
+    "type": "regulier",
+    "weeks_apart": 13,
+    "age_weeks": 7,
+    "low1": 166.07,
+    "low2": 150.75,
+    "rsi1": 30.2,
+    "rsi2": 37.6,
+    "date1": "2026-03-23",
+    "date2": "2026-06-22"
+   },
+   "ticker": "EFX",
+   "name": "Equifax",
+   "index": "S&P 500"
+  },
+  {
+   "close": 255.99,
+   "week_end": "2026-08-10",
+   "signals": [
+    "Bull.div"
+   ],
+   "rsi": 53.2,
+   "sma200w": 321.81,
+   "dist_pct": -20.45,
+   "divergence": {
+    "type": "regulier",
+    "weeks_apart": 10,
+    "age_weeks": 4,
+    "low1": 210.07,
+    "low2": 205.64,
+    "rsi1": 23.9,
+    "rsi2": 41.7,
+    "date1": "2026-05-04",
+    "date2": "2026-07-13"
+   },
+   "ticker": "ERIE",
+   "name": "Erie Indemnity",
+   "index": "S&P 500"
+  },
+  {
+   "close": 181.67,
+   "week_end": "2026-08-10",
+   "signals": [
+    "Bull.div"
+   ],
+   "rsi": 44.4,
+   "sma200w": 235.66,
+   "dist_pct": -22.91,
+   "divergence": {
+    "type": "regulier",
+    "weeks_apart": 28,
+    "age_weeks": 7,
+    "low1": 213.72,
+    "low2": 168.18,
+    "rsi1": 28.3,
+    "rsi2": 44.9,
+    "date1": "2025-12-08",
+    "date2": "2026-06-22"
+   },
+   "ticker": "VRSK",
+   "name": "Verisk Analytics",
+   "index": "S&P 500"
+  },
+  {
+   "close": 26.18,
+   "week_end": "2026-08-10",
+   "signals": [
+    "Bull.div"
+   ],
+   "rsi": 51.7,
+   "sma200w": 34.3,
+   "dist_pct": -23.68,
+   "divergence": {
+    "type": "regulier",
+    "weeks_apart": 38,
+    "age_weeks": 3,
+    "low1": 24.13,
+    "low2": 21.28,
+    "rsi1": 25.8,
+    "rsi2": 33.2,
+    "date1": "2025-10-27",
+    "date2": "2026-07-20"
+   },
+   "ticker": "CMCSA",
+   "name": "Comcast",
+   "index": "S&P 500 + Nasdaq-100"
+  },
+  {
+   "close": 328.64,
+   "week_end": "2026-08-10",
+   "signals": [
+    "Bull.div"
+   ],
+   "rsi": 47.4,
+   "sma200w": 448.31,
+   "dist_pct": -26.69,
+   "divergence": {
+    "type": "regulier",
+    "weeks_apart": 10,
+    "age_weeks": 3,
+    "low1": 294.36,
+    "low2": 282.82,
+    "rsi1": 31.6,
+    "rsi2": 37.3,
+    "date1": "2026-05-11",
+    "date2": "2026-07-20"
+   },
+   "ticker": "TYL",
+   "name": "Tyler Technologies",
+   "index": "S&P 500"
+  },
+  {
+   "close": 103.61,
+   "week_end": "2026-08-10",
+   "signals": [
+    "Bull.div"
+   ],
+   "rsi": 54.2,
+   "sma200w": 142.67,
+   "dist_pct": -27.38,
+   "divergence": {
+    "type": "regulier",
+    "weeks_apart": 11,
+    "age_weeks": 7,
+    "low1": 82.0,
+    "low2": 76.28,
+    "rsi1": 29.8,
+    "rsi2": 38.0,
+    "date1": "2026-04-06",
+    "date2": "2026-06-22"
+   },
+   "ticker": "TRI",
+   "name": "Thomson Reuters Corporation Common Shares",
+   "index": "Nasdaq-100"
+  },
+  {
+   "close": 283.49,
+   "week_end": "2026-08-10",
+   "signals": [
+    "Bull.div"
+   ],
+   "rsi": 60.1,
+   "sma200w": 391.08,
+   "dist_pct": -27.51,
+   "divergence": {
+    "type": "regulier",
+    "weeks_apart": 33,
+    "age_weeks": 7,
+    "low1": 250.5,
+    "low2": 207.96,
+    "rsi1": 18.8,
+    "rsi2": 46.3,
+    "date1": "2025-11-03",
+    "date2": "2026-06-22"
+   },
+   "ticker": "FDS",
+   "name": "FactSet",
+   "index": "S&P 500"
+  },
+  {
+   "close": 42.92,
+   "week_end": "2026-08-10",
+   "signals": [
+    "Bull.div"
+   ],
+   "rsi": 42.2,
+   "sma200w": 65.64,
+   "dist_pct": -34.61,
+   "divergence": {
+    "type": "regulier",
+    "weeks_apart": 11,
+    "age_weeks": 7,
+    "low1": 43.3,
+    "low2": 37.42,
+    "rsi1": 23.5,
+    "rsi2": 28.8,
+    "date1": "2026-04-06",
+    "date2": "2026-06-22"
+   },
+   "ticker": "FIS",
+   "name": "Fidelity National Information Services",
+   "index": "S&P 500"
+  },
+  {
+   "close": 96.7,
+   "week_end": "2026-08-10",
+   "signals": [
+    "Verborgen bull.div"
+   ],
+   "rsi": 61.8,
+   "sma200w": 67.21,
+   "dist_pct": 43.87,
+   "divergence": {
+    "type": "verborgen",
+    "weeks_apart": 37,
+    "age_weeks": 5,
+    "low1": 69.5,
+    "low2": 75.19,
+    "rsi1": 56.3,
+    "rsi2": 36.4,
+    "date1": "2025-10-20",
+    "date2": "2026-07-06"
+   },
+   "ticker": "HAS",
+   "name": "Hasbro",
+   "index": "S&P 500"
+  },
+  {
+   "close": 115.27,
+   "week_end": "2026-08-10",
+   "signals": [
+    "Verborgen bull.div"
+   ],
+   "rsi": 47.6,
+   "sma200w": 79.88,
+   "dist_pct": 44.3,
+   "divergence": {
+    "type": "verborgen",
+    "weeks_apart": 36,
+    "age_weeks": 3,
+    "low1": 98.88,
+    "low2": 106.79,
+    "rsi1": 54.7,
+    "rsi2": 39.6,
+    "date1": "2025-11-10",
+    "date2": "2026-07-20"
+   },
+   "ticker": "WMT",
+   "name": "Walmart",
+   "index": "S&P 500 + Nasdaq-100"
+  },
+  {
+   "close": 181.09,
+   "week_end": "2026-08-10",
+   "signals": [
+    "Bull.div"
+   ],
+   "rsi": 55.4,
+   "sma200w": 354.36,
+   "dist_pct": -48.9,
+   "divergence": {
+    "type": "regulier",
+    "weeks_apart": 11,
+    "age_weeks": 7,
+    "low1": 141.76,
+    "low2": 124.25,
+    "rsi1": 25.5,
+    "rsi2": 34.5,
+    "date1": "2026-04-06",
+    "date2": "2026-06-22"
+   },
+   "ticker": "IT",
+   "name": "Gartner",
+   "index": "S&P 500"
+  },
+  {
+   "close": 154.27,
+   "week_end": "2026-08-10",
+   "signals": [
+    "Bull.div"
+   ],
+   "rsi": 44.7,
+   "sma200w": 315.79,
+   "dist_pct": -51.15,
+   "divergence": {
+    "type": "regulier",
+    "weeks_apart": 35,
+    "age_weeks": 3,
+    "low1": 193.0,
+    "low2": 111.55,
+    "rsi1": 25.3,
+    "rsi2": 30.8,
+    "date1": "2025-11-17",
+    "date2": "2026-07-20"
+   },
+   "ticker": "CHTR",
+   "name": "Charter Communications",
+   "index": "S&P 500"
+  },
+  {
+   "close": 54.39,
+   "week_end": "2026-08-10",
+   "signals": [
+    "Bull.div"
+   ],
+   "rsi": 42.0,
+   "sma200w": 129.8,
+   "dist_pct": -58.1,
+   "divergence": {
+    "type": "regulier",
+    "weeks_apart": 13,
+    "age_weeks": 7,
+    "low1": 52.91,
+    "low2": 47.04,
+    "rsi1": 23.1,
+    "rsi2": 30.6,
+    "date1": "2026-03-23",
+    "date2": "2026-06-22"
+   },
+   "ticker": "FISV",
+   "name": "Fiserv",
+   "index": "S&P 500"
+  },
+  {
+   "close": 64.82,
+   "week_end": "2026-08-10",
+   "signals": [
+    "Verborgen bull.div"
+   ],
+   "rsi": 58.4,
+   "sma200w": 40.2,
+   "dist_pct": 61.23,
+   "divergence": {
+    "type": "verborgen",
+    "weeks_apart": 28,
+    "age_weeks": 6,
+    "low1": 44.26,
+    "low2": 52.27,
+    "rsi1": 47.4,
+    "rsi2": 41.5,
+    "date1": "2025-12-15",
+    "date2": "2026-06-29"
+   },
+   "ticker": "BKR",
+   "name": "Baker Hughes",
+   "index": "S&P 500 + Nasdaq-100"
+  },
+  {
+   "close": 117.76,
+   "week_end": "2026-08-10",
+   "signals": [
+    "Verborgen bull.div"
+   ],
+   "rsi": 59.3,
+   "sma200w": 59.6,
+   "dist_pct": 97.57,
+   "divergence": {
+    "type": "verborgen",
+    "weeks_apart": 37,
+    "age_weeks": 4,
+    "low1": 76.05,
+    "low2": 88.75,
+    "rsi1": 63.1,
+    "rsi2": 40.8,
+    "date1": "2025-10-27",
+    "date2": "2026-07-13"
+   },
+   "ticker": "NEM",
+   "name": "Newmont",
+   "index": "S&P 500"
+  }
+ ],
+ "signals_intraweek": [
   {
    "close": 224.46,
    "week_end": "2026-08-10",
    "signals": [
-    "200WMA"
+    "200WMA-intraweek"
    ],
    "rsi": 54.2,
    "sma200w": 219.66,
    "dist_pct": 2.18,
+   "divergence": null,
    "ticker": "RMD",
    "name": "ResMed|",
    "index": "S&P 500"
@@ -314,11 +1060,12 @@
    "close": 3025.0,
    "week_end": "2026-08-10",
    "signals": [
-    "200WMA"
+    "200WMA-intraweek"
    ],
    "rsi": 40.1,
    "sma200w": 3099.01,
    "dist_pct": -2.39,
+   "divergence": null,
    "ticker": "AZO",
    "name": "AutoZone",
    "index": "S&P 500"
@@ -327,11 +1074,12 @@
    "close": 338.86,
    "week_end": "2026-08-10",
    "signals": [
-    "200WMA"
+    "200WMA-intraweek"
    ],
    "rsi": 49.1,
    "sma200w": 348.98,
    "dist_pct": -2.9,
+   "divergence": null,
    "ticker": "HD",
    "name": "Home Depot (The)",
    "index": "S&P 500"
@@ -340,11 +1088,12 @@
    "close": 45.85,
    "week_end": "2026-08-10",
    "signals": [
-    "200WMA"
+    "200WMA-intraweek"
    ],
    "rsi": 54.3,
    "sma200w": 44.52,
    "dist_pct": 2.99,
+   "divergence": null,
    "ticker": "DVN",
    "name": "Devon Energy",
    "index": "S&P 500"
@@ -353,24 +1102,26 @@
    "close": 803.48,
    "week_end": "2026-08-10",
    "signals": [
-    "200WMA"
+    "200WMA-intraweek"
    ],
    "rsi": 65.2,
    "sma200w": 777.15,
    "dist_pct": 3.39,
+   "divergence": null,
    "ticker": "REGN",
    "name": "Regeneron Pharmaceuticals",
-   "index": "S&P 500"
+   "index": "S&P 500 + Nasdaq-100"
   },
   {
    "close": 183.4,
    "week_end": "2026-08-10",
    "signals": [
-    "200WMA"
+    "200WMA-intraweek"
    ],
    "rsi": 68.3,
    "sma200w": 176.87,
    "dist_pct": 3.69,
+   "divergence": null,
    "ticker": "BDX",
    "name": "Becton Dickinson",
    "index": "S&P 500"
@@ -379,11 +1130,12 @@
    "close": 87.57,
    "week_end": "2026-08-10",
    "signals": [
-    "200WMA"
+    "200WMA-intraweek"
    ],
    "rsi": 62.4,
    "sma200w": 83.94,
    "dist_pct": 4.32,
+   "divergence": null,
    "ticker": "OMC",
    "name": "Omnicom Group",
    "index": "S&P 500"
@@ -392,11 +1144,12 @@
    "close": 39.84,
    "week_end": "2026-08-10",
    "signals": [
-    "200WMA"
+    "200WMA-intraweek"
    ],
    "rsi": 57.9,
    "sma200w": 37.97,
    "dist_pct": 4.93,
+   "divergence": null,
    "ticker": "SMCI",
    "name": "Supermicro",
    "index": "S&P 500"
@@ -405,11 +1158,12 @@
    "close": 30.11,
    "week_end": "2026-08-10",
    "signals": [
-    "200WMA"
+    "200WMA-intraweek"
    ],
    "rsi": 68.5,
    "sma200w": 28.56,
    "dist_pct": 5.43,
+   "divergence": null,
    "ticker": "HPQ",
    "name": "HP Inc.",
    "index": "S&P 500"
@@ -418,11 +1172,12 @@
    "close": 34.42,
    "week_end": "2026-08-10",
    "signals": [
-    "200WMA"
+    "200WMA-intraweek"
    ],
    "rsi": 48.9,
    "sma200w": 32.36,
    "dist_pct": 6.38,
+   "divergence": null,
    "ticker": "HAL",
    "name": "Halliburton",
    "index": "S&P 500"
@@ -431,26 +1186,14 @@
    "close": 57.6,
    "week_end": "2026-08-10",
    "signals": [
-    "200WMA"
+    "200WMA-intraweek"
    ],
    "rsi": 45.7,
    "sma200w": 61.62,
    "dist_pct": -6.53,
+   "divergence": null,
    "ticker": "TRMB",
    "name": "Trimble Inc.",
-   "index": "S&P 500"
-  },
-  {
-   "close": 198.68,
-   "week_end": "2026-08-10",
-   "signals": [
-    "200WMA"
-   ],
-   "rsi": 65.8,
-   "sma200w": 216.79,
-   "dist_pct": -8.35,
-   "ticker": "WDAY",
-   "name": "Workday, Inc.",
    "index": "S&P 500"
   }
  ]
