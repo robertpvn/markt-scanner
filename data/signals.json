@@ -1,0 +1,457 @@
+{
+ "scan_date_utc": "2026-08-15T09:41:29+00:00",
+ "criteria": {
+  "ma": "koers raakt 200-weeks SMA (week-range of \u00b12%)",
+  "rsi": "RSI(14) weekly < 30"
+ },
+ "universe_size": 503,
+ "tickers_scanned": 503,
+ "signal_count": 34,
+ "warnings": [
+  "Nasdaq-100: Nasdaq-100-tabel niet gevonden op Wikipedia"
+ ],
+ "signals": [
+  {
+   "close": 36.2,
+   "week_end": "2026-08-10",
+   "signals": [
+    "RSI<30"
+   ],
+   "rsi": 20.4,
+   "sma200w": 47.63,
+   "dist_pct": -23.99,
+   "ticker": "ROL",
+   "name": "Rollins, Inc.",
+   "index": "S&P 500"
+  },
+  {
+   "close": 46.82,
+   "week_end": "2026-08-10",
+   "signals": [
+    "RSI<30"
+   ],
+   "rsi": 23.6,
+   "sma200w": 60.54,
+   "dist_pct": -22.67,
+   "ticker": "MNST",
+   "name": "Monster Beverage",
+   "index": "S&P 500"
+  },
+  {
+   "close": 14.14,
+   "week_end": "2026-08-10",
+   "signals": [
+    "RSI<30"
+   ],
+   "rsi": 27.9,
+   "sma200w": 66.8,
+   "dist_pct": -78.83,
+   "ticker": "TTD",
+   "name": "Trade Desk (The)",
+   "index": "S&P 500"
+  },
+  {
+   "close": 73.79,
+   "week_end": "2026-08-10",
+   "signals": [
+    "RSI<30"
+   ],
+   "rsi": 28.7,
+   "sma200w": 156.08,
+   "dist_pct": -52.72,
+   "ticker": "ZTS",
+   "name": "Zoetis",
+   "index": "S&P 500"
+  },
+  {
+   "close": 56.69,
+   "week_end": "2026-08-10",
+   "signals": [
+    "200WMA"
+   ],
+   "rsi": 37.8,
+   "sma200w": 56.67,
+   "dist_pct": 0.03,
+   "ticker": "KR",
+   "name": "Kroger",
+   "index": "S&P 500"
+  },
+  {
+   "close": 136.2,
+   "week_end": "2026-08-10",
+   "signals": [
+    "200WMA"
+   ],
+   "rsi": 56.0,
+   "sma200w": 136.45,
+   "dist_pct": -0.18,
+   "ticker": "AWK",
+   "name": "American Water Works",
+   "index": "S&P 500"
+  },
+  {
+   "close": 251.21,
+   "week_end": "2026-08-10",
+   "signals": [
+    "200WMA"
+   ],
+   "rsi": 58.8,
+   "sma200w": 251.85,
+   "dist_pct": -0.25,
+   "ticker": "AJG",
+   "name": "Arthur J. Gallagher & Co.",
+   "index": "S&P 500"
+  },
+  {
+   "close": 121.39,
+   "week_end": "2026-08-10",
+   "signals": [
+    "200WMA"
+   ],
+   "rsi": 65.6,
+   "sma200w": 121.08,
+   "dist_pct": 0.26,
+   "ticker": "SJM",
+   "name": "J.M. Smucker Company (The)",
+   "index": "S&P 500"
+  },
+  {
+   "close": 147.9,
+   "week_end": "2026-08-10",
+   "signals": [
+    "200WMA"
+   ],
+   "rsi": 53.8,
+   "sma200w": 147.51,
+   "dist_pct": 0.27,
+   "ticker": "EXR",
+   "name": "Extra Space Storage",
+   "index": "S&P 500"
+  },
+  {
+   "close": 418.8,
+   "week_end": "2026-08-10",
+   "signals": [
+    "200WMA"
+   ],
+   "rsi": 49.6,
+   "sma200w": 420.04,
+   "dist_pct": -0.29,
+   "ticker": "SPGI",
+   "name": "S&P Global",
+   "index": "S&P 500"
+  },
+  {
+   "close": 122.02,
+   "week_end": "2026-08-10",
+   "signals": [
+    "200WMA"
+   ],
+   "rsi": 69.9,
+   "sma200w": 122.46,
+   "dist_pct": -0.36,
+   "ticker": "PAYX",
+   "name": "Paychex",
+   "index": "S&P 500"
+  },
+  {
+   "close": 58.17,
+   "week_end": "2026-08-10",
+   "signals": [
+    "200WMA"
+   ],
+   "rsi": 45.2,
+   "sma200w": 57.86,
+   "dist_pct": 0.54,
+   "ticker": "TSN",
+   "name": "Tyson Foods",
+   "index": "S&P 500"
+  },
+  {
+   "close": 209.83,
+   "week_end": "2026-08-10",
+   "signals": [
+    "200WMA"
+   ],
+   "rsi": 61.5,
+   "sma200w": 208.64,
+   "dist_pct": 0.57,
+   "ticker": "BIIB",
+   "name": "Biogen",
+   "index": "S&P 500"
+  },
+  {
+   "close": 170.02,
+   "week_end": "2026-08-10",
+   "signals": [
+    "200WMA"
+   ],
+   "rsi": 49.6,
+   "sma200w": 171.32,
+   "dist_pct": -0.76,
+   "ticker": "UHS",
+   "name": "Universal Health Services",
+   "index": "S&P 500"
+  },
+  {
+   "close": 19.01,
+   "week_end": "2026-08-10",
+   "signals": [
+    "200WMA"
+   ],
+   "rsi": 47.4,
+   "sma200w": 19.2,
+   "dist_pct": -0.97,
+   "ticker": "NCLH",
+   "name": "Norwegian Cruise Line Holdings",
+   "index": "S&P 500"
+  },
+  {
+   "close": 111.25,
+   "week_end": "2026-08-10",
+   "signals": [
+    "200WMA"
+   ],
+   "rsi": 62.3,
+   "sma200w": 112.43,
+   "dist_pct": -1.05,
+   "ticker": "ABT",
+   "name": "Abbott Laboratories",
+   "index": "S&P 500"
+  },
+  {
+   "close": 119.68,
+   "week_end": "2026-08-10",
+   "signals": [
+    "200WMA"
+   ],
+   "rsi": 48.5,
+   "sma200w": 121.07,
+   "dist_pct": -1.14,
+   "ticker": "XYL",
+   "name": "Xylem Inc.",
+   "index": "S&P 500"
+  },
+  {
+   "close": 110.36,
+   "week_end": "2026-08-10",
+   "signals": [
+    "200WMA"
+   ],
+   "rsi": 51.7,
+   "sma200w": 109.0,
+   "dist_pct": 1.25,
+   "ticker": "CPT",
+   "name": "Camden Property Trust",
+   "index": "S&P 500"
+  },
+  {
+   "close": 65.97,
+   "week_end": "2026-08-10",
+   "signals": [
+    "200WMA"
+   ],
+   "rsi": 51.2,
+   "sma200w": 65.03,
+   "dist_pct": 1.45,
+   "ticker": "EQR",
+   "name": "Equity Residential",
+   "index": "S&P 500"
+  },
+  {
+   "close": 40.74,
+   "week_end": "2026-08-10",
+   "signals": [
+    "200WMA"
+   ],
+   "rsi": 55.3,
+   "sma200w": 41.35,
+   "dist_pct": -1.46,
+   "ticker": "IP",
+   "name": "International Paper",
+   "index": "S&P 500"
+  },
+  {
+   "close": 150.52,
+   "week_end": "2026-08-10",
+   "signals": [
+    "200WMA"
+   ],
+   "rsi": 45.8,
+   "sma200w": 148.13,
+   "dist_pct": 1.61,
+   "ticker": "ORCL",
+   "name": "Oracle Corporation",
+   "index": "S&P 500"
+  },
+  {
+   "close": 251.66,
+   "week_end": "2026-08-10",
+   "signals": [
+    "200WMA"
+   ],
+   "rsi": 56.2,
+   "sma200w": 247.35,
+   "dist_pct": 1.74,
+   "ticker": "ADSK",
+   "name": "Autodesk",
+   "index": "S&P 500"
+  },
+  {
+   "close": 224.46,
+   "week_end": "2026-08-10",
+   "signals": [
+    "200WMA"
+   ],
+   "rsi": 54.2,
+   "sma200w": 219.66,
+   "dist_pct": 2.18,
+   "ticker": "RMD",
+   "name": "ResMed|",
+   "index": "S&P 500"
+  },
+  {
+   "close": 3025.0,
+   "week_end": "2026-08-10",
+   "signals": [
+    "200WMA"
+   ],
+   "rsi": 40.1,
+   "sma200w": 3099.01,
+   "dist_pct": -2.39,
+   "ticker": "AZO",
+   "name": "AutoZone",
+   "index": "S&P 500"
+  },
+  {
+   "close": 338.86,
+   "week_end": "2026-08-10",
+   "signals": [
+    "200WMA"
+   ],
+   "rsi": 49.1,
+   "sma200w": 348.98,
+   "dist_pct": -2.9,
+   "ticker": "HD",
+   "name": "Home Depot (The)",
+   "index": "S&P 500"
+  },
+  {
+   "close": 45.85,
+   "week_end": "2026-08-10",
+   "signals": [
+    "200WMA"
+   ],
+   "rsi": 54.3,
+   "sma200w": 44.52,
+   "dist_pct": 2.99,
+   "ticker": "DVN",
+   "name": "Devon Energy",
+   "index": "S&P 500"
+  },
+  {
+   "close": 803.48,
+   "week_end": "2026-08-10",
+   "signals": [
+    "200WMA"
+   ],
+   "rsi": 65.2,
+   "sma200w": 777.15,
+   "dist_pct": 3.39,
+   "ticker": "REGN",
+   "name": "Regeneron Pharmaceuticals",
+   "index": "S&P 500"
+  },
+  {
+   "close": 183.4,
+   "week_end": "2026-08-10",
+   "signals": [
+    "200WMA"
+   ],
+   "rsi": 68.3,
+   "sma200w": 176.87,
+   "dist_pct": 3.69,
+   "ticker": "BDX",
+   "name": "Becton Dickinson",
+   "index": "S&P 500"
+  },
+  {
+   "close": 87.57,
+   "week_end": "2026-08-10",
+   "signals": [
+    "200WMA"
+   ],
+   "rsi": 62.4,
+   "sma200w": 83.94,
+   "dist_pct": 4.32,
+   "ticker": "OMC",
+   "name": "Omnicom Group",
+   "index": "S&P 500"
+  },
+  {
+   "close": 39.84,
+   "week_end": "2026-08-10",
+   "signals": [
+    "200WMA"
+   ],
+   "rsi": 57.9,
+   "sma200w": 37.97,
+   "dist_pct": 4.93,
+   "ticker": "SMCI",
+   "name": "Supermicro",
+   "index": "S&P 500"
+  },
+  {
+   "close": 30.11,
+   "week_end": "2026-08-10",
+   "signals": [
+    "200WMA"
+   ],
+   "rsi": 68.5,
+   "sma200w": 28.56,
+   "dist_pct": 5.43,
+   "ticker": "HPQ",
+   "name": "HP Inc.",
+   "index": "S&P 500"
+  },
+  {
+   "close": 34.42,
+   "week_end": "2026-08-10",
+   "signals": [
+    "200WMA"
+   ],
+   "rsi": 48.9,
+   "sma200w": 32.36,
+   "dist_pct": 6.38,
+   "ticker": "HAL",
+   "name": "Halliburton",
+   "index": "S&P 500"
+  },
+  {
+   "close": 57.6,
+   "week_end": "2026-08-10",
+   "signals": [
+    "200WMA"
+   ],
+   "rsi": 45.7,
+   "sma200w": 61.62,
+   "dist_pct": -6.53,
+   "ticker": "TRMB",
+   "name": "Trimble Inc.",
+   "index": "S&P 500"
+  },
+  {
+   "close": 198.68,
+   "week_end": "2026-08-10",
+   "signals": [
+    "200WMA"
+   ],
+   "rsi": 65.8,
+   "sma200w": 216.79,
+   "dist_pct": -8.35,
+   "ticker": "WDAY",
+   "name": "Workday, Inc.",
+   "index": "S&P 500"
+  }
+ ]
+}
