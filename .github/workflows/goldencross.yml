@@ -1,0 +1,55 @@
+name: Wekelijkse golden-cross scan
+
+on:
+  schedule:
+    # Elke zaterdag 08:30 UTC (10:30 NL-tijd in de zomer), een uur na de gewone aandelenscan
+    - cron: '30 8 * * 6'
+  workflow_dispatch: {}     # handmatig starten via de Actions-tab
+  push:
+    branches: [main, master]
+    paths: ['golden_cross.py', 'requirements.txt', '.github/workflows/goldencross.yml']
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: goldencross
+  cancel-in-progress: false
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Code ophalen
+        uses: actions/checkout@v4
+
+      - name: Python installeren
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Afhankelijkheden installeren
+        run: pip install -r requirements.txt
+
+      - name: Golden-cross scan draaien
+        run: python golden_cross.py
+
+      - name: Resultaten opslaan in de repo
+        run: |
+          git config user.name "markt-scanner-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add -A data GOLDENCROSS_REPORT.md
+          git diff --cached --quiet || git commit -m "Golden-cross scan $(date -u +%F)"
+          git pull --rebase --autostash || true
+          git push
+
+      - name: Melding (GitHub-issue) bij signalen
+        if: ${{ hashFiles('data/goldencross/alert.md') != '' }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh issue create \
+            --title "$(cat data/goldencross/alert_title.txt)" \
+            --body-file data/goldencross/alert.md
