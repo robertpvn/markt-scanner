@@ -331,12 +331,6 @@
    "S&P 500"
   ]
  },
- "AVB": {
-  "name": "AvalonBay Communities",
-  "indices": [
-   "S&P 500"
-  ]
- },
  "AVY": {
   "name": "Avery Dennison",
   "indices": [
@@ -1076,12 +1070,6 @@
  },
  "EQIX": {
   "name": "Equinix",
-  "indices": [
-   "S&P 500"
-  ]
- },
- "EQR": {
-  "name": "Equity Residential",
   "indices": [
    "S&P 500"
   ]
@@ -2396,6 +2384,12 @@
    "S&P 500"
   ]
  },
+ "RDDT": {
+  "name": "Reddit",
+  "indices": [
+   "S&P 500"
+  ]
+ },
  "RTX": {
   "name": "RTX Corporation",
   "indices": [
@@ -2943,6 +2937,12 @@
    "S&P 500"
   ]
  },
+ "VMRK": {
+  "name": "Vivmark Residential",
+  "indices": [
+   "S&P 500"
+  ]
+ },
  "VMC": {
   "name": "Vulcan Materials Company",
   "indices": [
@@ -3146,20 +3146,14 @@
    "Nasdaq-100"
   ]
  },
- "CRWV": {
-  "name": "CoreWeave, Inc. Class A Common Stock",
-  "indices": [
-   "Nasdaq-100"
-  ]
- },
  "ALAB": {
   "name": "Astera Labs, Inc. Common Stock",
   "indices": [
    "Nasdaq-100"
   ]
  },
- "RKLB": {
-  "name": "Rocket Lab Corporation Common Stock",
+ "CRWV": {
+  "name": "CoreWeave, Inc. Class A Common Stock",
   "indices": [
    "Nasdaq-100"
   ]
@@ -3170,8 +3164,14 @@
    "Nasdaq-100"
   ]
  },
- "FER": {
-  "name": "Ferrovial N.V. Ordinary Shares",
+ "MSTR": {
+  "name": "Strategy Inc Common Stock Class A",
+  "indices": [
+   "Nasdaq-100"
+  ]
+ },
+ "RKLB": {
+  "name": "Rocket Lab Corporation Common Stock",
   "indices": [
    "Nasdaq-100"
   ]
@@ -3182,8 +3182,8 @@
    "Nasdaq-100"
   ]
  },
- "MSTR": {
-  "name": "Strategy Inc Common Stock Class A",
+ "FER": {
+  "name": "Ferrovial N.V. Ordinary Shares",
   "indices": [
    "Nasdaq-100"
   ]
