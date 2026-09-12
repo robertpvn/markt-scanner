@@ -1,42 +1,43 @@
-Scan van 2026-09-05 op de weekchart (50/200).
+Scan van 2026-09-12 op de weekchart (50/200).
 
-**12 naderen een golden cross:**
+**13 naderen een golden cross:**
 
 | Ticker | Bedrijf | Index | Slot | MA50 | MA200 | Gat | Verwacht over | Koers staat |
 |---|---|---|---:|---:|---:|---:|---:|---|
-| **CRL** | Charles River Laboratories | S&P 500 | 288.5 | 196.01 | 197.21 | -0.6% | 0.7 wk | boven beide MA's |
-| **EIX** | Edison International | S&P 500 | 56.77 | 66.57 | 67.49 | -1.4% | 3.5 wk | onder beide MA's |
-| **MCHP** | Microchip Technology | S&P 500 + Nasdaq-100 | 74.17 | 74.59 | 75.22 | -0.8% | 3.8 wk | onder beide MA's |
-| **IQV** | IQVIA | S&P 500 | 267.77 | 202.69 | 205.81 | -1.5% | 4.1 wk | boven beide MA's |
-| **MGM** | MGM Resorts | S&P 500 | 41.22 | 38.57 | 39.0 | -1.1% | 4.8 wk | boven beide MA's |
-| **IEX** | IDEX Corporation | S&P 500 | 223.74 | 199.41 | 205.64 | -3.0% | 5.1 wk | boven beide MA's |
-| **DVN** | Devon Energy | S&P 500 | 48.06 | 41.95 | 44.13 | -5.0% | 6.4 wk | boven beide MA's |
-| **PCG** | PG&E Corporation | S&P 500 | 14.3 | 16.66 | 16.94 | -1.6% | 10.3 wk | onder beide MA's |
-| **SWK** | Stanley Black & Decker | S&P 500 | 97.36 | 80.21 | 83.9 | -4.4% | 10.3 wk | boven beide MA's |
-| **WST** | West Pharmaceutical Services | S&P 500 | 339.97 | 290.41 | 305.87 | -5.1% | 10.7 wk | boven beide MA's |
-| **TGT** | Target Corporation | S&P 500 | 164.44 | 117.81 | 131.71 | -10.6% | 12.5 wk | boven beide MA's |
-| **DG** | Dollar General | S&P 500 | 133.21 | 122.53 | 133.86 | -8.5% | 12.9 wk | boven MA50 |
+| **IQV** | IQVIA | S&P 500 | 261.77 | 204.33 | 205.99 | -0.8% | 1.8 wk | boven beide MA's |
+| **MCHP** | Microchip Technology | S&P 500 + Nasdaq-100 | 74.2 | 74.78 | 75.21 | -0.6% | 2.7 wk | onder beide MA's |
+| **IEX** | IDEX Corporation | S&P 500 | 224.21 | 200.67 | 205.62 | -2.4% | 4.0 wk | boven beide MA's |
+| **EIX** | Edison International | S&P 500 | 56.0 | 66.59 | 67.47 | -1.3% | 4.1 wk | onder beide MA's |
+| **MGM** | MGM Resorts | S&P 500 | 39.89 | 38.65 | 39.02 | -0.9% | 4.4 wk | boven beide MA's |
+| **DVN** | Devon Energy | S&P 500 | 50.23 | 42.21 | 44.03 | -4.1% | 5.2 wk | boven beide MA's |
+| **SWK** | Stanley Black & Decker | S&P 500 | 89.24 | 80.52 | 83.93 | -4.1% | 9.9 wk | boven beide MA's |
+| **TGT** | Target Corporation | S&P 500 | 155.83 | 119.17 | 131.62 | -9.5% | 10.2 wk | boven beide MA's |
+| **WST** | West Pharmaceutical Services | S&P 500 | 346.23 | 292.1 | 306.35 | -4.7% | 10.4 wk | boven beide MA's |
+| **RVTY** | Revvity | S&P 500 | 124.31 | 101.7 | 109.29 | -7.0% | 11.0 wk | boven beide MA's |
+| **DG** | Dollar General | S&P 500 | 124.58 | 122.98 | 133.24 | -7.7% | 11.1 wk | boven MA50 |
+| **BIIB** | Biogen | S&P 500 | 217.15 | 186.73 | 207.39 | -10.0% | 11.8 wk | boven beide MA's |
+| **OXY** | Occidental Petroleum | S&P 500 | 61.46 | 51.12 | 54.98 | -7.0% | 12.6 wk | boven beide MA's |
 
 **17 net gekruist:**
 
 | Ticker | Bedrijf | Index | Slot | MA50 | MA200 | Gat | Gekruist | Koers staat |
 |---|---|---|---:|---:|---:|---:|---:|---|
-| **BMY** | Bristol Myers Squibb | S&P 500 | 66.82 | 56.17 | 56.06 | +0.2% | 1 wk geleden | boven beide MA's |
-| **COP** | ConocoPhillips | S&P 500 | 134.26 | 109.08 | 108.38 | +0.6% | 1 wk geleden | boven beide MA's |
-| **SLB** | Schlumberger | S&P 500 | 57.51 | 46.78 | 46.63 | +0.3% | 1 wk geleden | boven beide MA's |
-| **BALL** | Ball Corporation | S&P 500 | 62.67 | 57.52 | 57.16 | +0.6% | 2 wk geleden | boven beide MA's |
-| **DLTR** | Dollar Tree | S&P 500 | 131.42 | 114.56 | 113.63 | +0.8% | 2 wk geleden | boven beide MA's |
-| **SBUX** | Starbucks | S&P 500 + Nasdaq-100 | 104.47 | 95.5 | 94.97 | +0.6% | 2 wk geleden | boven beide MA's |
-| **APA** | APA Corporation | S&P 500 | 42.77 | 31.96 | 31.04 | +3.0% | 3 wk geleden | boven beide MA's |
-| **EOG** | EOG Resources | S&P 500 | 145.19 | 125.28 | 123.73 | +1.2% | 3 wk geleden | boven beide MA's |
-| **TMO** | Thermo Fisher Scientific | S&P 500 | 613.78 | 537.05 | 532.3 | +0.9% | 3 wk geleden | boven beide MA's |
-| **A** | Agilent Technologies | S&P 500 | 150.86 | 133.2 | 131.67 | +1.2% | 4 wk geleden | boven beide MA's |
-| **ALB** | Albemarle Corporation | S&P 500 | 126.28 | 146.2 | 139.64 | +4.7% | 4 wk geleden | onder beide MA's |
-| **HAL** | Halliburton | S&P 500 | 37.07 | 33.23 | 32.36 | +2.7% | 4 wk geleden | boven beide MA's |
-| **ODFL** | Old Dominion | S&P 500 + Nasdaq-100 | 185.87 | 187.25 | 183.18 | +2.2% | 6 wk geleden | boven MA200 |
-| **ON** | ON Semiconductor | S&P 500 | 74.38 | 73.2 | 70.74 | +3.5% | 6 wk geleden | boven beide MA's |
-| **PSA** | Public Storage | S&P 500 | 302.01 | 296.89 | 294.69 | +0.8% | 6 wk geleden | boven beide MA's |
-| **MRK** | Merck & Co. | S&P 500 | 150.33 | 113.8 | 107.96 | +5.4% | 7 wk geleden | boven beide MA's |
-| **ADM** | Archer Daniels Midland | S&P 500 | 84.61 | 70.13 | 66.64 | +5.2% | 8 wk geleden | boven beide MA's |
+| **CRL** | Charles River Laboratories | S&P 500 | 278.26 | 198.6 | 197.37 | +0.6% | 1 wk geleden | boven beide MA's |
+| **BMY** | Bristol Myers Squibb | S&P 500 | 63.64 | 56.56 | 56.0 | +1.0% | 2 wk geleden | boven beide MA's |
+| **COP** | ConocoPhillips | S&P 500 | 137.35 | 109.86 | 108.4 | +1.4% | 2 wk geleden | boven beide MA's |
+| **SLB** | Schlumberger | S&P 500 | 56.06 | 47.19 | 46.64 | +1.2% | 2 wk geleden | boven beide MA's |
+| **BALL** | Ball Corporation | S&P 500 | 59.9 | 57.73 | 57.18 | +1.0% | 3 wk geleden | boven beide MA's |
+| **DLTR** | Dollar Tree | S&P 500 | 118.17 | 115.02 | 113.39 | +1.4% | 3 wk geleden | boven beide MA's |
+| **SBUX** | Starbucks | S&P 500 + Nasdaq-100 | 98.74 | 95.81 | 94.98 | +0.9% | 3 wk geleden | boven beide MA's |
+| **APA** | APA Corporation | S&P 500 | 44.73 | 32.36 | 31.02 | +4.3% | 4 wk geleden | boven beide MA's |
+| **EOG** | EOG Resources | S&P 500 | 147.36 | 125.88 | 123.74 | +1.7% | 4 wk geleden | boven beide MA's |
+| **TMO** | Thermo Fisher Scientific | S&P 500 | 609.82 | 539.97 | 532.66 | +1.4% | 4 wk geleden | boven beide MA's |
+| **A** | Agilent Technologies | S&P 500 | 146.93 | 133.67 | 131.67 | +1.5% | 5 wk geleden | boven beide MA's |
+| **ALB** | Albemarle Corporation | S&P 500 | 117.52 | 146.79 | 138.6 | +5.9% | 5 wk geleden | onder beide MA's |
+| **HAL** | Halliburton | S&P 500 | 35.84 | 33.45 | 32.34 | +3.4% | 5 wk geleden | boven beide MA's |
+| **ODFL** | Old Dominion | S&P 500 + Nasdaq-100 | 179.79 | 188.07 | 183.29 | +2.6% | 7 wk geleden | onder beide MA's |
+| **ON** | ON Semiconductor | S&P 500 | 76.14 | 73.72 | 70.74 | +4.2% | 7 wk geleden | boven beide MA's |
+| **PSA** | Public Storage | S&P 500 | 296.5 | 297.09 | 294.69 | +0.8% | 7 wk geleden | boven MA200 |
+| **MRK** | Merck & Co. | S&P 500 | 143.93 | 115.1 | 108.19 | +6.4% | 8 wk geleden | boven beide MA's |
 
 _Geen beleggingsadvies._
