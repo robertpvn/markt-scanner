@@ -1708,8 +1708,7 @@
  "KHC": {
   "name": "Kraft Heinz",
   "indices": [
-   "S&P 500",
-   "Nasdaq-100"
+   "S&P 500"
   ]
  },
  "KR": {
@@ -3140,14 +3139,14 @@
    "Nasdaq-100"
   ]
  },
- "NBIS": {
-  "name": "Nebius Group N.V. Class A Ordinary Shares",
+ "MSTR": {
+  "name": "Strategy Inc Common Stock Class A",
   "indices": [
    "Nasdaq-100"
   ]
  },
- "MSTR": {
-  "name": "Strategy Inc Common Stock Class A",
+ "NBIS": {
+  "name": "Nebius Group N.V. Class A Ordinary Shares",
   "indices": [
    "Nasdaq-100"
   ]
@@ -3170,6 +3169,12 @@
    "Nasdaq-100"
   ]
  },
+ "RKLB": {
+  "name": "Rocket Lab Corporation Common Stock",
+  "indices": [
+   "Nasdaq-100"
+  ]
+ },
  "TRI": {
   "name": "Thomson Reuters Corporation Common Shares",
   "indices": [
@@ -3178,12 +3183,6 @@
  },
  "FER": {
   "name": "Ferrovial N.V. Ordinary Shares",
-  "indices": [
-   "Nasdaq-100"
-  ]
- },
- "RKLB": {
-  "name": "Rocket Lab Corporation Common Stock",
   "indices": [
    "Nasdaq-100"
   ]
