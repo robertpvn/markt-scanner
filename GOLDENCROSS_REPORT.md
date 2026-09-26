@@ -1,24 +1,24 @@
-# Golden-cross scan — 2026-09-19
+# Golden-cross scan — 2026-09-26
 
-*50-weeks tegen 200-weeks SMA op de weekchart · universum: S&P 500 + Nasdaq-100 (518 tickers, 518 gescand) · projectie op basis van de helling van het gat over de laatste 8 weken.*
+*50-weeks tegen 200-weeks SMA op de weekchart · universum: S&P 500 + Nasdaq-100 (518 tickers, 517 gescand) · projectie op basis van de helling van het gat over de laatste 8 weken.*
 
 ## 13 naderen een golden cross
 
 | Ticker | Bedrijf | Index | Slot | MA50 | MA200 | Gat | Verwacht over | Koers staat |
 |---|---|---|---:|---:|---:|---:|---:|---|
-| **IQV** | IQVIA | S&P 500 | 266.42 | 205.53 | 206.25 | -0.3% | 0.7 wk | boven beide MA's |
-| **MCHP** | Microchip Technology | S&P 500 + Nasdaq-100 | 73.27 | 74.92 | 75.21 | -0.4% | 1.9 wk | onder beide MA's |
-| **IEX** | IDEX Corporation | S&P 500 | 223.72 | 201.8 | 205.57 | -1.8% | 3.0 wk | boven beide MA's |
-| **MGM** | MGM Resorts | S&P 500 | 37.81 | 38.73 | 39.02 | -0.7% | 3.8 wk | onder beide MA's |
-| **DVN** | Devon Energy | S&P 500 | 48.61 | 42.49 | 43.92 | -3.2% | 3.9 wk | boven beide MA's |
-| **EIX** | Edison International | S&P 500 | 55.31 | 66.59 | 67.44 | -1.3% | 5.0 wk | onder beide MA's |
-| **TGT** | Target Corporation | S&P 500 | 158.19 | 120.55 | 131.6 | -8.4% | 8.4 wk | boven beide MA's |
-| **RVTY** | Revvity | S&P 500 | 143.45 | 102.68 | 109.33 | -6.1% | 8.8 wk | boven beide MA's |
-| **DG** | Dollar General | S&P 500 | 122.41 | 123.42 | 132.57 | -6.9% | 9.3 wk | onder beide MA's |
-| **SWK** | Stanley Black & Decker | S&P 500 | 89.58 | 80.8 | 83.97 | -3.8% | 9.7 wk | boven beide MA's |
-| **WST** | West Pharmaceutical Services | S&P 500 | 362.31 | 293.9 | 307.04 | -4.3% | 10.0 wk | boven beide MA's |
-| **BIIB** | Biogen | S&P 500 | 215.5 | 187.85 | 206.95 | -9.2% | 10.7 wk | boven beide MA's |
-| **OXY** | Occidental Petroleum | S&P 500 | 58.84 | 51.4 | 54.92 | -6.4% | 11.1 wk | boven beide MA's |
+| **IEX** | IDEX Corporation | S&P 500 | 230.08 | 203.18 | 205.53 | -1.1% | 1.8 wk | boven beide MA's |
+| **DVN** | Devon Energy | S&P 500 | 47.05 | 42.78 | 43.81 | -2.4% | 2.7 wk | boven beide MA's |
+| **MGM** | MGM Resorts | S&P 500 | 32.58 | 38.76 | 39.0 | -0.6% | 3.3 wk | onder beide MA's |
+| **EIX** | Edison International | S&P 500 | 52.65 | 66.6 | 67.38 | -1.2% | 5.7 wk | onder beide MA's |
+| **RVTY** | Revvity | S&P 500 | 151.11 | 103.94 | 109.4 | -5.0% | 6.5 wk | boven beide MA's |
+| **TGT** | Target Corporation | S&P 500 | 157.45 | 121.99 | 131.57 | -7.3% | 6.9 wk | boven beide MA's |
+| **DG** | Dollar General | S&P 500 | 124.84 | 123.93 | 131.9 | -6.0% | 7.7 wk | boven MA50 |
+| **SWK** | Stanley Black & Decker | S&P 500 | 91.4 | 81.34 | 84.02 | -3.2% | 8.2 wk | boven beide MA's |
+| **WST** | West Pharmaceutical Services | S&P 500 | 370.44 | 296.07 | 307.76 | -3.8% | 9.1 wk | boven beide MA's |
+| **BIIB** | Biogen | S&P 500 | 227.6 | 189.47 | 206.56 | -8.3% | 9.5 wk | boven beide MA's |
+| **OXY** | Occidental Petroleum | S&P 500 | 56.86 | 51.7 | 54.85 | -5.8% | 9.6 wk | boven beide MA's |
+| **MRNA** | Moderna | S&P 500 | 198.88 | 58.73 | 81.2 | -27.7% | 10.0 wk | boven beide MA's |
+| **REGN** | Regeneron Pharmaceuticals | S&P 500 + Nasdaq-100 | 788.04 | 726.37 | 779.14 | -6.8% | 12.7 wk | boven beide MA's |
 
 ## 16 zijn net gekruist
 
@@ -26,22 +26,22 @@ Bij deze aandelen is de golden cross de afgelopen 8 weken daadwerkelijk voltooid
 
 | Ticker | Bedrijf | Index | Slot | MA50 | MA200 | Gat | Gekruist | Koers staat |
 |---|---|---|---:|---:|---:|---:|---:|---|
-| **CRL** | Charles River Laboratories | S&P 500 | 278.06 | 200.62 | 197.55 | +1.6% | 2 wk geleden | boven beide MA's |
-| **BMY** | Bristol Myers Squibb | S&P 500 | 63.06 | 56.91 | 55.92 | +1.8% | 3 wk geleden | boven beide MA's |
-| **COP** | ConocoPhillips | S&P 500 | 131.83 | 110.61 | 108.41 | +2.0% | 3 wk geleden | boven beide MA's |
-| **SLB** | Schlumberger | S&P 500 | 51.12 | 47.53 | 46.62 | +1.9% | 3 wk geleden | boven beide MA's |
-| **BALL** | Ball Corporation | S&P 500 | 60.15 | 57.92 | 57.2 | +1.3% | 4 wk geleden | boven beide MA's |
-| **DLTR** | Dollar Tree | S&P 500 | 111.96 | 115.46 | 113.13 | +2.1% | 4 wk geleden | onder beide MA's |
-| **SBUX** | Starbucks | S&P 500 + Nasdaq-100 | 95.83 | 96.0 | 94.97 | +1.1% | 4 wk geleden | boven MA200 |
-| **APA** | APA Corporation | S&P 500 | 44.87 | 32.77 | 31.01 | +5.7% | 5 wk geleden | boven beide MA's |
-| **EOG** | EOG Resources | S&P 500 | 144.23 | 126.54 | 123.75 | +2.3% | 5 wk geleden | boven beide MA's |
-| **TMO** | Thermo Fisher Scientific | S&P 500 | 651.45 | 542.13 | 533.24 | +1.7% | 5 wk geleden | boven beide MA's |
-| **A** | Agilent Technologies | S&P 500 | 156.47 | 133.97 | 131.72 | +1.7% | 6 wk geleden | boven beide MA's |
-| **ALB** | Albemarle Corporation | S&P 500 | 110.91 | 147.24 | 137.77 | +6.9% | 6 wk geleden | onder beide MA's |
-| **HAL** | Halliburton | S&P 500 | 33.64 | 33.63 | 32.33 | +4.0% | 6 wk geleden | boven beide MA's |
-| **ODFL** | Old Dominion | S&P 500 + Nasdaq-100 | 173.0 | 188.7 | 183.41 | +2.9% | 8 wk geleden | onder beide MA's |
-| **ON** | ON Semiconductor | S&P 500 | 69.98 | 74.13 | 70.73 | +4.8% | 8 wk geleden | onder beide MA's |
-| **PSA** | Public Storage | S&P 500 | 296.31 | 297.15 | 294.71 | +0.8% | 8 wk geleden | boven MA200 |
+| **IQV** | IQVIA | S&P 500 | 270.37 | 206.97 | 206.5 | +0.2% | 1 wk geleden | boven beide MA's |
+| **MCHP** | Microchip Technology | S&P 500 + Nasdaq-100 | 78.69 | 75.28 | 75.22 | +0.1% | 1 wk geleden | boven beide MA's |
+| **CRL** | Charles River Laboratories | S&P 500 | 292.84 | 203.13 | 197.8 | +2.7% | 3 wk geleden | boven beide MA's |
+| **BMY** | Bristol Myers Squibb | S&P 500 | 62.86 | 57.29 | 55.84 | +2.6% | 4 wk geleden | boven beide MA's |
+| **COP** | ConocoPhillips | S&P 500 | 127.3 | 111.4 | 108.42 | +2.8% | 4 wk geleden | boven beide MA's |
+| **SLB** | Schlumberger | S&P 500 | 51.54 | 47.93 | 46.63 | +2.8% | 4 wk geleden | boven beide MA's |
+| **BALL** | Ball Corporation | S&P 500 | 56.83 | 58.12 | 57.21 | +1.6% | 5 wk geleden | onder beide MA's |
+| **DLTR** | Dollar Tree | S&P 500 | 114.07 | 115.99 | 112.95 | +2.7% | 5 wk geleden | boven MA200 |
+| **ILMN** | Illumina, Inc. | S&P 500 | 270.0 | 153.0 | 140.66 | +8.8% | 5 wk geleden | boven beide MA's |
+| **SBUX** | Starbucks | S&P 500 + Nasdaq-100 | 94.86 | 96.32 | 94.94 | +1.4% | 5 wk geleden | onder beide MA's |
+| **APA** | APA Corporation | S&P 500 | 42.74 | 33.18 | 30.99 | +7.1% | 6 wk geleden | boven beide MA's |
+| **EOG** | EOG Resources | S&P 500 | 140.35 | 127.19 | 123.74 | +2.8% | 6 wk geleden | boven beide MA's |
+| **TMO** | Thermo Fisher Scientific | S&P 500 | 675.0 | 545.13 | 533.86 | +2.1% | 6 wk geleden | boven beide MA's |
+| **A** | Agilent Technologies | S&P 500 | 172.79 | 134.69 | 131.8 | +2.2% | 7 wk geleden | boven beide MA's |
+| **ALB** | Albemarle Corporation | S&P 500 | 109.73 | 147.64 | 136.95 | +7.8% | 7 wk geleden | onder beide MA's |
+| **HAL** | Halliburton | S&P 500 | 32.76 | 33.85 | 32.31 | +4.8% | 7 wk geleden | boven MA200 |
 
 *De verwachte kruising is een rechttoe-rechtaan doortrekking van de huidige helling. Draait de koers, dan verschuift die datum mee — het is een waarschuwing dat het eraan zit te komen, geen voorspelling. Een golden cross op de weekchart is een traag trendsignaal: het 50-weeks gemiddelde beslaat een jaar, het 200-weeks bijna vier.*
 
