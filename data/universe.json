@@ -417,6 +417,12 @@
    "S&P 500"
   ]
  },
+ "BE": {
+  "name": "Bloom Energy",
+  "indices": [
+   "S&P 500"
+  ]
+ },
  "BNY": {
   "name": "BNY Mellon",
   "indices": [
@@ -469,12 +475,6 @@
  },
  "BF-B": {
   "name": "Brown\u2013Forman",
-  "indices": [
-   "S&P 500"
-  ]
- },
- "BLDR": {
-  "name": "Builders FirstSource",
   "indices": [
    "S&P 500"
   ]
@@ -1104,6 +1104,12 @@
    "S&P 500"
   ]
  },
+ "P": {
+  "name": "Everpure",
+  "indices": [
+   "S&P 500"
+  ]
+ },
  "ES": {
   "name": "Eversource Energy",
   "indices": [
@@ -1516,6 +1522,12 @@
  },
  "ITW": {
   "name": "Illinois Tool Works",
+  "indices": [
+   "S&P 500"
+  ]
+ },
+ "ILMN": {
+  "name": "Illumina, Inc.",
   "indices": [
    "S&P 500"
   ]
@@ -1950,12 +1962,6 @@
  },
  "MRNA": {
   "name": "Moderna",
-  "indices": [
-   "S&P 500"
-  ]
- },
- "TAP": {
-  "name": "Molson Coors Beverage Company",
   "indices": [
    "S&P 500"
   ]
@@ -2743,12 +2749,6 @@
    "S&P 500"
   ]
  },
- "TTD": {
-  "name": "Trade Desk (The)",
-  "indices": [
-   "S&P 500"
-  ]
- },
  "TSCO": {
   "name": "Tractor Supply",
   "indices": [
@@ -3139,12 +3139,6 @@
    "Nasdaq-100"
   ]
  },
- "MSTR": {
-  "name": "Strategy Inc Common Stock Class A",
-  "indices": [
-   "Nasdaq-100"
-  ]
- },
  "NBIS": {
   "name": "Nebius Group N.V. Class A Ordinary Shares",
   "indices": [
@@ -3157,20 +3151,26 @@
    "Nasdaq-100"
   ]
  },
+ "MSTR": {
+  "name": "Strategy Inc Common Stock Class A",
+  "indices": [
+   "Nasdaq-100"
+  ]
+ },
  "CRWV": {
   "name": "CoreWeave, Inc. Class A Common Stock",
   "indices": [
    "Nasdaq-100"
   ]
  },
- "CCEP": {
-  "name": "Coca-Cola Europacific Partners plc Ordinary Shares",
+ "RKLB": {
+  "name": "Rocket Lab Corporation Common Stock",
   "indices": [
    "Nasdaq-100"
   ]
  },
- "RKLB": {
-  "name": "Rocket Lab Corporation Common Stock",
+ "CCEP": {
+  "name": "Coca-Cola Europacific Partners plc Ordinary Shares",
   "indices": [
    "Nasdaq-100"
   ]
