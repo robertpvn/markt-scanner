@@ -1,60 +1,60 @@
-De wekelijkse scan van 2026-09-26 vond **61 aandelen** die aan de criteria voldoen, waarvan **12** met een bullish divergentie.
+De wekelijkse scan van 2026-10-03 vond **58 aandelen** die aan de criteria voldoen, waarvan **10** met een bullish divergentie.
 
 | Ticker | Bedrijf | Index | Signaal | Slot | RSI (w) | 200WMA | Afstand | Divergentie |
 |---|---|---|---|---:|---:|---:|---:|---|
-| **DTE** | DTE Energy | S&P 500 | RSI<30 + 200WMA | 121.44 | 27.2 | 123.79 | -1.9% | – |
-| **ZTS** | Zoetis | S&P 500 | RSI<30 + Bull.div | 71.05 | 29.4 | 153.92 | -53.8% | regulier ↗ RSI 28.3→34.6 (2025-11-17 → 2026-08-17) |
-| **ROL** | Rollins, Inc. | S&P 500 | RSI<30 | 30.03 | 16.0 | 47.44 | -36.7% | – |
-| **PNR** | Pentair | S&P 500 | RSI<30 | 53.66 | 24.2 | 81.23 | -33.9% | – |
-| **MCD** | McDonald's | S&P 500 | RSI<30 | 236.5 | 24.6 | 288.52 | -18.0% | – |
-| **PCG** | PG&E Corporation | S&P 500 | RSI<30 | 12.34 | 25.8 | 16.91 | -27.0% | – |
-| **OTIS** | Otis Worldwide | S&P 500 | RSI<30 | 65.94 | 27.6 | 88.35 | -25.4% | – |
-| **PEG** | Public Service Enterprise Group | S&P 500 | RSI<30 | 67.02 | 27.8 | 73.99 | -9.4% | – |
-| **LVS** | Las Vegas Sands | S&P 500 | RSI<30 | 38.99 | 28.6 | 50.42 | -22.7% | – |
-| **EIX** | Edison International | S&P 500 | RSI<30 | 52.65 | 28.8 | 67.38 | -21.9% | – |
-| **NKE** | Nike, Inc. | S&P 500 | RSI<30 | 35.75 | 28.9 | 81.93 | -56.4% | – |
-| **CMS** | CMS Energy | S&P 500 | RSI<30 | 62.95 | 29.1 | 66.19 | -4.9% | – |
-| **MGM** | MGM Resorts | S&P 500 | RSI<30 + 200WMA-intraweek | 32.58 | 29.4 | 39.0 | -16.5% | – |
-| **VICI** | Vici Properties | S&P 500 | RSI<30 | 23.51 | 29.4 | 30.42 | -22.7% | – |
-| **AON** | Aon plc | S&P 500 | RSI<30 | 277.99 | 29.6 | 335.2 | -17.1% | – |
-| **SBUX** | Starbucks | S&P 500 + Nasdaq-100 | 200WMA | 94.86 | 41.5 | 94.94 | -0.1% | – |
-| **CRH** | CRH plc | S&P 500 | 200WMA | 85.04 | 31.3 | 84.95 | +0.1% | – |
-| **NOC** | Northrop Grumman | S&P 500 | 200WMA | 510.52 | 39.7 | 511.29 | -0.1% | – |
-| **APD** | Air Products | S&P 500 | 200WMA | 281.76 | 44.2 | 282.34 | -0.2% | – |
-| **CHD** | Church & Dwight | S&P 500 | 200WMA | 96.38 | 48.8 | 96.58 | -0.2% | – |
-| **IDXX** | Idexx Laboratories | S&P 500 + Nasdaq-100 | 200WMA | 519.26 | 39.5 | 520.34 | -0.2% | – |
-| **CL** | Colgate-Palmolive | S&P 500 | 200WMA | 86.06 | 42.3 | 85.79 | +0.3% | – |
-| **KDP** | Keurig Dr Pepper | S&P 500 + Nasdaq-100 | 200WMA | 31.95 | 55.7 | 32.06 | -0.3% | – |
-| **SJM** | J.M. Smucker Company (The) | S&P 500 | 200WMA | 121.0 | 56.9 | 120.4 | +0.5% | – |
-| **MELI** | Mercado Libre, Inc | Nasdaq-100 | 200WMA | 1752.61 | 45.1 | 1742.18 | +0.6% | – |
-| **BALL** | Ball Corporation | S&P 500 | 200WMA | 56.83 | 42.4 | 57.21 | -0.7% | – |
-| **MSCI** | MSCI | S&P 500 | 200WMA | 551.36 | 45.3 | 547.65 | +0.7% | – |
-| **LHX** | L3Harris | S&P 500 | 200WMA | 237.69 | 30.3 | 239.74 | -0.9% | – |
-| **RMD** | ResMed| | S&P 500 | 200WMA | 222.0 | 50.9 | 219.84 | +1.0% | – |
-| **DLTR** | Dollar Tree | S&P 500 | 200WMA | 114.07 | 46.8 | 112.95 | +1.0% | – |
-| **SO** | Southern Company | S&P 500 | 200WMA | 82.88 | 30.8 | 82.03 | +1.0% | – |
-| **NEE** | NextEra Energy | S&P 500 | 200WMA | 76.08 | 31.2 | 75.28 | +1.1% | – |
-| **REGN** | Regeneron Pharmaceuticals | S&P 500 + Nasdaq-100 | 200WMA | 788.04 | 57.7 | 779.14 | +1.1% | – |
-| **ALNY** | Alnylam Pharmaceuticals, Inc. | Nasdaq-100 | 200WMA | 255.96 | 44.3 | 258.97 | -1.2% | – |
-| **PGR** | Progressive Corporation | S&P 500 | 200WMA | 205.5 | 44.9 | 203.07 | +1.2% | – |
-| **YUM** | Yum! Brands | S&P 500 | 200WMA | 138.63 | 38.3 | 140.35 | -1.2% | – |
-| **CNC** | Centene Corporation | S&P 500 | 200WMA | 61.82 | 54.2 | 61.07 | +1.2% | – |
-| **HII** | Huntington Ingalls Industries | S&P 500 | 200WMA | 264.02 | 35.3 | 260.58 | +1.3% | – |
-| **PPL** | PPL Corporation | S&P 500 | 200WMA | 32.03 | 33.9 | 31.61 | +1.3% | – |
-| **BKNG** | Booking Holdings | S&P 500 + Nasdaq-100 | 200WMA | 163.95 | 40.2 | 161.69 | +1.4% | – |
-| **HAL** | Halliburton | S&P 500 | 200WMA | 32.76 | 44.0 | 32.31 | +1.4% | – |
-| **BA** | Boeing | S&P 500 | 200WMA | 198.07 | 40.7 | 200.93 | -1.4% | – |
-| **DHR** | Danaher Corporation | S&P 500 | 200WMA | 224.49 | 61.5 | 221.24 | +1.5% | – |
-| **HON** | Honeywell Technologies | S&P 500 + Nasdaq-100 | 200WMA | 212.55 | 43.2 | 209.21 | +1.6% | – |
-| **TROW** | T. Rowe Price | S&P 500 | 200WMA | 105.51 | 47.0 | 107.28 | -1.6% | – |
-| **FTV** | Fortive | S&P 500 | 200WMA | 56.09 | 43.3 | 55.15 | +1.7% | – |
-| **DHI** | D. R. Horton | S&P 500 | 200WMA | 141.51 | 45.1 | 139.08 | +1.8% | – |
-| **VMC** | Vulcan Materials Company | S&P 500 | 200WMA | 245.0 | 36.2 | 249.61 | -1.9% | – |
-| **AXON** | Axon Enterprise | S&P 500 + Nasdaq-100 | 200WMA | 430.11 | 42.0 | 422.19 | +1.9% | – |
-| **CRM** | Salesforce | S&P 500 | 200WMA | 234.02 | 59.8 | 238.71 | -2.0% | – |
+| **FIS** | Fidelity National Information Services | S&P 500 | RSI<30 + Bull.div | 32.44 | 26.2 | 64.52 | -49.7% | regulier ↗ RSI 23.5→41.8 (2026-04-06 → 2026-08-03) |
+| **ZTS** | Zoetis | S&P 500 | RSI<30 + Bull.div | 69.69 | 28.4 | 153.48 | -54.6% | regulier ↗ RSI 28.3→34.6 (2025-11-17 → 2026-08-17) |
+| **LHX** | L3Harris | S&P 500 | RSI<30 + 200WMA | 236.6 | 30.0 | 239.77 | -1.3% | – |
+| **CTVA** | Corteva | S&P 500 | RSI<30 + 200WMA-intraweek | 11.92 | 16.1 | 62.64 | -81.0% | – |
+| **ROL** | Rollins, Inc. | S&P 500 | RSI<30 | 30.16 | 16.6 | 47.39 | -36.4% | – |
+| **MCD** | McDonald's | S&P 500 | RSI<30 | 231.89 | 23.2 | 288.31 | -19.6% | – |
+| **PNR** | Pentair | S&P 500 | RSI<30 | 53.03 | 23.8 | 81.26 | -34.7% | – |
+| **OTIS** | Otis Worldwide | S&P 500 | RSI<30 | 64.05 | 25.0 | 88.27 | -27.4% | – |
+| **LVS** | Las Vegas Sands | S&P 500 | RSI<30 | 36.23 | 25.2 | 50.37 | -28.1% | – |
+| **PCG** | PG&E Corporation | S&P 500 | RSI<30 | 12.32 | 25.7 | 16.9 | -27.1% | – |
+| **NKE** | Nike, Inc. | S&P 500 | RSI<30 | 33.87 | 26.3 | 81.54 | -58.5% | – |
+| **VICI** | Vici Properties | S&P 500 | RSI<30 | 22.65 | 26.4 | 30.37 | -25.4% | – |
+| **MGM** | MGM Resorts | S&P 500 | RSI<30 | 30.48 | 26.7 | 38.97 | -21.8% | – |
+| **WYNN** | Wynn Resorts | S&P 500 | RSI<30 | 75.88 | 26.8 | 98.77 | -23.2% | – |
+| **WY** | Weyerhaeuser | S&P 500 | RSI<30 | 18.47 | 27.4 | 28.68 | -35.6% | – |
+| **AON** | Aon plc | S&P 500 | RSI<30 | 269.45 | 27.8 | 335.01 | -19.6% | – |
+| **LOW** | Lowe's | S&P 500 | RSI<30 | 180.8 | 28.7 | 229.88 | -21.4% | – |
+| **CCI** | Crown Castle | S&P 500 | RSI<30 | 66.44 | 29.1 | 102.1 | -34.9% | – |
+| **CRH** | CRH plc | S&P 500 | RSI<30 + 200WMA-intraweek | 81.94 | 29.2 | 85.16 | -3.8% | – |
+| **O** | Realty Income | S&P 500 | RSI<30 | 54.13 | 29.4 | 58.5 | -7.5% | – |
+| **FICO** | Fair Isaac | S&P 500 | RSI<30 | 661.25 | 29.4 | 1334.58 | -50.5% | – |
+| **FER** | Ferrovial N.V. Ordinary Shares | Nasdaq-100 | RSI<30 | 53.64 | 29.7 | 45.72 | +17.3% | – |
+| **PEP** | PepsiCo | S&P 500 + Nasdaq-100 | RSI<30 | 125.89 | 29.9 | 160.39 | -21.5% | – |
+| **BDX** | Becton Dickinson | S&P 500 | 200WMA | 176.8 | 56.3 | 176.92 | -0.1% | – |
+| **SW** | Smurfit Westrock | S&P 500 | 200WMA | 42.54 | 46.2 | 42.49 | +0.1% | – |
+| **SBUX** | Starbucks | S&P 500 + Nasdaq-100 | 200WMA | 94.71 | 41.3 | 94.89 | -0.2% | – |
+| **F** | Ford Motor Company | S&P 500 | 200WMA | 12.1 | 40.1 | 12.07 | +0.2% | – |
+| **MDT** | Medtronic | S&P 500 | 200WMA | 86.38 | 47.8 | 86.08 | +0.3% | – |
+| **RMD** | ResMed| | S&P 500 | 200WMA | 218.89 | 49.4 | 219.77 | -0.4% | – |
+| **ADP** | Automatic Data Processing | S&P 500 + Nasdaq-100 | 200WMA | 257.68 | 52.6 | 256.53 | +0.5% | – |
+| **IDXX** | Idexx Laboratories | S&P 500 + Nasdaq-100 | 200WMA | 518.39 | 39.3 | 520.76 | -0.5% | – |
+| **DTE** | DTE Energy | S&P 500 | 200WMA | 124.45 | 32.3 | 123.84 | +0.5% | – |
+| **DLTR** | Dollar Tree | S&P 500 | 200WMA | 112.16 | 45.4 | 112.75 | -0.5% | – |
+| **DIS** | Walt Disney Company (The) | S&P 500 | 200WMA | 102.19 | 48.3 | 101.64 | +0.6% | – |
+| **APO** | Apollo Global Management | S&P 500 | 200WMA | 114.02 | 39.8 | 114.88 | -0.8% | – |
+| **NRG** | NRG Energy | S&P 500 | 200WMA | 95.23 | 34.1 | 94.5 | +0.8% | – |
+| **IFF** | International Flavors & Fragrances | S&P 500 | 200WMA | 82.42 | 53.4 | 81.73 | +0.8% | – |
+| **WM** | Waste Management | S&P 500 | 200WMA | 204.45 | 35.1 | 202.28 | +1.1% | – |
+| **HAL** | Halliburton | S&P 500 | 200WMA | 31.85 | 41.8 | 32.27 | -1.3% | – |
+| **DOC** | Healthpeak Properties | S&P 500 | 200WMA | 19.49 | 46.1 | 19.77 | -1.4% | – |
+| **UHS** | Universal Health Services | S&P 500 | 200WMA | 175.72 | 52.4 | 173.26 | +1.4% | – |
+| **BALL** | Ball Corporation | S&P 500 | 200WMA | 56.37 | 41.5 | 57.21 | -1.5% | – |
+| **SHW** | Sherwin-Williams | S&P 500 | 200WMA | 319.51 | 45.2 | 314.73 | +1.5% | – |
+| **APD** | Air Products | S&P 500 | 200WMA | 277.57 | 42.1 | 282.14 | -1.6% | – |
+| **ODFL** | Old Dominion | S&P 500 + Nasdaq-100 | 200WMA | 180.48 | 40.4 | 183.69 | -1.8% | – |
+| **CL** | Colgate-Palmolive | S&P 500 | 200WMA | 84.26 | 38.8 | 85.82 | -1.8% | – |
+| **SYY** | Sysco | S&P 500 | 200WMA | 77.49 | 44.4 | 76.1 | +1.8% | – |
+| **CRM** | Salesforce | S&P 500 | 200WMA | 234.69 | 60.0 | 239.16 | -1.9% | – |
+| **BKNG** | Booking Holdings | S&P 500 + Nasdaq-100 | 200WMA | 159.02 | 38.3 | 162.06 | -1.9% | – |
+| **SO** | Southern Company | S&P 500 | 200WMA | 83.72 | 33.3 | 82.12 | +1.9% | – |
 
-… en nog 11 meer — zie REPORT.md in de repository.
+… en nog 8 meer — zie REPORT.md in de repository.
 
-Daarnaast raakten **11** aandelen de 200-weeks MA alleen intraweek aan; die staan in REPORT.md.
+Daarnaast raakten **17** aandelen de 200-weeks MA alleen intraweek aan; die staan in REPORT.md.
 
 _Geen beleggingsadvies._
