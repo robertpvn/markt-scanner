@@ -791,12 +791,6 @@
    "S&P 500"
   ]
  },
- "CTVA": {
-  "name": "Corteva",
-  "indices": [
-   "S&P 500"
-  ]
- },
  "CSGP": {
   "name": "CoStar Group",
   "indices": [
@@ -1963,7 +1957,8 @@
  "MRNA": {
   "name": "Moderna",
   "indices": [
-   "S&P 500"
+   "S&P 500",
+   "Nasdaq-100"
   ]
  },
  "MDLZ": {
@@ -2209,12 +2204,6 @@
   "indices": [
    "S&P 500",
    "Nasdaq-100"
-  ]
- },
- "PSKY": {
-  "name": "Paramount Skydance Corporation",
-  "indices": [
-   "S&P 500"
   ]
  },
  "PH": {
@@ -2544,6 +2533,12 @@
    "S&P 500"
   ]
  },
+ "SKYD": {
+  "name": "Skydance Corporation",
+  "indices": [
+   "S&P 500"
+  ]
+ },
  "SWKS": {
   "name": "Skyworks Solutions",
   "indices": [
@@ -2785,6 +2780,12 @@
    "S&P 500"
   ]
  },
+ "TWLO": {
+  "name": "Twilio",
+  "indices": [
+   "S&P 500"
+  ]
+ },
  "TYL": {
   "name": "Tyler Technologies",
   "indices": [
@@ -2948,6 +2949,12 @@
    "S&P 500"
   ]
  },
+ "VYLR": {
+  "name": "Vylor",
+  "indices": [
+   "S&P 500"
+  ]
+ },
  "WRB": {
   "name": "W. R. Berkley Corporation",
   "indices": [
@@ -2977,13 +2984,6 @@
   "name": "Walt Disney Company (The)",
   "indices": [
    "S&P 500"
-  ]
- },
- "WBD": {
-  "name": "Warner Bros. Discovery",
-  "indices": [
-   "S&P 500",
-   "Nasdaq-100"
   ]
  },
  "WM": {
@@ -3139,14 +3139,14 @@
    "Nasdaq-100"
   ]
  },
- "NBIS": {
-  "name": "Nebius Group N.V. Class A Ordinary Shares",
+ "MSTR": {
+  "name": "Strategy Inc Common Stock Class A",
   "indices": [
    "Nasdaq-100"
   ]
  },
- "MSTR": {
-  "name": "Strategy Inc Common Stock Class A",
+ "NBIS": {
+  "name": "Nebius Group N.V. Class A Ordinary Shares",
   "indices": [
    "Nasdaq-100"
   ]
@@ -3157,26 +3157,26 @@
    "Nasdaq-100"
   ]
  },
- "CRWV": {
-  "name": "CoreWeave, Inc. Class A Common Stock",
-  "indices": [
-   "Nasdaq-100"
-  ]
- },
- "RKLB": {
-  "name": "Rocket Lab Corporation Common Stock",
-  "indices": [
-   "Nasdaq-100"
-  ]
- },
  "CCEP": {
   "name": "Coca-Cola Europacific Partners plc Ordinary Shares",
   "indices": [
    "Nasdaq-100"
   ]
  },
+ "CRWV": {
+  "name": "CoreWeave, Inc. Class A Common Stock",
+  "indices": [
+   "Nasdaq-100"
+  ]
+ },
  "TRI": {
   "name": "Thomson Reuters Corporation Common Shares",
+  "indices": [
+   "Nasdaq-100"
+  ]
+ },
+ "RKLB": {
+  "name": "Rocket Lab Corporation Common Stock",
   "indices": [
    "Nasdaq-100"
   ]
