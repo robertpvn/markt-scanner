@@ -1885,7 +1885,7 @@
   ]
  },
  "MCK": {
-  "name": "McKesson Corporation",
+  "name": "McKesson",
   "indices": [
    "S&P 500"
   ]
@@ -3145,12 +3145,6 @@
    "Nasdaq-100"
   ]
  },
- "NBIS": {
-  "name": "Nebius Group N.V. Class A Ordinary Shares",
-  "indices": [
-   "Nasdaq-100"
-  ]
- },
  "ALAB": {
   "name": "Astera Labs, Inc. Common Stock",
   "indices": [
@@ -3163,26 +3157,32 @@
    "Nasdaq-100"
   ]
  },
- "CRWV": {
-  "name": "CoreWeave, Inc. Class A Common Stock",
-  "indices": [
-   "Nasdaq-100"
-  ]
- },
  "TRI": {
   "name": "Thomson Reuters Corporation Common Shares",
   "indices": [
    "Nasdaq-100"
   ]
  },
- "RKLB": {
-  "name": "Rocket Lab Corporation Common Stock",
+ "NBIS": {
+  "name": "Nebius Group N.V. Class A Ordinary Shares",
   "indices": [
    "Nasdaq-100"
   ]
  },
  "FER": {
   "name": "Ferrovial N.V. Ordinary Shares",
+  "indices": [
+   "Nasdaq-100"
+  ]
+ },
+ "CRWV": {
+  "name": "CoreWeave, Inc. Class A Common Stock",
+  "indices": [
+   "Nasdaq-100"
+  ]
+ },
+ "RKLB": {
+  "name": "Rocket Lab Corporation Common Stock",
   "indices": [
    "Nasdaq-100"
   ]
