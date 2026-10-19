@@ -1,13 +1,13 @@
 {
- "scan_date_utc": "2026-10-12T16:57:38+00:00",
+ "scan_date_utc": "2026-10-19T14:56:01+00:00",
  "market": "crypto",
  "criteria": {
   "ma": "slotkoers binnen \u00b12% van de 200-weeks SMA (100-weeks bij jonge munten)",
   "rsi": "RSI(14) weekly < 30",
   "divergentie": "koers lagere bodem + RSI hogere bodem (regulier), of koers hogere bodem + RSI lagere bodem in stijgende trend (verborgen)"
  },
- "universe_size": 174,
- "coins_scanned": 135,
+ "universe_size": 176,
+ "coins_scanned": 133,
  "coins_without_data": [
   "OKB",
   "MATIC",
@@ -16,56 +16,88 @@
   "NEXO",
   "XDCE",
   "BCHSV",
-  "DCR",
-  "KAIA",
   "LUNC",
+  "KAIA",
+  "DCR",
   "NFT",
+  "TIBBIR",
+  "INST",
   "TWT",
   "THETA",
-  "TIBBIR",
   "MIOTA",
-  "INST",
-  "NEO",
   "MX",
-  "RAIL",
-  "SHFL",
   "BTSE",
-  "HEX",
-  "B",
-  "XDATA",
-  "XEC",
-  "DATA",
+  "SHFL",
+  "NEO",
+  "AGT",
   "RLB",
+  "XEC",
+  "B",
+  "RAIL",
   "SFP",
+  "BR",
   "H",
-  "DEXE",
+  "XDATA",
   "ALE",
   "YZY",
-  "BR",
+  "DATA",
+  "DEXE",
+  "HEX",
   "KNTQ",
-  "ORDI",
-  "GAS",
   "OZO",
+  "FTT",
+  "GEOD",
+  "WEMIX",
+  "QRL",
+  "GAS",
   "PROM",
-  "GEOD"
+  "LBT"
  ],
  "sources": {
-  "coinbase": 108,
-  "kraken": 27
+  "coinbase": 104,
+  "kraken": 29
  },
- "signal_count": 31,
- "intraweek_count": 3,
- "divergence_count": 28,
+ "signal_count": 18,
+ "intraweek_count": 1,
+ "divergence_count": 17,
  "warnings": [],
  "signals": [
   {
-   "close": 1.97,
-   "week_end": "2026-10-08",
-   "weeks_history": 37,
+   "close": 0.01518,
+   "week_end": "2026-10-15",
+   "weeks_history": 40,
+   "signals": [
+    "RSI<30",
+    "Bull.div"
+   ],
+   "rsi": 28.0,
+   "ma_period": null,
+   "ma": null,
+   "dist_pct": null,
+   "divergence": {
+    "type": "regulier",
+    "weeks_apart": 9,
+    "age_weeks": 6,
+    "low1": 0.02,
+    "low2": 0.02,
+    "rsi1": 19.9,
+    "rsi2": 25.2,
+    "date1": "2026-07-02",
+    "date2": "2026-09-03"
+   },
+   "symbol": "FUN",
+   "name": "FunFair",
+   "rank": 138,
+   "source": "kraken"
+  },
+  {
+   "close": 1.88,
+   "week_end": "2026-10-15",
+   "weeks_history": 38,
    "signals": [
     "RSI<30"
    ],
-   "rsi": 29.4,
+   "rsi": 27.4,
    "ma_period": null,
    "ma": null,
    "dist_pct": null,
@@ -76,81 +108,20 @@
    "source": "kraken"
   },
   {
-   "close": 12.91,
-   "week_end": "2026-10-18",
-   "weeks_history": 216,
-   "signals": [
-    "200WMA"
-   ],
-   "rsi": 58.0,
-   "ma_period": 200,
-   "ma": 12.82,
-   "dist_pct": 0.65,
-   "divergence": null,
-   "symbol": "LINK",
-   "name": "ChainLink",
-   "rank": 17,
-   "source": "coinbase"
-  },
-  {
-   "close": 2515.19,
-   "week_end": "2026-10-18",
-   "weeks_history": 216,
-   "signals": [
-    "200WMA"
-   ],
-   "rsi": 56.4,
-   "ma_period": 200,
-   "ma": 2543.31,
-   "dist_pct": -1.11,
-   "divergence": null,
-   "symbol": "ETH",
-   "name": "Ethereum",
-   "rank": 2,
-   "source": "coinbase"
-  },
-  {
-   "close": 0.98,
-   "week_end": "2026-10-18",
-   "weeks_history": 216,
+   "close": 0.9978,
+   "week_end": "2026-10-25",
+   "weeks_history": 180,
    "signals": [
     "Bull.div"
    ],
-   "rsi": 77.4,
-   "ma_period": 200,
-   "ma": 1.38,
-   "dist_pct": -29.0,
-   "divergence": {
-    "type": "regulier",
-    "weeks_apart": 12,
-    "age_weeks": 4,
-    "low1": 0.28,
-    "low2": 0.26,
-    "rsi1": 29.7,
-    "rsi2": 42.0,
-    "date1": "2026-06-28",
-    "date2": "2026-09-20"
-   },
-   "symbol": "RLC",
-   "name": "iExec RLC",
-   "rank": 197,
-   "source": "coinbase"
-  },
-  {
-   "close": 1.07,
-   "week_end": "2026-10-18",
-   "weeks_history": 179,
-   "signals": [
-    "Bull.div"
-   ],
-   "rsi": 52.9,
+   "rsi": 50.7,
    "ma_period": 100,
-   "ma": 2.21,
-   "dist_pct": -51.79,
+   "ma": 2.19,
+   "dist_pct": -54.43,
    "divergence": {
     "type": "regulier",
     "weeks_apart": 32,
-    "age_weeks": 4,
+    "age_weeks": 5,
     "low1": 0.79,
     "low2": 0.67,
     "rsi1": 31.5,
@@ -164,74 +135,47 @@
    "source": "coinbase"
   },
   {
-   "close": 8.23,
-   "week_end": "2026-10-18",
+   "close": 0.3073,
+   "week_end": "2026-10-25",
    "weeks_history": 216,
    "signals": [
     "Bull.div"
    ],
-   "rsi": 49.1,
+   "rsi": 84.8,
    "ma_period": 200,
-   "ma": 18.2,
-   "dist_pct": -54.76,
+   "ma": 0.741034,
+   "dist_pct": -58.53,
    "divergence": {
     "type": "regulier",
-    "weeks_apart": 21,
-    "age_weeks": 8,
-    "low1": 7.77,
-    "low2": 6.01,
-    "rsi1": 27.3,
-    "rsi2": 47.1,
-    "date1": "2026-03-29",
-    "date2": "2026-08-23"
-   },
-   "symbol": "ETC",
-   "name": "Ethereum Classic",
-   "rank": 46,
-   "source": "coinbase"
-  },
-  {
-   "close": 0.121078,
-   "week_end": "2026-10-18",
-   "weeks_history": 216,
-   "signals": [
-    "Bull.div"
-   ],
-   "rsi": 56.2,
-   "ma_period": 200,
-   "ma": 0.271292,
-   "dist_pct": -55.37,
-   "divergence": {
-    "type": "regulier",
-    "weeks_apart": 28,
-    "age_weeks": 8,
-    "low1": 0.09,
+    "weeks_apart": 39,
+    "age_weeks": 5,
+    "low1": 0.11,
     "low2": 0.07,
-    "rsi1": 31.1,
-    "rsi2": 49.3,
-    "date1": "2026-02-08",
-    "date2": "2026-08-23"
+    "rsi1": 32.0,
+    "rsi2": 46.1,
+    "date1": "2025-12-21",
+    "date2": "2026-09-20"
    },
-   "symbol": "ZRX",
-   "name": "0x",
-   "rank": 180,
+   "symbol": "GTC",
+   "name": "Game.com",
+   "rank": 112,
    "source": "coinbase"
   },
   {
    "close": 5e-06,
-   "week_end": "2026-10-18",
+   "week_end": "2026-10-25",
    "weeks_history": 216,
    "signals": [
     "Bull.div"
    ],
-   "rsi": 47.5,
+   "rsi": 45.2,
    "ma_period": 200,
    "ma": 1.2e-05,
-   "dist_pct": -56.25,
+   "dist_pct": -58.66,
    "divergence": {
     "type": "regulier",
     "weeks_apart": 28,
-    "age_weeks": 4,
+    "age_weeks": 5,
     "low1": 0.0,
     "low2": 0.0,
     "rsi1": 30.8,
@@ -245,47 +189,20 @@
    "source": "coinbase"
   },
   {
-   "close": 0.4022,
-   "week_end": "2026-10-18",
+   "close": 5.49,
+   "week_end": "2026-10-25",
    "weeks_history": 216,
    "signals": [
     "Bull.div"
    ],
-   "rsi": 71.5,
+   "rsi": 45.6,
    "ma_period": 200,
-   "ma": 0.937273,
-   "dist_pct": -57.09,
-   "divergence": {
-    "type": "regulier",
-    "weeks_apart": 35,
-    "age_weeks": 8,
-    "low1": 0.24,
-    "low2": 0.12,
-    "rsi1": 28.8,
-    "rsi2": 52.2,
-    "date1": "2025-12-21",
-    "date2": "2026-08-23"
-   },
-   "symbol": "STX",
-   "name": "Stacks",
-   "rank": 65,
-   "source": "coinbase"
-  },
-  {
-   "close": 6.14,
-   "week_end": "2026-10-18",
-   "weeks_history": 216,
-   "signals": [
-    "Bull.div"
-   ],
-   "rsi": 49.4,
-   "ma_period": 200,
-   "ma": 15.17,
-   "dist_pct": -59.49,
+   "ma": 15.13,
+   "dist_pct": -63.73,
    "divergence": {
     "type": "regulier",
     "weeks_apart": 25,
-    "age_weeks": 4,
+    "age_weeks": 5,
     "low1": 5.38,
     "low2": 5.18,
     "rsi1": 29.5,
@@ -295,51 +212,24 @@
    },
    "symbol": "ENS",
    "name": "Ethereum Name Service",
-   "rank": 118,
+   "rank": 122,
    "source": "coinbase"
   },
   {
-   "close": 0.294,
-   "week_end": "2026-10-18",
-   "weeks_history": 216,
+   "close": 0.06065,
+   "week_end": "2026-10-25",
+   "weeks_history": 167,
    "signals": [
     "Bull.div"
    ],
-   "rsi": 83.9,
-   "ma_period": 200,
-   "ma": 0.746104,
-   "dist_pct": -60.6,
-   "divergence": {
-    "type": "regulier",
-    "weeks_apart": 39,
-    "age_weeks": 4,
-    "low1": 0.11,
-    "low2": 0.07,
-    "rsi1": 32.0,
-    "rsi2": 46.1,
-    "date1": "2025-12-21",
-    "date2": "2026-09-20"
-   },
-   "symbol": "GTC",
-   "name": "Game.com",
-   "rank": 120,
-   "source": "coinbase"
-  },
-  {
-   "close": 0.06571,
-   "week_end": "2026-10-18",
-   "weeks_history": 166,
-   "signals": [
-    "Bull.div"
-   ],
-   "rsi": 50.8,
+   "rsi": 48.2,
    "ma_period": 100,
-   "ma": 0.185693,
-   "dist_pct": -64.61,
+   "ma": 0.179635,
+   "dist_pct": -66.24,
    "divergence": {
     "type": "regulier",
     "weeks_apart": 24,
-    "age_weeks": 4,
+    "age_weeks": 5,
     "low1": 0.05,
     "low2": 0.04,
     "rsi1": 27.7,
@@ -353,47 +243,20 @@
    "source": "coinbase"
   },
   {
-   "close": 0.5553,
-   "week_end": "2026-10-18",
-   "weeks_history": 155,
+   "close": 0.19896,
+   "week_end": "2026-10-25",
+   "weeks_history": 102,
    "signals": [
     "Bull.div"
    ],
-   "rsi": 57.3,
+   "rsi": 46.7,
    "ma_period": 100,
-   "ma": 1.71,
-   "dist_pct": -67.47,
-   "divergence": {
-    "type": "regulier",
-    "weeks_apart": 34,
-    "age_weeks": 8,
-    "low1": 0.43,
-    "low2": 0.29,
-    "rsi1": 29.3,
-    "rsi2": 44.8,
-    "date1": "2025-12-28",
-    "date2": "2026-08-23"
-   },
-   "symbol": "TIA",
-   "name": "Celestia",
-   "rank": 88,
-   "source": "coinbase"
-  },
-  {
-   "close": 0.20999,
-   "week_end": "2026-10-18",
-   "weeks_history": 101,
-   "signals": [
-    "Bull.div"
-   ],
-   "rsi": 48.4,
-   "ma_period": 100,
-   "ma": 0.651178,
-   "dist_pct": -67.75,
+   "ma": 0.621337,
+   "dist_pct": -67.98,
    "divergence": {
     "type": "regulier",
     "weeks_apart": 32,
-    "age_weeks": 4,
+    "age_weeks": 5,
     "low1": 0.18,
     "low2": 0.17,
     "rsi1": 29.3,
@@ -403,186 +266,24 @@
    },
    "symbol": "WIF",
    "name": "dogwifhat",
-   "rank": 127,
+   "rank": 123,
    "source": "coinbase"
   },
   {
-   "close": 0.22069,
-   "week_end": "2026-10-18",
+   "close": 0.0595,
+   "week_end": "2026-10-25",
    "weeks_history": 216,
    "signals": [
     "Bull.div"
    ],
-   "rsi": 52.9,
+   "rsi": 48.3,
    "ma_period": 200,
-   "ma": 0.691269,
-   "dist_pct": -68.07,
-   "divergence": {
-    "type": "regulier",
-    "weeks_apart": 24,
-    "age_weeks": 8,
-    "low1": 0.14,
-    "low2": 0.12,
-    "rsi1": 31.6,
-    "rsi2": 44.0,
-    "date1": "2026-03-08",
-    "date2": "2026-08-23"
-   },
-   "symbol": "FET",
-   "name": "Fetch.ai",
-   "rank": 76,
-   "source": "coinbase"
-  },
-  {
-   "close": 0.0942,
-   "week_end": "2026-10-18",
-   "weeks_history": 216,
-   "signals": [
-    "Bull.div"
-   ],
-   "rsi": 52.6,
-   "ma_period": 200,
-   "ma": 0.3317,
-   "dist_pct": -71.6,
-   "divergence": {
-    "type": "regulier",
-    "weeks_apart": 21,
-    "age_weeks": 8,
-    "low1": 0.08,
-    "low2": 0.06,
-    "rsi1": 28.9,
-    "rsi2": 42.2,
-    "date1": "2026-03-29",
-    "date2": "2026-08-23"
-   },
-   "symbol": "MANA",
-   "name": "Decentraland",
-   "rank": 133,
-   "source": "coinbase"
-  },
-  {
-   "close": 0.675,
-   "week_end": "2026-10-08",
-   "weeks_history": 232,
-   "signals": [
-    "Bull.div"
-   ],
-   "rsi": 60.7,
-   "ma_period": 200,
-   "ma": 2.42,
-   "dist_pct": -72.11,
-   "divergence": {
-    "type": "regulier",
-    "weeks_apart": 33,
-    "age_weeks": 8,
-    "low1": 0.54,
-    "low2": 0.39,
-    "rsi1": 29.6,
-    "rsi2": 42.0,
-    "date1": "2025-12-25",
-    "date2": "2026-08-13"
-   },
-   "symbol": "RUNE",
-   "name": "THORChain",
-   "rank": 117,
-   "source": "kraken"
-  },
-  {
-   "close": 1.22,
-   "week_end": "2026-10-18",
-   "weeks_history": 216,
-   "signals": [
-    "Bull.div"
-   ],
-   "rsi": 52.2,
-   "ma_period": 200,
-   "ma": 4.49,
-   "dist_pct": -72.78,
-   "divergence": {
-    "type": "regulier",
-    "weeks_apart": 8,
-    "age_weeks": 8,
-    "low1": 0.8,
-    "low2": 0.72,
-    "rsi1": 26.7,
-    "rsi2": 37.7,
-    "date1": "2026-06-28",
-    "date2": "2026-08-23"
-   },
-   "symbol": "DOT",
-   "name": "Polkadot",
-   "rank": 35,
-   "source": "coinbase"
-  },
-  {
-   "close": 0.026138,
-   "week_end": "2026-10-18",
-   "weeks_history": 216,
-   "signals": [
-    "Bull.div"
-   ],
-   "rsi": 51.7,
-   "ma_period": 200,
-   "ma": 0.121888,
-   "dist_pct": -78.56,
-   "divergence": {
-    "type": "regulier",
-    "weeks_apart": 21,
-    "age_weeks": 8,
-    "low1": 0.02,
-    "low2": 0.01,
-    "rsi1": 26.1,
-    "rsi2": 36.7,
-    "date1": "2026-03-29",
-    "date2": "2026-08-23"
-   },
-   "symbol": "GRT",
-   "name": "The Graph",
-   "rank": 108,
-   "source": "coinbase"
-  },
-  {
-   "close": 0.1802,
-   "week_end": "2026-10-18",
-   "weeks_history": 216,
-   "signals": [
-    "Bull.div"
-   ],
-   "rsi": 53.3,
-   "ma_period": 200,
-   "ma": 0.932395,
-   "dist_pct": -80.67,
-   "divergence": {
-    "type": "regulier",
-    "weeks_apart": 32,
-    "age_weeks": 4,
-    "low1": 0.13,
-    "low2": 0.11,
-    "rsi1": 31.2,
-    "rsi2": 45.3,
-    "date1": "2026-02-08",
-    "date2": "2026-09-20"
-   },
-   "symbol": "IMX",
-   "name": "Immutable",
-   "rank": 97,
-   "source": "coinbase"
-  },
-  {
-   "close": 0.0613,
-   "week_end": "2026-10-18",
-   "weeks_history": 216,
-   "signals": [
-    "Bull.div"
-   ],
-   "rsi": 49.1,
-   "ma_period": 200,
-   "ma": 0.337642,
-   "dist_pct": -81.84,
+   "ma": 0.335715,
+   "dist_pct": -82.28,
    "divergence": {
     "type": "regulier",
     "weeks_apart": 12,
-    "age_weeks": 4,
+    "age_weeks": 5,
     "low1": 0.04,
     "low2": 0.03,
     "rsi1": 28.5,
@@ -592,24 +293,51 @@
    },
    "symbol": "SAND",
    "name": "The Sandbox",
-   "rank": 147,
+   "rank": 140,
    "source": "coinbase"
   },
   {
-   "close": 0.8277,
-   "week_end": "2026-10-18",
-   "weeks_history": 209,
+   "close": 0.15328,
+   "week_end": "2026-10-25",
+   "weeks_history": 216,
    "signals": [
     "Bull.div"
    ],
-   "rsi": 48.1,
+   "rsi": 47.7,
    "ma_period": 200,
-   "ma": 6.15,
-   "dist_pct": -86.54,
+   "ma": 0.930908,
+   "dist_pct": -83.53,
+   "divergence": {
+    "type": "regulier",
+    "weeks_apart": 32,
+    "age_weeks": 5,
+    "low1": 0.13,
+    "low2": 0.11,
+    "rsi1": 31.2,
+    "rsi2": 45.3,
+    "date1": "2026-02-08",
+    "date2": "2026-09-20"
+   },
+   "symbol": "IMX",
+   "name": "Immutable",
+   "rank": 100,
+   "source": "coinbase"
+  },
+  {
+   "close": 0.7686,
+   "week_end": "2026-10-25",
+   "weeks_history": 210,
+   "signals": [
+    "Bull.div"
+   ],
+   "rsi": 46.0,
+   "ma_period": 200,
+   "ma": 6.14,
+   "dist_pct": -87.47,
    "divergence": {
     "type": "regulier",
     "weeks_apart": 20,
-    "age_weeks": 7,
+    "age_weeks": 8,
     "low1": 0.81,
     "low2": 0.51,
     "rsi1": 28.2,
@@ -619,24 +347,24 @@
    },
    "symbol": "APT",
    "name": "Aptos",
-   "rank": 75,
+   "rank": 74,
    "source": "coinbase"
   },
   {
-   "close": 0.15174,
-   "week_end": "2026-10-18",
+   "close": 0.14412,
+   "week_end": "2026-10-25",
    "weeks_history": 216,
    "signals": [
     "Bull.div"
    ],
-   "rsi": 49.1,
+   "rsi": 47.0,
    "ma_period": 200,
-   "ma": 1.27,
-   "dist_pct": -88.05,
+   "ma": 1.25,
+   "dist_pct": -88.5,
    "divergence": {
     "type": "regulier",
     "weeks_apart": 39,
-    "age_weeks": 4,
+    "age_weeks": 5,
     "low1": 0.19,
     "low2": 0.12,
     "rsi1": 28.3,
@@ -650,20 +378,20 @@
    "source": "coinbase"
   },
   {
-   "close": 0.1352,
-   "week_end": "2026-10-08",
-   "weeks_history": 266,
+   "close": 0.11547,
+   "week_end": "2026-10-15",
+   "weeks_history": 267,
    "signals": [
     "Bull.div"
    ],
-   "rsi": 48.4,
+   "rsi": 43.1,
    "ma_period": 200,
    "ma": 1.3,
-   "dist_pct": -89.61,
+   "dist_pct": -91.09,
    "divergence": {
     "type": "regulier",
     "weeks_apart": 38,
-    "age_weeks": 4,
+    "age_weeks": 5,
     "low1": 0.15,
     "low2": 0.1,
     "rsi1": 26.5,
@@ -673,51 +401,24 @@
    },
    "symbol": "DYDX",
    "name": "dYdX",
-   "rank": 175,
+   "rank": 184,
    "source": "kraken"
   },
   {
-   "close": 0.13259,
-   "week_end": "2026-10-18",
-   "weeks_history": 216,
+   "close": 0.05464,
+   "week_end": "2026-10-25",
+   "weeks_history": 60,
    "signals": [
     "Bull.div"
    ],
-   "rsi": 48.8,
-   "ma_period": 200,
-   "ma": 1.34,
-   "dist_pct": -90.07,
-   "divergence": {
-    "type": "regulier",
-    "weeks_apart": 21,
-    "age_weeks": 8,
-    "low1": 0.1,
-    "low2": 0.08,
-    "rsi1": 26.4,
-    "rsi2": 40.9,
-    "date1": "2026-03-29",
-    "date2": "2026-08-23"
-   },
-   "symbol": "OP",
-   "name": "Optimism",
-   "rank": 115,
-   "source": "coinbase"
-  },
-  {
-   "close": 0.05656,
-   "week_end": "2026-10-18",
-   "weeks_history": 59,
-   "signals": [
-    "Bull.div"
-   ],
-   "rsi": 34.0,
+   "rsi": 32.5,
    "ma_period": null,
    "ma": null,
    "dist_pct": null,
    "divergence": {
     "type": "regulier",
     "weeks_apart": 5,
-    "age_weeks": 5,
+    "age_weeks": 6,
     "low1": 0.05,
     "low2": 0.05,
     "rsi1": 26.1,
@@ -727,51 +428,24 @@
    },
    "symbol": "WLFI",
    "name": "World Liberty Financial",
-   "rank": 42,
+   "rank": 44,
    "source": "coinbase"
   },
   {
-   "close": 0.08493,
-   "week_end": "2026-10-18",
-   "weeks_history": 87,
+   "close": 0.05513,
+   "week_end": "2026-10-25",
+   "weeks_history": 70,
    "signals": [
     "Bull.div"
    ],
-   "rsi": 65.8,
-   "ma_period": null,
-   "ma": null,
-   "dist_pct": null,
-   "divergence": {
-    "type": "regulier",
-    "weeks_apart": 35,
-    "age_weeks": 8,
-    "low1": 0.05,
-    "low2": 0.04,
-    "rsi1": 29.0,
-    "rsi2": 51.1,
-    "date1": "2025-12-21",
-    "date2": "2026-08-23"
-   },
-   "symbol": "PYTH",
-   "name": "Pyth Network",
-   "rank": 84,
-   "source": "coinbase"
-  },
-  {
-   "close": 0.05656,
-   "week_end": "2026-10-18",
-   "weeks_history": 69,
-   "signals": [
-    "Bull.div"
-   ],
-   "rsi": 57.4,
+   "rsi": 56.0,
    "ma_period": null,
    "ma": null,
    "dist_pct": null,
    "divergence": {
     "type": "regulier",
     "weeks_apart": 29,
-    "age_weeks": 4,
+    "age_weeks": 5,
     "low1": 0.04,
     "low2": 0.02,
     "rsi1": 19.7,
@@ -781,51 +455,24 @@
    },
    "symbol": "S",
    "name": "Sonic (prev. FTM)",
-   "rank": 124,
+   "rank": 120,
    "source": "coinbase"
   },
   {
-   "close": 0.7358,
-   "week_end": "2026-10-08",
-   "weeks_history": 90,
+   "close": 0.14319,
+   "week_end": "2026-10-25",
+   "weeks_history": 72,
    "signals": [
     "Bull.div"
    ],
-   "rsi": 68.0,
-   "ma_period": null,
-   "ma": null,
-   "dist_pct": null,
-   "divergence": {
-    "type": "regulier",
-    "weeks_apart": 35,
-    "age_weeks": 7,
-    "low1": 0.28,
-    "low2": 0.27,
-    "rsi1": 28.0,
-    "rsi2": 47.7,
-    "date1": "2025-12-18",
-    "date2": "2026-08-20"
-   },
-   "symbol": "GRASS",
-   "name": "Grass",
-   "rank": 135,
-   "source": "kraken"
-  },
-  {
-   "close": 0.16243,
-   "week_end": "2026-10-18",
-   "weeks_history": 71,
-   "signals": [
-    "Bull.div"
-   ],
-   "rsi": 42.4,
+   "rsi": 39.9,
    "ma_period": null,
    "ma": null,
    "dist_pct": null,
    "divergence": {
     "type": "regulier",
     "weeks_apart": 29,
-    "age_weeks": 4,
+    "age_weeks": 5,
     "low1": 0.14,
     "low2": 0.13,
     "rsi1": 22.2,
@@ -835,24 +482,51 @@
    },
    "symbol": "FARTCOIN",
    "name": "Fartcoin",
-   "rank": 141,
+   "rank": 145,
    "source": "coinbase"
   },
   {
-   "close": 0.3116,
-   "week_end": "2026-10-08",
-   "weeks_history": 65,
+   "close": 0.5861,
+   "week_end": "2026-10-15",
+   "weeks_history": 91,
    "signals": [
     "Bull.div"
    ],
-   "rsi": 42.2,
+   "rsi": 59.3,
+   "ma_period": null,
+   "ma": null,
+   "dist_pct": null,
+   "divergence": {
+    "type": "regulier",
+    "weeks_apart": 35,
+    "age_weeks": 8,
+    "low1": 0.28,
+    "low2": 0.27,
+    "rsi1": 28.0,
+    "rsi2": 47.7,
+    "date1": "2025-12-18",
+    "date2": "2026-08-20"
+   },
+   "symbol": "GRASS",
+   "name": "Grass",
+   "rank": 146,
+   "source": "kraken"
+  },
+  {
+   "close": 0.2911,
+   "week_end": "2026-10-15",
+   "weeks_history": 66,
+   "signals": [
+    "Bull.div"
+   ],
+   "rsi": 39.1,
    "ma_period": null,
    "ma": null,
    "dist_pct": null,
    "divergence": {
     "type": "regulier",
     "weeks_apart": 14,
-    "age_weeks": 3,
+    "age_weeks": 4,
     "low1": 0.27,
     "low2": 0.25,
     "rsi1": 30.5,
@@ -862,60 +536,26 @@
    },
    "symbol": "SOSO",
    "name": "SoSoValue",
-   "rank": 200,
+   "rank": 196,
    "source": "kraken"
   }
  ],
  "signals_intraweek": [
   {
-   "close": 2.2,
-   "week_end": "2026-10-18",
-   "weeks_history": 122,
-   "signals": [
-    "200WMA-intraweek"
-   ],
-   "rsi": 69.1,
-   "ma_period": 100,
-   "ma": 2.15,
-   "dist_pct": 2.56,
-   "divergence": null,
-   "symbol": "ZRO",
-   "name": "LayerZero",
-   "rank": 78,
-   "source": "coinbase"
-  },
-  {
-   "close": 108.19,
-   "week_end": "2026-10-18",
+   "close": 0.17736,
+   "week_end": "2026-10-25",
    "weeks_history": 216,
    "signals": [
     "200WMA-intraweek"
    ],
-   "rsi": 55.9,
+   "rsi": 73.3,
    "ma_period": 200,
-   "ma": 112.44,
-   "dist_pct": -3.78,
+   "ma": 0.185629,
+   "dist_pct": -4.45,
    "divergence": null,
-   "symbol": "SOL",
-   "name": "Solana",
-   "rank": 7,
-   "source": "coinbase"
-  },
-  {
-   "close": 0.1906,
-   "week_end": "2026-10-18",
-   "weeks_history": 119,
-   "signals": [
-    "200WMA-intraweek"
-   ],
-   "rsi": 53.6,
-   "ma_period": 100,
-   "ma": 0.200374,
-   "dist_pct": -4.88,
-   "divergence": null,
-   "symbol": "STG",
-   "name": "Stargate Finance",
-   "rank": 134,
+   "symbol": "BAT",
+   "name": "Basic Attention Token",
+   "rank": 103,
    "source": "coinbase"
   }
  ]
