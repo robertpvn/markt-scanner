@@ -2422,7 +2422,7 @@
   ]
  },
  "RMD": {
-  "name": "ResMed|",
+  "name": "ResMed",
   "indices": [
    "S&P 500"
   ]
@@ -3145,8 +3145,8 @@
    "Nasdaq-100"
   ]
  },
- "ALAB": {
-  "name": "Astera Labs, Inc. Common Stock",
+ "TRI": {
+  "name": "Thomson Reuters Corporation Common Shares",
   "indices": [
    "Nasdaq-100"
   ]
@@ -3157,8 +3157,8 @@
    "Nasdaq-100"
   ]
  },
- "TRI": {
-  "name": "Thomson Reuters Corporation Common Shares",
+ "ALAB": {
+  "name": "Astera Labs, Inc. Common Stock",
   "indices": [
    "Nasdaq-100"
   ]
@@ -3175,12 +3175,6 @@
    "Nasdaq-100"
   ]
  },
- "CRWV": {
-  "name": "CoreWeave, Inc. Class A Common Stock",
-  "indices": [
-   "Nasdaq-100"
-  ]
- },
  "RKLB": {
   "name": "Rocket Lab Corporation Common Stock",
   "indices": [
@@ -3189,6 +3183,12 @@
  },
  "ALNY": {
   "name": "Alnylam Pharmaceuticals, Inc.",
+  "indices": [
+   "Nasdaq-100"
+  ]
+ },
+ "CRWV": {
+  "name": "CoreWeave, Inc. Class A Common Stock",
   "indices": [
    "Nasdaq-100"
   ]

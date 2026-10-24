@@ -1,0 +1,1270 @@
+{
+ "scan_date_utc": "2026-10-24T12:08:02+00:00",
+ "criteria": {
+  "ma": "slotkoers binnen \u00b12% van de 200-weeks SMA",
+  "ma_intraweek": "week-range (high/low) raakte de 200-weeks SMA, slot verder weg",
+  "rsi": "RSI(14) weekly < 30",
+  "divergentie": "koers lagere bodem + RSI hogere bodem (regulier), of koers hogere bodem + RSI lagere bodem in stijgende trend (verborgen)"
+ },
+ "universe_size": 518,
+ "tickers_scanned": 517,
+ "signal_count": 46,
+ "intraweek_count": 24,
+ "divergence_count": 27,
+ "warnings": [],
+ "signals": [
+  {
+   "close": 72.25,
+   "week_end": "2026-10-19",
+   "signals": [
+    "200WMA",
+    "Verborgen bull.div"
+   ],
+   "rsi": 43.4,
+   "sma200w": 70.93,
+   "dist_pct": 1.86,
+   "divergence": {
+    "type": "verborgen",
+    "weeks_apart": 27,
+    "age_weeks": 5,
+    "low1": 54.99,
+    "low2": 65.8,
+    "rsi1": 51.0,
+    "rsi2": 39.6,
+    "date1": "2026-03-09",
+    "date2": "2026-09-14"
+   },
+   "ticker": "ON",
+   "name": "ON Semiconductor",
+   "index": "S&P 500"
+  },
+  {
+   "close": 28.06,
+   "week_end": "2026-10-19",
+   "signals": [
+    "RSI<30"
+   ],
+   "rsi": 23.8,
+   "sma200w": 38.87,
+   "dist_pct": -27.82,
+   "divergence": null,
+   "ticker": "MGM",
+   "name": "MGM Resorts",
+   "index": "S&P 500"
+  },
+  {
+   "close": 72.73,
+   "week_end": "2026-10-19",
+   "signals": [
+    "RSI<30"
+   ],
+   "rsi": 25.3,
+   "sma200w": 98.62,
+   "dist_pct": -26.26,
+   "divergence": null,
+   "ticker": "WYNN",
+   "name": "Wynn Resorts",
+   "index": "S&P 500"
+  },
+  {
+   "close": 49.65,
+   "week_end": "2026-10-19",
+   "signals": [
+    "RSI<30"
+   ],
+   "rsi": 25.6,
+   "sma200w": 46.1,
+   "dist_pct": 7.71,
+   "divergence": null,
+   "ticker": "FER",
+   "name": "Ferrovial N.V. Ordinary Shares",
+   "index": "Nasdaq-100"
+  },
+  {
+   "close": 185.91,
+   "week_end": "2026-10-19",
+   "signals": [
+    "RSI<30"
+   ],
+   "rsi": 26.7,
+   "sma200w": 130.46,
+   "dist_pct": 42.5,
+   "divergence": null,
+   "ticker": "HWM",
+   "name": "Howmet Aerospace",
+   "index": "S&P 500"
+  },
+  {
+   "close": 35.68,
+   "week_end": "2026-10-19",
+   "signals": [
+    "RSI<30"
+   ],
+   "rsi": 28.2,
+   "sma200w": 50.21,
+   "dist_pct": -28.94,
+   "divergence": null,
+   "ticker": "LVS",
+   "name": "Las Vegas Sands",
+   "index": "S&P 500"
+  },
+  {
+   "close": 136.08,
+   "week_end": "2026-10-19",
+   "signals": [
+    "200WMA"
+   ],
+   "rsi": 52.5,
+   "sma200w": 135.98,
+   "dist_pct": 0.07,
+   "divergence": null,
+   "ticker": "LDOS",
+   "name": "Leidos",
+   "index": "S&P 500"
+  },
+  {
+   "close": 197.48,
+   "week_end": "2026-10-19",
+   "signals": [
+    "200WMA"
+   ],
+   "rsi": 62.4,
+   "sma200w": 196.55,
+   "dist_pct": 0.47,
+   "divergence": null,
+   "ticker": "MRSH",
+   "name": "Marsh McLennan",
+   "index": "S&P 500"
+  },
+  {
+   "close": 93.23,
+   "week_end": "2026-10-19",
+   "signals": [
+    "200WMA"
+   ],
+   "rsi": 49.1,
+   "sma200w": 92.55,
+   "dist_pct": 0.74,
+   "divergence": null,
+   "ticker": "EXE",
+   "name": "Expand Energy",
+   "index": "S&P 500"
+  },
+  {
+   "close": 182.7,
+   "week_end": "2026-10-19",
+   "signals": [
+    "200WMA"
+   ],
+   "rsi": 42.4,
+   "sma200w": 184.27,
+   "dist_pct": -0.85,
+   "divergence": null,
+   "ticker": "ODFL",
+   "name": "Old Dominion",
+   "index": "S&P 500 + Nasdaq-100"
+  },
+  {
+   "close": 66.7,
+   "week_end": "2026-10-19",
+   "signals": [
+    "200WMA"
+   ],
+   "rsi": 40.2,
+   "sma200w": 67.27,
+   "dist_pct": -0.85,
+   "divergence": null,
+   "ticker": "UBER",
+   "name": "Uber",
+   "index": "S&P 500"
+  },
+  {
+   "close": 56.7,
+   "week_end": "2026-10-19",
+   "signals": [
+    "200WMA"
+   ],
+   "rsi": 50.1,
+   "sma200w": 57.28,
+   "dist_pct": -1.01,
+   "divergence": null,
+   "ticker": "TSN",
+   "name": "Tyson Foods",
+   "index": "S&P 500"
+  },
+  {
+   "close": 84.89,
+   "week_end": "2026-10-19",
+   "signals": [
+    "200WMA"
+   ],
+   "rsi": 34.6,
+   "sma200w": 85.81,
+   "dist_pct": -1.08,
+   "divergence": null,
+   "ticker": "CRH",
+   "name": "CRH plc",
+   "index": "S&P 500"
+  },
+  {
+   "close": 252.2,
+   "week_end": "2026-10-19",
+   "signals": [
+    "200WMA"
+   ],
+   "rsi": 56.9,
+   "sma200w": 248.76,
+   "dist_pct": 1.38,
+   "divergence": null,
+   "ticker": "ADSK",
+   "name": "Autodesk",
+   "index": "S&P 500 + Nasdaq-100"
+  },
+  {
+   "close": 162.55,
+   "week_end": "2026-10-19",
+   "signals": [
+    "200WMA"
+   ],
+   "rsi": 56.0,
+   "sma200w": 164.89,
+   "dist_pct": -1.42,
+   "divergence": null,
+   "ticker": "JKHY",
+   "name": "Jack Henry & Associates",
+   "index": "S&P 500"
+  },
+  {
+   "close": 420.37,
+   "week_end": "2026-10-19",
+   "signals": [
+    "200WMA"
+   ],
+   "rsi": 42.8,
+   "sma200w": 426.95,
+   "dist_pct": -1.54,
+   "divergence": null,
+   "ticker": "AXON",
+   "name": "Axon Enterprise",
+   "index": "S&P 500 + Nasdaq-100"
+  },
+  {
+   "close": 70.54,
+   "week_end": "2026-10-19",
+   "signals": [
+    "200WMA"
+   ],
+   "rsi": 65.1,
+   "sma200w": 69.46,
+   "dist_pct": 1.55,
+   "divergence": null,
+   "ticker": "CTSH",
+   "name": "Cognizant",
+   "index": "S&P 500"
+  },
+  {
+   "close": 74.05,
+   "week_end": "2026-10-19",
+   "signals": [
+    "200WMA"
+   ],
+   "rsi": 45.5,
+   "sma200w": 75.27,
+   "dist_pct": -1.62,
+   "divergence": null,
+   "ticker": "MCHP",
+   "name": "Microchip Technology",
+   "index": "S&P 500 + Nasdaq-100"
+  },
+  {
+   "close": 41.85,
+   "week_end": "2026-10-19",
+   "signals": [
+    "200WMA"
+   ],
+   "rsi": 45.4,
+   "sma200w": 42.57,
+   "dist_pct": -1.68,
+   "divergence": null,
+   "ticker": "SW",
+   "name": "Smurfit Westrock",
+   "index": "S&P 500"
+  },
+  {
+   "close": 82.68,
+   "week_end": "2026-10-19",
+   "signals": [
+    "200WMA"
+   ],
+   "rsi": 55.1,
+   "sma200w": 84.16,
+   "dist_pct": -1.76,
+   "divergence": null,
+   "ticker": "OMC",
+   "name": "Omnicom Group",
+   "index": "S&P 500"
+  },
+  {
+   "close": 309.89,
+   "week_end": "2026-10-19",
+   "signals": [
+    "Verborgen bull.div"
+   ],
+   "rsi": 53.1,
+   "sma200w": 294.75,
+   "dist_pct": 5.14,
+   "divergence": {
+    "type": "verborgen",
+    "weeks_apart": 34,
+    "age_weeks": 3,
+    "low1": 271.71,
+    "low2": 280.02,
+    "rsi1": 52.5,
+    "rsi2": 37.5,
+    "date1": "2026-02-02",
+    "date2": "2026-09-28"
+   },
+   "ticker": "PSA",
+   "name": "Public Storage",
+   "index": "S&P 500"
+  },
+  {
+   "close": 103.7,
+   "week_end": "2026-10-19",
+   "signals": [
+    "Bull.div"
+   ],
+   "rsi": 50.8,
+   "sma200w": 112.49,
+   "dist_pct": -7.81,
+   "divergence": {
+    "type": "regulier",
+    "weeks_apart": 35,
+    "age_weeks": 3,
+    "low1": 105.27,
+    "low2": 95.06,
+    "rsi1": 29.2,
+    "rsi2": 43.2,
+    "date1": "2026-01-26",
+    "date2": "2026-09-28"
+   },
+   "ticker": "ABT",
+   "name": "Abbott Laboratories",
+   "index": "S&P 500"
+  },
+  {
+   "close": 60.25,
+   "week_end": "2026-10-19",
+   "signals": [
+    "Verborgen bull.div"
+   ],
+   "rsi": 55.4,
+   "sma200w": 55.32,
+   "dist_pct": 8.9,
+   "divergence": {
+    "type": "verborgen",
+    "weeks_apart": 32,
+    "age_weeks": 6,
+    "low1": 52.43,
+    "low2": 54.13,
+    "rsi1": 50.2,
+    "rsi2": 38.8,
+    "date1": "2026-01-26",
+    "date2": "2026-09-07"
+   },
+   "ticker": "FTV",
+   "name": "Fortive",
+   "index": "S&P 500"
+  },
+  {
+   "close": 94.04,
+   "week_end": "2026-10-19",
+   "signals": [
+    "Verborgen bull.div"
+   ],
+   "rsi": 59.2,
+   "sma200w": 86.02,
+   "dist_pct": 9.32,
+   "divergence": {
+    "type": "verborgen",
+    "weeks_apart": 23,
+    "age_weeks": 3,
+    "low1": 81.79,
+    "low2": 83.99,
+    "rsi1": 47.2,
+    "rsi2": 38.8,
+    "date1": "2026-04-20",
+    "date2": "2026-09-28"
+   },
+   "ticker": "CL",
+   "name": "Colgate-Palmolive",
+   "index": "S&P 500"
+  },
+  {
+   "close": 72.97,
+   "week_end": "2026-10-19",
+   "signals": [
+    "Bull.div"
+   ],
+   "rsi": 57.4,
+   "sma200w": 82.62,
+   "dist_pct": -11.68,
+   "divergence": {
+    "type": "regulier",
+    "weeks_apart": 27,
+    "age_weeks": 3,
+    "low1": 63.29,
+    "low2": 59.01,
+    "rsi1": 27.5,
+    "rsi2": 37.4,
+    "date1": "2026-03-23",
+    "date2": "2026-09-28"
+   },
+   "ticker": "BRO",
+   "name": "Brown & Brown",
+   "index": "S&P 500"
+  },
+  {
+   "close": 64.76,
+   "week_end": "2026-10-19",
+   "signals": [
+    "Verborgen bull.div"
+   ],
+   "rsi": 58.7,
+   "sma200w": 57.36,
+   "dist_pct": 12.9,
+   "divergence": {
+    "type": "verborgen",
+    "weeks_apart": 16,
+    "age_weeks": 3,
+    "low1": 51.96,
+    "low2": 55.11,
+    "rsi1": 48.8,
+    "rsi2": 41.5,
+    "date1": "2026-06-08",
+    "date2": "2026-09-28"
+   },
+   "ticker": "BALL",
+   "name": "Ball Corporation",
+   "index": "S&P 500"
+  },
+  {
+   "close": 65.2,
+   "week_end": "2026-10-19",
+   "signals": [
+    "Verborgen bull.div"
+   ],
+   "rsi": 51.0,
+   "sma200w": 56.22,
+   "dist_pct": 15.97,
+   "divergence": {
+    "type": "verborgen",
+    "weeks_apart": 40,
+    "age_weeks": 3,
+    "low1": 55.85,
+    "low2": 59.44,
+    "rsi1": 49.3,
+    "rsi2": 38.4,
+    "date1": "2025-12-22",
+    "date2": "2026-09-28"
+   },
+   "ticker": "D",
+   "name": "Dominion Energy",
+   "index": "S&P 500"
+  },
+  {
+   "close": 115.74,
+   "week_end": "2026-10-19",
+   "signals": [
+    "Verborgen bull.div"
+   ],
+   "rsi": 63.0,
+   "sma200w": 98.81,
+   "dist_pct": 17.14,
+   "divergence": {
+    "type": "verborgen",
+    "weeks_apart": 38,
+    "age_weeks": 3,
+    "low1": 96.96,
+    "low2": 102.0,
+    "rsi1": 48.5,
+    "rsi2": 41.1,
+    "date1": "2026-01-05",
+    "date2": "2026-09-28"
+   },
+   "ticker": "ED",
+   "name": "Consolidated Edison",
+   "index": "S&P 500"
+  },
+  {
+   "close": 193.8,
+   "week_end": "2026-10-19",
+   "signals": [
+    "Bull.div"
+   ],
+   "rsi": 69.3,
+   "sma200w": 162.57,
+   "dist_pct": 19.21,
+   "divergence": {
+    "type": "regulier",
+    "weeks_apart": 31,
+    "age_weeks": 6,
+    "low1": 146.72,
+    "low2": 126.79,
+    "rsi1": 30.8,
+    "rsi2": 43.7,
+    "date1": "2026-02-02",
+    "date2": "2026-09-07"
+   },
+   "ticker": "PTC",
+   "name": "PTC Inc.",
+   "index": "S&P 500"
+  },
+  {
+   "close": 253.52,
+   "week_end": "2026-10-19",
+   "signals": [
+    "Bull.div"
+   ],
+   "rsi": 53.8,
+   "sma200w": 320.77,
+   "dist_pct": -20.96,
+   "divergence": {
+    "type": "regulier",
+    "weeks_apart": 26,
+    "age_weeks": 4,
+    "low1": 233.82,
+    "low2": 216.75,
+    "rsi1": 24.6,
+    "rsi2": 40.1,
+    "date1": "2026-03-23",
+    "date2": "2026-09-21"
+   },
+   "ticker": "ERIE",
+   "name": "Erie Indemnity",
+   "index": "S&P 500"
+  },
+  {
+   "close": 105.88,
+   "week_end": "2026-10-19",
+   "signals": [
+    "Verborgen bull.div"
+   ],
+   "rsi": 60.1,
+   "sma200w": 86.16,
+   "dist_pct": 22.89,
+   "divergence": {
+    "type": "verborgen",
+    "weeks_apart": 37,
+    "age_weeks": 4,
+    "low1": 86.33,
+    "low2": 90.27,
+    "rsi1": 49.2,
+    "rsi2": 34.2,
+    "date1": "2026-01-05",
+    "date2": "2026-09-21"
+   },
+   "ticker": "PNW",
+   "name": "Pinnacle West Capital",
+   "index": "S&P 500"
+  },
+  {
+   "close": 120.51,
+   "week_end": "2026-10-19",
+   "signals": [
+    "Verborgen bull.div"
+   ],
+   "rsi": 55.9,
+   "sma200w": 96.47,
+   "dist_pct": 24.92,
+   "divergence": {
+    "type": "verborgen",
+    "weeks_apart": 36,
+    "age_weeks": 3,
+    "low1": 106.32,
+    "low2": 110.0,
+    "rsi1": 46.1,
+    "rsi2": 41.0,
+    "date1": "2026-01-19",
+    "date2": "2026-09-28"
+   },
+   "ticker": "AFL",
+   "name": "Aflac",
+   "index": "S&P 500"
+  },
+  {
+   "close": 61.21,
+   "week_end": "2026-10-19",
+   "signals": [
+    "Bull.div"
+   ],
+   "rsi": 44.2,
+   "sma200w": 84.23,
+   "dist_pct": -27.33,
+   "divergence": {
+    "type": "regulier",
+    "weeks_apart": 17,
+    "age_weeks": 6,
+    "low1": 58.89,
+    "low2": 51.01,
+    "rsi1": 25.2,
+    "rsi2": 30.5,
+    "date1": "2026-05-11",
+    "date2": "2026-09-07"
+   },
+   "ticker": "COO",
+   "name": "Cooper Companies (The)",
+   "index": "S&P 500"
+  },
+  {
+   "close": 129.69,
+   "week_end": "2026-10-19",
+   "signals": [
+    "Verborgen bull.div"
+   ],
+   "rsi": 54.8,
+   "sma200w": 101.71,
+   "dist_pct": 27.51,
+   "divergence": {
+    "type": "verborgen",
+    "weeks_apart": 37,
+    "age_weeks": 4,
+    "low1": 112.54,
+    "low2": 116.71,
+    "rsi1": 55.9,
+    "rsi2": 39.8,
+    "date1": "2026-01-05",
+    "date2": "2026-09-21"
+   },
+   "ticker": "AEP",
+   "name": "American Electric Power",
+   "index": "S&P 500 + Nasdaq-100"
+  },
+  {
+   "close": 84.43,
+   "week_end": "2026-10-19",
+   "signals": [
+    "Verborgen bull.div"
+   ],
+   "rsi": 56.5,
+   "sma200w": 65.47,
+   "dist_pct": 28.97,
+   "divergence": {
+    "type": "verborgen",
+    "weeks_apart": 37,
+    "age_weeks": 4,
+    "low1": 71.41,
+    "low2": 77.11,
+    "rsi1": 49.1,
+    "rsi2": 40.6,
+    "date1": "2026-01-05",
+    "date2": "2026-09-21"
+   },
+   "ticker": "EVRG",
+   "name": "Evergy",
+   "index": "S&P 500"
+  },
+  {
+   "close": 444.9,
+   "week_end": "2026-10-19",
+   "signals": [
+    "Verborgen bull.div"
+   ],
+   "rsi": 46.6,
+   "sma200w": 339.55,
+   "dist_pct": 31.03,
+   "divergence": {
+    "type": "verborgen",
+    "weeks_apart": 24,
+    "age_weeks": 5,
+    "low1": 403.14,
+    "low2": 413.97,
+    "rsi1": 52.2,
+    "rsi2": 41.1,
+    "date1": "2026-03-30",
+    "date2": "2026-09-14"
+   },
+   "ticker": "TT",
+   "name": "Trane Technologies",
+   "index": "S&P 500"
+  },
+  {
+   "close": 86.4,
+   "week_end": "2026-10-19",
+   "signals": [
+    "Bull.div"
+   ],
+   "rsi": 40.4,
+   "sma200w": 134.03,
+   "dist_pct": -35.53,
+   "divergence": {
+    "type": "regulier",
+    "weeks_apart": 40,
+    "age_weeks": 3,
+    "low1": 96.66,
+    "low2": 79.12,
+    "rsi1": 26.7,
+    "rsi2": 31.8,
+    "date1": "2025-12-22",
+    "date2": "2026-09-28"
+   },
+   "ticker": "CLX",
+   "name": "Clorox",
+   "index": "S&P 500"
+  },
+  {
+   "close": 343.39,
+   "week_end": "2026-10-19",
+   "signals": [
+    "Bull.div"
+   ],
+   "rsi": 49.9,
+   "sma200w": 545.16,
+   "dist_pct": -37.01,
+   "divergence": {
+    "type": "regulier",
+    "weeks_apart": 25,
+    "age_weeks": 3,
+    "low1": 342.11,
+    "low2": 262.32,
+    "rsi1": 30.1,
+    "rsi2": 35.9,
+    "date1": "2026-04-06",
+    "date2": "2026-09-28"
+   },
+   "ticker": "INTU",
+   "name": "Intuit",
+   "index": "S&P 500 + Nasdaq-100"
+  },
+  {
+   "close": 149.01,
+   "week_end": "2026-10-19",
+   "signals": [
+    "Bull.div"
+   ],
+   "rsi": 43.2,
+   "sma200w": 236.66,
+   "dist_pct": -37.04,
+   "divergence": {
+    "type": "regulier",
+    "weeks_apart": 18,
+    "age_weeks": 3,
+    "low1": 140.63,
+    "low2": 128.01,
+    "rsi1": 20.1,
+    "rsi2": 31.8,
+    "date1": "2026-05-25",
+    "date2": "2026-09-28"
+   },
+   "ticker": "PODD",
+   "name": "Insulet Corporation",
+   "index": "S&P 500"
+  },
+  {
+   "close": 37.53,
+   "week_end": "2026-10-19",
+   "signals": [
+    "Bull.div"
+   ],
+   "rsi": 41.2,
+   "sma200w": 64.03,
+   "dist_pct": -41.38,
+   "divergence": {
+    "type": "regulier",
+    "weeks_apart": 33,
+    "age_weeks": 3,
+    "low1": 46.16,
+    "low2": 32.1,
+    "rsi1": 20.2,
+    "rsi2": 26.2,
+    "date1": "2026-02-09",
+    "date2": "2026-09-28"
+   },
+   "ticker": "FIS",
+   "name": "Fidelity National Information Services",
+   "index": "S&P 500"
+  },
+  {
+   "close": 107.34,
+   "week_end": "2026-10-19",
+   "signals": [
+    "Verborgen bull.div"
+   ],
+   "rsi": 51.8,
+   "sma200w": 74.41,
+   "dist_pct": 44.25,
+   "divergence": {
+    "type": "verborgen",
+    "weeks_apart": 40,
+    "age_weeks": 3,
+    "low1": 90.87,
+    "low2": 96.92,
+    "rsi1": 54.2,
+    "rsi2": 41.3,
+    "date1": "2025-12-22",
+    "date2": "2026-09-28"
+   },
+   "ticker": "ETR",
+   "name": "Entergy",
+   "index": "S&P 500"
+  },
+  {
+   "close": 81.03,
+   "week_end": "2026-10-19",
+   "signals": [
+    "Bull.div"
+   ],
+   "rsi": 46.7,
+   "sma200w": 152.44,
+   "dist_pct": -46.84,
+   "divergence": {
+    "type": "regulier",
+    "weeks_apart": 20,
+    "age_weeks": 3,
+    "low1": 72.38,
+    "low2": 68.77,
+    "rsi1": 19.3,
+    "rsi2": 28.4,
+    "date1": "2026-05-11",
+    "date2": "2026-09-28"
+   },
+   "ticker": "ZTS",
+   "name": "Zoetis",
+   "index": "S&P 500"
+  },
+  {
+   "close": 390.71,
+   "week_end": "2026-10-19",
+   "signals": [
+    "Verborgen bull.div"
+   ],
+   "rsi": 64.2,
+   "sma200w": 259.57,
+   "dist_pct": 50.52,
+   "divergence": {
+    "type": "verborgen",
+    "weeks_apart": 26,
+    "age_weeks": 6,
+    "low1": 311.2,
+    "low2": 320.91,
+    "rsi1": 52.4,
+    "rsi2": 41.5,
+    "date1": "2026-03-09",
+    "date2": "2026-09-07"
+   },
+   "ticker": "MAR",
+   "name": "Marriott International",
+   "index": "S&P 500 + Nasdaq-100"
+  },
+  {
+   "close": 49.86,
+   "week_end": "2026-10-19",
+   "signals": [
+    "Bull.div"
+   ],
+   "rsi": 42.6,
+   "sma200w": 127.25,
+   "dist_pct": -60.82,
+   "divergence": {
+    "type": "regulier",
+    "weeks_apart": 27,
+    "age_weeks": 3,
+    "low1": 52.91,
+    "low2": 43.87,
+    "rsi1": 23.1,
+    "rsi2": 30.1,
+    "date1": "2026-03-23",
+    "date2": "2026-09-28"
+   },
+   "ticker": "FISV",
+   "name": "Fiserv",
+   "index": "S&P 500"
+  },
+  {
+   "close": 377.4,
+   "week_end": "2026-10-19",
+   "signals": [
+    "Verborgen bull.div"
+   ],
+   "rsi": 53.2,
+   "sma200w": 231.45,
+   "dist_pct": 63.06,
+   "divergence": {
+    "type": "verborgen",
+    "weeks_apart": 17,
+    "age_weeks": 5,
+    "low1": 317.23,
+    "low2": 330.93,
+    "rsi1": 56.9,
+    "rsi2": 40.1,
+    "date1": "2026-05-18",
+    "date2": "2026-09-14"
+   },
+   "ticker": "RL",
+   "name": "Ralph Lauren Corporation",
+   "index": "S&P 500"
+  },
+  {
+   "close": 19.57,
+   "week_end": "2026-10-19",
+   "signals": [
+    "Verborgen bull.div"
+   ],
+   "rsi": 60.4,
+   "sma200w": null,
+   "dist_pct": null,
+   "divergence": {
+    "type": "verborgen",
+    "weeks_apart": 17,
+    "age_weeks": 3,
+    "low1": 16.67,
+    "low2": 17.16,
+    "rsi1": 49.9,
+    "rsi2": 37.4,
+    "date1": "2026-06-01",
+    "date2": "2026-09-28"
+   },
+   "ticker": "KVUE",
+   "name": "Kenvue",
+   "index": "S&P 500"
+  }
+ ],
+ "signals_intraweek": [
+  {
+   "close": 67.46,
+   "week_end": "2026-10-19",
+   "signals": [
+    "200WMA-intraweek"
+   ],
+   "rsi": 45.5,
+   "sma200w": 66.09,
+   "dist_pct": 2.08,
+   "divergence": null,
+   "ticker": "ES",
+   "name": "Eversource Energy",
+   "index": "S&P 500"
+  },
+  {
+   "close": 306.95,
+   "week_end": "2026-10-19",
+   "signals": [
+    "200WMA-intraweek"
+   ],
+   "rsi": 63.2,
+   "sma200w": 300.15,
+   "dist_pct": 2.26,
+   "divergence": null,
+   "ticker": "CI",
+   "name": "Cigna",
+   "index": "S&P 500"
+  },
+  {
+   "close": 3200.76,
+   "week_end": "2026-10-19",
+   "signals": [
+    "200WMA-intraweek"
+   ],
+   "rsi": 53.9,
+   "sma200w": 3123.92,
+   "dist_pct": 2.46,
+   "divergence": null,
+   "ticker": "AZO",
+   "name": "AutoZone",
+   "index": "S&P 500"
+  },
+  {
+   "close": 30.03,
+   "week_end": "2026-10-19",
+   "signals": [
+    "200WMA-intraweek"
+   ],
+   "rsi": 67.0,
+   "sma200w": 29.27,
+   "dist_pct": 2.61,
+   "divergence": null,
+   "ticker": "PFE",
+   "name": "Pfizer",
+   "index": "S&P 500"
+  },
+  {
+   "close": 63.49,
+   "week_end": "2026-10-19",
+   "signals": [
+    "200WMA-intraweek"
+   ],
+   "rsi": 58.0,
+   "sma200w": 61.77,
+   "dist_pct": 2.79,
+   "divergence": null,
+   "ticker": "TRMB",
+   "name": "Trimble Inc.",
+   "index": "S&P 500"
+  },
+  {
+   "close": 188.97,
+   "week_end": "2026-10-19",
+   "signals": [
+    "200WMA-intraweek"
+   ],
+   "rsi": 58.7,
+   "sma200w": 195.24,
+   "dist_pct": -3.21,
+   "divergence": null,
+   "ticker": "AMT",
+   "name": "American Tower",
+   "index": "S&P 500"
+  },
+  {
+   "close": 248.57,
+   "week_end": "2026-10-19",
+   "signals": [
+    "200WMA-intraweek"
+   ],
+   "rsi": 63.3,
+   "sma200w": 240.81,
+   "dist_pct": 3.22,
+   "divergence": null,
+   "ticker": "CRM",
+   "name": "Salesforce",
+   "index": "S&P 500"
+  },
+  {
+   "close": 24.88,
+   "week_end": "2026-10-19",
+   "signals": [
+    "200WMA-intraweek"
+   ],
+   "rsi": 47.9,
+   "sma200w": 24.1,
+   "dist_pct": 3.22,
+   "divergence": null,
+   "ticker": "GEN",
+   "name": "Gen Digital",
+   "index": "S&P 500"
+  },
+  {
+   "close": 439.95,
+   "week_end": "2026-10-19",
+   "signals": [
+    "200WMA-intraweek"
+   ],
+   "rsi": 64.4,
+   "sma200w": 425.69,
+   "dist_pct": 3.35,
+   "divergence": null,
+   "ticker": "ELV",
+   "name": "Elevance Health",
+   "index": "S&P 500"
+  },
+  {
+   "close": 92.31,
+   "week_end": "2026-10-19",
+   "signals": [
+    "200WMA-intraweek"
+   ],
+   "rsi": 35.9,
+   "sma200w": 95.54,
+   "dist_pct": -3.38,
+   "divergence": null,
+   "ticker": "NRG",
+   "name": "NRG Energy",
+   "index": "S&P 500"
+  },
+  {
+   "close": 20.93,
+   "week_end": "2026-10-19",
+   "signals": [
+    "200WMA-intraweek"
+   ],
+   "rsi": 37.5,
+   "sma200w": 21.73,
+   "dist_pct": -3.69,
+   "divergence": null,
+   "ticker": "T",
+   "name": "AT&T",
+   "index": "S&P 500"
+  },
+  {
+   "close": 232.15,
+   "week_end": "2026-10-19",
+   "signals": [
+    "200WMA-intraweek"
+   ],
+   "rsi": 56.3,
+   "sma200w": 223.45,
+   "dist_pct": 3.89,
+   "divergence": null,
+   "ticker": "STE",
+   "name": "Steris",
+   "index": "S&P 500"
+  },
+  {
+   "close": 11.6,
+   "week_end": "2026-10-19",
+   "signals": [
+    "200WMA-intraweek"
+   ],
+   "rsi": 38.2,
+   "sma200w": 12.07,
+   "dist_pct": -3.91,
+   "divergence": null,
+   "ticker": "F",
+   "name": "Ford Motor Company",
+   "index": "S&P 500"
+  },
+  {
+   "close": 230.5,
+   "week_end": "2026-10-19",
+   "signals": [
+    "200WMA-intraweek"
+   ],
+   "rsi": 62.1,
+   "sma200w": 220.99,
+   "dist_pct": 4.3,
+   "divergence": null,
+   "ticker": "DHR",
+   "name": "Danaher Corporation",
+   "index": "S&P 500"
+  },
+  {
+   "close": 155.83,
+   "week_end": "2026-10-19",
+   "signals": [
+    "200WMA-intraweek"
+   ],
+   "rsi": 37.9,
+   "sma200w": 163.28,
+   "dist_pct": -4.56,
+   "divergence": null,
+   "ticker": "BKNG",
+   "name": "Booking Holdings",
+   "index": "S&P 500 + Nasdaq-100"
+  },
+  {
+   "close": 142.75,
+   "week_end": "2026-10-19",
+   "signals": [
+    "200WMA-intraweek"
+   ],
+   "rsi": 61.2,
+   "sma200w": 135.84,
+   "dist_pct": 5.09,
+   "divergence": null,
+   "ticker": "AWK",
+   "name": "American Water Works",
+   "index": "S&P 500"
+  },
+  {
+   "close": 268.04,
+   "week_end": "2026-10-19",
+   "signals": [
+    "200WMA-intraweek"
+   ],
+   "rsi": 61.5,
+   "sma200w": 254.78,
+   "dist_pct": 5.2,
+   "divergence": null,
+   "ticker": "AJG",
+   "name": "Arthur J. Gallagher & Co.",
+   "index": "S&P 500"
+  },
+  {
+   "close": 147.48,
+   "week_end": "2026-10-19",
+   "signals": [
+    "200WMA-intraweek"
+   ],
+   "rsi": 51.9,
+   "sma200w": 140.11,
+   "dist_pct": 5.26,
+   "divergence": null,
+   "ticker": "DHI",
+   "name": "D. R. Horton",
+   "index": "S&P 500"
+  },
+  {
+   "close": 221.15,
+   "week_end": "2026-10-19",
+   "signals": [
+    "200WMA-intraweek"
+   ],
+   "rsi": 49.3,
+   "sma200w": 209.26,
+   "dist_pct": 5.68,
+   "divergence": null,
+   "ticker": "HON",
+   "name": "Honeywell Technologies",
+   "index": "S&P 500 + Nasdaq-100"
+  },
+  {
+   "close": 450.31,
+   "week_end": "2026-10-19",
+   "signals": [
+    "200WMA-intraweek"
+   ],
+   "rsi": 57.7,
+   "sma200w": 425.11,
+   "dist_pct": 5.93,
+   "divergence": null,
+   "ticker": "SPGI",
+   "name": "S&P Global",
+   "index": "S&P 500"
+  },
+  {
+   "close": 452.29,
+   "week_end": "2026-10-19",
+   "signals": [
+    "200WMA-intraweek"
+   ],
+   "rsi": 59.1,
+   "sma200w": 422.25,
+   "dist_pct": 7.11,
+   "divergence": null,
+   "ticker": "ISRG",
+   "name": "Intuitive Surgical",
+   "index": "S&P 500 + Nasdaq-100"
+  },
+  {
+   "close": 73.48,
+   "week_end": "2026-10-19",
+   "signals": [
+    "200WMA-intraweek"
+   ],
+   "rsi": 42.3,
+   "sma200w": 79.34,
+   "dist_pct": -7.39,
+   "divergence": null,
+   "ticker": "IR",
+   "name": "Ingersoll Rand",
+   "index": "S&P 500"
+  },
+  {
+   "close": 551.44,
+   "week_end": "2026-10-19",
+   "signals": [
+    "200WMA-intraweek"
+   ],
+   "rsi": 50.9,
+   "sma200w": 510.74,
+   "dist_pct": 7.97,
+   "divergence": null,
+   "ticker": "NOC",
+   "name": "Northrop Grumman",
+   "index": "S&P 500"
+  },
+  {
+   "close": 158.96,
+   "week_end": "2026-10-19",
+   "signals": [
+    "200WMA-intraweek"
+   ],
+   "rsi": 67.6,
+   "sma200w": 144.66,
+   "dist_pct": 9.88,
+   "divergence": null,
+   "ticker": "NOW",
+   "name": "ServiceNow",
+   "index": "S&P 500"
+  }
+ ]
+}
