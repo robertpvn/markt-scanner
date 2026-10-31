@@ -2317,14 +2317,14 @@
    "S&P 500"
   ]
  },
- "PEG": {
-  "name": "Public Service Enterprise Group",
+ "PTC": {
+  "name": "PTC Inc.",
   "indices": [
    "S&P 500"
   ]
  },
- "PTC": {
-  "name": "PTC Inc.",
+ "PEG": {
+  "name": "Public Service Enterprise Group",
   "indices": [
    "S&P 500"
   ]
@@ -2341,8 +2341,8 @@
    "S&P 500"
   ]
  },
- "PWR": {
-  "name": "Quanta Services",
+ "Q": {
+  "name": "Qnity Electronics",
   "indices": [
    "S&P 500"
   ]
@@ -2354,14 +2354,14 @@
    "Nasdaq-100"
   ]
  },
- "DGX": {
-  "name": "Quest Diagnostics",
+ "PWR": {
+  "name": "Quanta Services",
   "indices": [
    "S&P 500"
   ]
  },
- "Q": {
-  "name": "Qnity Electronics",
+ "DGX": {
+  "name": "Quest Diagnostics",
   "indices": [
    "S&P 500"
   ]
@@ -2380,12 +2380,6 @@
  },
  "RDDT": {
   "name": "Reddit",
-  "indices": [
-   "S&P 500"
-  ]
- },
- "RTX": {
-  "name": "RTX Corporation",
   "indices": [
    "S&P 500"
   ]
@@ -2471,6 +2465,12 @@
    "S&P 500"
   ]
  },
+ "RTX": {
+  "name": "RTX Corporation",
+  "indices": [
+   "S&P 500"
+  ]
+ },
  "SPGI": {
   "name": "S&P Global",
   "indices": [
@@ -2534,7 +2534,7 @@
   ]
  },
  "SKYD": {
-  "name": "Skydance Corporation",
+  "name": "Skydance",
   "indices": [
    "S&P 500"
   ]
@@ -3181,14 +3181,14 @@
    "Nasdaq-100"
   ]
  },
- "ALNY": {
-  "name": "Alnylam Pharmaceuticals, Inc.",
+ "CRWV": {
+  "name": "CoreWeave, Inc. Class A Common Stock",
   "indices": [
    "Nasdaq-100"
   ]
  },
- "CRWV": {
-  "name": "CoreWeave, Inc. Class A Common Stock",
+ "ALNY": {
+  "name": "Alnylam Pharmaceuticals, Inc.",
   "indices": [
    "Nasdaq-100"
   ]
