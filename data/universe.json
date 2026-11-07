@@ -1655,12 +1655,6 @@
    "S&P 500"
   ]
  },
- "KVUE": {
-  "name": "Kenvue",
-  "indices": [
-   "S&P 500"
-  ]
- },
  "KDP": {
   "name": "Keurig Dr Pepper",
   "indices": [
@@ -2138,6 +2132,12 @@
  },
  "OXY": {
   "name": "Occidental Petroleum",
+  "indices": [
+   "S&P 500"
+  ]
+ },
+ "OKTA": {
+  "name": "Okta, Inc.",
   "indices": [
    "S&P 500"
   ]
@@ -3115,14 +3115,14 @@
    "Nasdaq-100"
   ]
  },
- "ARM": {
-  "name": "Arm Holdings plc American Depositary Shares",
+ "SHOP": {
+  "name": "Shopify Inc. Class A subordinate voting shares",
   "indices": [
    "Nasdaq-100"
   ]
  },
- "SHOP": {
-  "name": "Shopify Inc. Class A subordinate voting shares",
+ "ARM": {
+  "name": "Arm Holdings plc American Depositary Shares",
   "indices": [
    "Nasdaq-100"
   ]
@@ -3145,26 +3145,14 @@
    "Nasdaq-100"
   ]
  },
- "TRI": {
-  "name": "Thomson Reuters Corporation Common Shares",
-  "indices": [
-   "Nasdaq-100"
-  ]
- },
  "CCEP": {
   "name": "Coca-Cola Europacific Partners plc Ordinary Shares",
   "indices": [
    "Nasdaq-100"
   ]
  },
- "ALAB": {
-  "name": "Astera Labs, Inc. Common Stock",
-  "indices": [
-   "Nasdaq-100"
-  ]
- },
- "NBIS": {
-  "name": "Nebius Group N.V. Class A Ordinary Shares",
+ "TRI": {
+  "name": "Thomson Reuters Corporation Common Shares",
   "indices": [
    "Nasdaq-100"
   ]
@@ -3175,8 +3163,20 @@
    "Nasdaq-100"
   ]
  },
+ "NBIS": {
+  "name": "Nebius Group N.V. Class A Ordinary Shares",
+  "indices": [
+   "Nasdaq-100"
+  ]
+ },
  "RKLB": {
   "name": "Rocket Lab Corporation Common Stock",
+  "indices": [
+   "Nasdaq-100"
+  ]
+ },
+ "ALAB": {
+  "name": "Astera Labs, Inc. Common Stock",
   "indices": [
    "Nasdaq-100"
   ]
