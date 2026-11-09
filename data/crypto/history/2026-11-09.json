@@ -1,0 +1,456 @@
+{
+ "scan_date_utc": "2026-11-09T17:46:48+00:00",
+ "market": "crypto",
+ "criteria": {
+  "ma": "slotkoers binnen \u00b12% van de 200-weeks SMA (100-weeks bij jonge munten)",
+  "rsi": "RSI(14) weekly < 30",
+  "divergentie": "koers lagere bodem + RSI hogere bodem (regulier), of koers hogere bodem + RSI lagere bodem in stijgende trend (verborgen)"
+ },
+ "universe_size": 170,
+ "coins_scanned": 130,
+ "coins_without_data": [
+  "DHN",
+  "MKR",
+  "MATIC",
+  "KCS",
+  "BDX",
+  "NEXO",
+  "XDCE",
+  "BCHSV",
+  "LUNC",
+  "DCR",
+  "NFT",
+  "KAIA",
+  "BTSE",
+  "TIBBIR",
+  "TWT",
+  "THETA",
+  "MIOTA",
+  "MX",
+  "RLB",
+  "NEO",
+  "SHFL",
+  "B",
+  "XEC",
+  "MWC",
+  "YZY",
+  "SFP",
+  "BR",
+  "H",
+  "KNTQ",
+  "PROM",
+  "HEX",
+  "OZO",
+  "BCCOIN",
+  "LBT",
+  "GEOD",
+  "FTT",
+  "HOT",
+  "DEXE",
+  "XDATA",
+  "DATA"
+ ],
+ "sources": {
+  "coinbase": 101,
+  "kraken": 29
+ },
+ "signal_count": 16,
+ "intraweek_count": 0,
+ "divergence_count": 12,
+ "warnings": [],
+ "signals": [
+  {
+   "close": 1.73,
+   "week_end": "2026-11-05",
+   "weeks_history": 41,
+   "signals": [
+    "RSI<30"
+   ],
+   "rsi": 24.3,
+   "ma_period": null,
+   "ma": null,
+   "dist_pct": null,
+   "divergence": null,
+   "symbol": "BGB",
+   "name": "Bitget Token",
+   "rank": 46,
+   "source": "kraken"
+  },
+  {
+   "close": 0.01254,
+   "week_end": "2026-11-05",
+   "weeks_history": 43,
+   "signals": [
+    "RSI<30"
+   ],
+   "rsi": 26.9,
+   "ma_period": null,
+   "ma": null,
+   "dist_pct": null,
+   "divergence": null,
+   "symbol": "FUN",
+   "name": "FunFair",
+   "rank": 145,
+   "source": "kraken"
+  },
+  {
+   "close": 0.04748,
+   "week_end": "2026-11-15",
+   "weeks_history": 63,
+   "signals": [
+    "RSI<30"
+   ],
+   "rsi": 29.1,
+   "ma_period": null,
+   "ma": null,
+   "dist_pct": null,
+   "divergence": null,
+   "symbol": "WLFI",
+   "name": "World Liberty Financial",
+   "rank": 49,
+   "source": "coinbase"
+  },
+  {
+   "close": 6.93,
+   "week_end": "2026-11-15",
+   "weeks_history": 216,
+   "signals": [
+    "200WMA"
+   ],
+   "rsi": 56.0,
+   "ma_period": 200,
+   "ma": 6.85,
+   "dist_pct": 1.17,
+   "divergence": null,
+   "symbol": "UNI",
+   "name": "Uniswap",
+   "rank": 27,
+   "source": "coinbase"
+  },
+  {
+   "close": 0.8452,
+   "week_end": "2026-11-15",
+   "weeks_history": 183,
+   "signals": [
+    "Bull.div"
+   ],
+   "rsi": 45.9,
+   "ma_period": 100,
+   "ma": 2.09,
+   "dist_pct": -59.55,
+   "divergence": {
+    "type": "regulier",
+    "weeks_apart": 32,
+    "age_weeks": 8,
+    "low1": 0.79,
+    "low2": 0.67,
+    "rsi1": 31.5,
+    "rsi2": 49.1,
+    "date1": "2026-02-08",
+    "date2": "2026-09-20"
+   },
+   "symbol": "SUI",
+   "name": "Sui",
+   "rank": 29,
+   "source": "coinbase"
+  },
+  {
+   "close": 4e-06,
+   "week_end": "2026-11-15",
+   "weeks_history": 216,
+   "signals": [
+    "Bull.div"
+   ],
+   "rsi": 41.2,
+   "ma_period": 200,
+   "ma": 1.2e-05,
+   "dist_pct": -63.06,
+   "divergence": {
+    "type": "regulier",
+    "weeks_apart": 28,
+    "age_weeks": 8,
+    "low1": 0.0,
+    "low2": 0.0,
+    "rsi1": 30.8,
+    "rsi2": 49.5,
+    "date1": "2026-03-08",
+    "date2": "2026-09-20"
+   },
+   "symbol": "SHIB",
+   "name": "Shiba Inu",
+   "rank": 32,
+   "source": "coinbase"
+  },
+  {
+   "close": 0.15852,
+   "week_end": "2026-11-15",
+   "weeks_history": 105,
+   "signals": [
+    "Bull.div"
+   ],
+   "rsi": 41.0,
+   "ma_period": 100,
+   "ma": 0.52586,
+   "dist_pct": -69.86,
+   "divergence": {
+    "type": "regulier",
+    "weeks_apart": 32,
+    "age_weeks": 8,
+    "low1": 0.18,
+    "low2": 0.17,
+    "rsi1": 29.3,
+    "rsi2": 47.8,
+    "date1": "2026-02-08",
+    "date2": "2026-09-20"
+   },
+   "symbol": "WIF",
+   "name": "dogwifhat",
+   "rank": 132,
+   "source": "coinbase"
+  },
+  {
+   "close": 4.5,
+   "week_end": "2026-11-15",
+   "weeks_history": 216,
+   "signals": [
+    "Bull.div"
+   ],
+   "rsi": 40.5,
+   "ma_period": 200,
+   "ma": 15.02,
+   "dist_pct": -70.02,
+   "divergence": {
+    "type": "regulier",
+    "weeks_apart": 25,
+    "age_weeks": 8,
+    "low1": 5.38,
+    "low2": 5.18,
+    "rsi1": 29.5,
+    "rsi2": 52.5,
+    "date1": "2026-03-29",
+    "date2": "2026-09-20"
+   },
+   "symbol": "ENS",
+   "name": "Ethereum Name Service",
+   "rank": 127,
+   "source": "coinbase"
+  },
+  {
+   "close": 0.04428,
+   "week_end": "2026-11-15",
+   "weeks_history": 170,
+   "signals": [
+    "Bull.div"
+   ],
+   "rsi": 41.0,
+   "ma_period": 100,
+   "ma": 0.161512,
+   "dist_pct": -72.58,
+   "divergence": {
+    "type": "regulier",
+    "weeks_apart": 24,
+    "age_weeks": 8,
+    "low1": 0.05,
+    "low2": 0.04,
+    "rsi1": 27.7,
+    "rsi2": 44.7,
+    "date1": "2026-04-05",
+    "date2": "2026-09-20"
+   },
+   "symbol": "SEI",
+   "name": "Sei",
+   "rank": 101,
+   "source": "coinbase"
+  },
+  {
+   "close": 0.12258,
+   "week_end": "2026-11-15",
+   "weeks_history": 216,
+   "signals": [
+    "Bull.div"
+   ],
+   "rsi": 42.3,
+   "ma_period": 200,
+   "ma": 0.92553,
+   "dist_pct": -86.76,
+   "divergence": {
+    "type": "regulier",
+    "weeks_apart": 32,
+    "age_weeks": 8,
+    "low1": 0.13,
+    "low2": 0.11,
+    "rsi1": 31.2,
+    "rsi2": 45.3,
+    "date1": "2026-02-08",
+    "date2": "2026-09-20"
+   },
+   "symbol": "IMX",
+   "name": "Immutable",
+   "rank": 105,
+   "source": "coinbase"
+  },
+  {
+   "close": 0.0424,
+   "week_end": "2026-11-15",
+   "weeks_history": 216,
+   "signals": [
+    "Bull.div"
+   ],
+   "rsi": 41.3,
+   "ma_period": 200,
+   "ma": 0.32828,
+   "dist_pct": -87.08,
+   "divergence": {
+    "type": "regulier",
+    "weeks_apart": 12,
+    "age_weeks": 8,
+    "low1": 0.04,
+    "low2": 0.03,
+    "rsi1": 28.5,
+    "rsi2": 34.9,
+    "date1": "2026-06-28",
+    "date2": "2026-09-20"
+   },
+   "symbol": "SAND",
+   "name": "The Sandbox",
+   "rank": 162,
+   "source": "coinbase"
+  },
+  {
+   "close": 0.10297,
+   "week_end": "2026-11-15",
+   "weeks_history": 216,
+   "signals": [
+    "Bull.div"
+   ],
+   "rsi": 37.1,
+   "ma_period": 200,
+   "ma": 1.19,
+   "dist_pct": -91.32,
+   "divergence": {
+    "type": "regulier",
+    "weeks_apart": 39,
+    "age_weeks": 8,
+    "low1": 0.19,
+    "low2": 0.12,
+    "rsi1": 28.3,
+    "rsi2": 45.2,
+    "date1": "2025-12-21",
+    "date2": "2026-09-20"
+   },
+   "symbol": "APE",
+   "name": "APEcoin",
+   "rank": 184,
+   "source": "coinbase"
+  },
+  {
+   "close": 0.09108,
+   "week_end": "2026-11-05",
+   "weeks_history": 270,
+   "signals": [
+    "Bull.div"
+   ],
+   "rsi": 37.0,
+   "ma_period": 200,
+   "ma": 1.28,
+   "dist_pct": -92.88,
+   "divergence": {
+    "type": "regulier",
+    "weeks_apart": 38,
+    "age_weeks": 8,
+    "low1": 0.15,
+    "low2": 0.1,
+    "rsi1": 26.5,
+    "rsi2": 38.9,
+    "date1": "2025-12-18",
+    "date2": "2026-09-10"
+   },
+   "symbol": "DYDX",
+   "name": "dYdX",
+   "rank": 197,
+   "source": "kraken"
+  },
+  {
+   "close": 0.0377,
+   "week_end": "2026-11-15",
+   "weeks_history": 73,
+   "signals": [
+    "Bull.div"
+   ],
+   "rsi": 45.7,
+   "ma_period": null,
+   "ma": null,
+   "dist_pct": null,
+   "divergence": {
+    "type": "regulier",
+    "weeks_apart": 29,
+    "age_weeks": 8,
+    "low1": 0.04,
+    "low2": 0.02,
+    "rsi1": 19.7,
+    "rsi2": 46.9,
+    "date1": "2026-03-01",
+    "date2": "2026-09-20"
+   },
+   "symbol": "S",
+   "name": "Sonic (prev. FTM)",
+   "rank": 136,
+   "source": "coinbase"
+  },
+  {
+   "close": 0.11731,
+   "week_end": "2026-11-15",
+   "weeks_history": 75,
+   "signals": [
+    "Bull.div"
+   ],
+   "rsi": 37.2,
+   "ma_period": null,
+   "ma": null,
+   "dist_pct": null,
+   "divergence": {
+    "type": "regulier",
+    "weeks_apart": 29,
+    "age_weeks": 8,
+    "low1": 0.14,
+    "low2": 0.13,
+    "rsi1": 22.2,
+    "rsi2": 42.4,
+    "date1": "2026-03-01",
+    "date2": "2026-09-20"
+   },
+   "symbol": "FARTCOIN",
+   "name": "Fartcoin",
+   "rank": 154,
+   "source": "coinbase"
+  },
+  {
+   "close": 0.3061,
+   "week_end": "2026-11-05",
+   "weeks_history": 69,
+   "signals": [
+    "Bull.div"
+   ],
+   "rsi": 42.5,
+   "ma_period": null,
+   "ma": null,
+   "dist_pct": null,
+   "divergence": {
+    "type": "regulier",
+    "weeks_apart": 34,
+    "age_weeks": 3,
+    "low1": 0.3,
+    "low2": 0.28,
+    "rsi1": 20.8,
+    "rsi2": 41.2,
+    "date1": "2026-02-19",
+    "date2": "2026-10-15"
+   },
+   "symbol": "SOSO",
+   "name": "SoSoValue",
+   "rank": 179,
+   "source": "kraken"
+  }
+ ],
+ "signals_intraweek": []
+}
