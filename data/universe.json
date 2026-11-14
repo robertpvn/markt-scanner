@@ -3115,14 +3115,14 @@
    "Nasdaq-100"
   ]
  },
- "SHOP": {
-  "name": "Shopify Inc. Class A subordinate voting shares",
+ "ARM": {
+  "name": "Arm Holdings plc American Depositary Shares",
   "indices": [
    "Nasdaq-100"
   ]
  },
- "ARM": {
-  "name": "Arm Holdings plc American Depositary Shares",
+ "SHOP": {
+  "name": "Shopify Inc. Class A subordinate voting shares",
   "indices": [
    "Nasdaq-100"
   ]
@@ -3139,12 +3139,6 @@
    "Nasdaq-100"
   ]
  },
- "MSTR": {
-  "name": "Strategy Inc Common Stock Class A",
-  "indices": [
-   "Nasdaq-100"
-  ]
- },
  "CCEP": {
   "name": "Coca-Cola Europacific Partners plc Ordinary Shares",
   "indices": [
@@ -3157,14 +3151,14 @@
    "Nasdaq-100"
   ]
  },
- "FER": {
-  "name": "Ferrovial N.V. Ordinary Shares",
+ "MSTR": {
+  "name": "Strategy Inc Common Stock Class A",
   "indices": [
    "Nasdaq-100"
   ]
  },
- "NBIS": {
-  "name": "Nebius Group N.V. Class A Ordinary Shares",
+ "FER": {
+  "name": "Ferrovial N.V. Ordinary Shares",
   "indices": [
    "Nasdaq-100"
   ]
@@ -3177,6 +3171,12 @@
  },
  "ALAB": {
   "name": "Astera Labs, Inc. Common Stock",
+  "indices": [
+   "Nasdaq-100"
+  ]
+ },
+ "NBIS": {
+  "name": "Nebius Group N.V. Class A Ordinary Shares",
   "indices": [
    "Nasdaq-100"
   ]
