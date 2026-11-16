@@ -1,0 +1,188 @@
+{
+ "scan_date_utc": "2026-11-16T17:20:40+00:00",
+ "market": "crypto",
+ "criteria": {
+  "ma": "slotkoers binnen \u00b12% van de 200-weeks SMA (100-weeks bij jonge munten)",
+  "rsi": "RSI(14) weekly < 30",
+  "divergentie": "koers lagere bodem + RSI hogere bodem (regulier), of koers hogere bodem + RSI lagere bodem in stijgende trend (verborgen)"
+ },
+ "universe_size": 172,
+ "coins_scanned": 130,
+ "coins_without_data": [
+  "DHN",
+  "MKR",
+  "MATIC",
+  "KCS",
+  "BDX",
+  "NEXO",
+  "XDCE",
+  "BCHSV",
+  "LUNC",
+  "NFT",
+  "BTSE",
+  "KAIA",
+  "DCR",
+  "TWT",
+  "TIBBIR",
+  "OZO",
+  "THETA",
+  "MX",
+  "MIOTA",
+  "SHFL",
+  "NEO",
+  "XEC",
+  "YZY",
+  "BR",
+  "B",
+  "SFP",
+  "PROM",
+  "HEX",
+  "SN51",
+  "MWC",
+  "LBT",
+  "FTT",
+  "NILA",
+  "DEXE",
+  "GEOD",
+  "GAS",
+  "XDATA",
+  "KNTQ",
+  "SLG",
+  "DATA",
+  "HOT",
+  "ORDI"
+ ],
+ "sources": {
+  "coinbase": 101,
+  "kraken": 29
+ },
+ "signal_count": 6,
+ "intraweek_count": 0,
+ "divergence_count": 2,
+ "warnings": [],
+ "signals": [
+  {
+   "close": 1.61,
+   "week_end": "2026-11-12",
+   "weeks_history": 42,
+   "signals": [
+    "RSI<30"
+   ],
+   "rsi": 22.0,
+   "ma_period": null,
+   "ma": null,
+   "dist_pct": null,
+   "divergence": null,
+   "symbol": "BGB",
+   "name": "Bitget Token",
+   "rank": 45,
+   "source": "kraken"
+  },
+  {
+   "close": 0.04566,
+   "week_end": "2026-11-22",
+   "weeks_history": 64,
+   "signals": [
+    "RSI<30"
+   ],
+   "rsi": 27.4,
+   "ma_period": null,
+   "ma": null,
+   "dist_pct": null,
+   "divergence": null,
+   "symbol": "WLFI",
+   "name": "World Liberty Financial",
+   "rank": 44,
+   "source": "coinbase"
+  },
+  {
+   "close": 0.0843,
+   "week_end": "2026-11-12",
+   "weeks_history": 63,
+   "signals": [
+    "RSI<30"
+   ],
+   "rsi": 29.2,
+   "ma_period": null,
+   "ma": null,
+   "dist_pct": null,
+   "divergence": null,
+   "symbol": "OPEN",
+   "name": "Open Platform",
+   "rank": 163,
+   "source": "kraken"
+  },
+  {
+   "close": 0.94,
+   "week_end": "2026-11-22",
+   "weeks_history": 96,
+   "signals": [
+    "RSI<30"
+   ],
+   "rsi": 29.9,
+   "ma_period": null,
+   "ma": null,
+   "dist_pct": null,
+   "divergence": null,
+   "symbol": "TRUMP",
+   "name": "OFFICIAL TRUMP",
+   "rank": 109,
+   "source": "coinbase"
+  },
+  {
+   "close": 0.2902,
+   "week_end": "2026-11-12",
+   "weeks_history": 70,
+   "signals": [
+    "Bull.div"
+   ],
+   "rsi": 40.2,
+   "ma_period": null,
+   "ma": null,
+   "dist_pct": null,
+   "divergence": {
+    "type": "regulier",
+    "weeks_apart": 34,
+    "age_weeks": 4,
+    "low1": 0.3,
+    "low2": 0.28,
+    "rsi1": 20.8,
+    "rsi2": 41.2,
+    "date1": "2026-02-19",
+    "date2": "2026-10-15"
+   },
+   "symbol": "SOSO",
+   "name": "SoSoValue",
+   "rank": 171,
+   "source": "kraken"
+  },
+  {
+   "close": 0.00132,
+   "week_end": "2026-11-22",
+   "weeks_history": 83,
+   "signals": [
+    "Bull.div"
+   ],
+   "rsi": 42.0,
+   "ma_period": null,
+   "ma": null,
+   "dist_pct": null,
+   "divergence": {
+    "type": "regulier",
+    "weeks_apart": 30,
+    "age_weeks": 3,
+    "low1": 0.0,
+    "low2": 0.0,
+    "rsi1": 28.0,
+    "rsi2": 44.5,
+    "date1": "2026-04-05",
+    "date2": "2026-11-01"
+   },
+   "symbol": "RSR",
+   "name": "Reserve Rights",
+   "rank": 173,
+   "source": "coinbase"
+  }
+ ],
+ "signals_intraweek": []
+}
