@@ -3151,26 +3151,26 @@
    "Nasdaq-100"
   ]
  },
- "MSTR": {
-  "name": "Strategy Inc Common Stock Class A",
-  "indices": [
-   "Nasdaq-100"
-  ]
- },
  "FER": {
   "name": "Ferrovial N.V. Ordinary Shares",
   "indices": [
    "Nasdaq-100"
   ]
  },
- "RKLB": {
-  "name": "Rocket Lab Corporation Common Stock",
+ "MSTR": {
+  "name": "Strategy Inc Common Stock Class A",
   "indices": [
    "Nasdaq-100"
   ]
  },
  "ALAB": {
   "name": "Astera Labs, Inc. Common Stock",
+  "indices": [
+   "Nasdaq-100"
+  ]
+ },
+ "RKLB": {
+  "name": "Rocket Lab Corporation Common Stock",
   "indices": [
    "Nasdaq-100"
   ]

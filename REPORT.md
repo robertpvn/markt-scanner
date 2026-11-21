@@ -1,96 +1,120 @@
-# Wekelijkse marktscan — 2026-11-14
+# Wekelijkse marktscan — 2026-11-21
 
-*Universum: S&P 500 + Nasdaq-100 (518 tickers, 517 gescand) · weekchart · criteria: slotkoers binnen ±2% van de 200-weeks SMA, RSI(14) < 30 en/of een bullish divergentie.*
+*Universum: S&P 500 + Nasdaq-100 (518 tickers, 518 gescand) · weekchart · criteria: slotkoers binnen ±2% van de 200-weeks SMA, RSI(14) < 30 en/of een bullish divergentie.*
 
-## 62 signalen
+## 72 signalen
 
 | Ticker | Bedrijf | Index | Signaal | Slot | RSI (w) | 200WMA | Afstand | Divergentie |
 |---|---|---|---|---:|---:|---:|---:|---|
-| **ON** | ON Semiconductor | S&P 500 | 200WMA + Verborgen bull.div | 71.06 | 44.5 | 71.01 | +0.1% | verborgen ↘ RSI 51.0→39.6 (2026-03-09 → 2026-09-14) |
-| **ARES** | Ares Management | S&P 500 | 200WMA + Verborgen bull.div | 134.61 | 54.9 | 134.26 | +0.3% | verborgen ↘ RSI 43.8→38.3 (2026-06-29 → 2026-10-12) |
-| **BR** | Broadridge Financial Solutions | S&P 500 | 200WMA + Bull.div | 192.45 | 62.8 | 196.35 | -2.0% | regulier ↗ RSI 20.8→49.6 (2026-02-09 → 2026-10-05) |
-| **CMI** | Cummins | S&P 500 | RSI<30 | 452.18 | 27.1 | 370.2 | +22.1% | – |
-| **APTV** | Aptiv | S&P 500 | RSI<30 | 38.75 | 28.2 | 75.64 | -48.8% | – |
-| **IFF** | International Flavors & Fragrances | S&P 500 | 200WMA | 81.16 | 48.4 | 81.13 | +0.0% | – |
-| **PPG** | PPG Industries | S&P 500 | 200WMA | 122.56 | 60.6 | 122.48 | +0.1% | – |
-| **HD** | Home Depot (The) | S&P 500 | 200WMA | 348.69 | 58.1 | 349.21 | -0.1% | – |
-| **PFE** | Pfizer | S&P 500 | 200WMA | 28.89 | 57.1 | 28.96 | -0.2% | – |
-| **SW** | Smurfit Westrock | S&P 500 | 200WMA | 42.35 | 46.7 | 42.62 | -0.6% | – |
-| **NRG** | NRG Energy | S&P 500 | 200WMA | 97.1 | 40.5 | 96.47 | +0.7% | – |
-| **O** | Realty Income | S&P 500 | 200WMA | 58.82 | 47.5 | 58.28 | +0.9% | – |
-| **AON** | Aon plc | S&P 500 | 200WMA | 338.31 | 55.8 | 335.19 | +0.9% | – |
-| **CI** | Cigna | S&P 500 | 200WMA | 297.0 | 56.4 | 299.86 | -0.9% | – |
-| **LOW** | Lowe's | S&P 500 | 200WMA | 227.73 | 58.6 | 229.99 | -1.0% | – |
-| **ROP** | Roper Technologies | S&P 500 + Nasdaq-100 | 200WMA | 479.98 | 70.6 | 484.84 | -1.0% | – |
-| **AVY** | Avery Dennison | S&P 500 | 200WMA | 188.03 | 64.7 | 185.95 | +1.1% | – |
-| **SRE** | Sempra | S&P 500 | 200WMA | 79.54 | 40.9 | 80.46 | -1.1% | – |
-| **ELV** | Elevance Health | S&P 500 | 200WMA | 429.69 | 59.7 | 424.71 | +1.2% | – |
-| **SYY** | Sysco | S&P 500 | 200WMA | 77.1 | 44.4 | 76.12 | +1.3% | – |
-| **F** | Ford Motor Company | S&P 500 | 200WMA | 11.91 | 41.6 | 12.07 | -1.3% | – |
-| **VMRK** | Vivmark Residential | S&P 500 | 200WMA | 64.22 | 50.4 | 65.12 | -1.4% | – |
-| **AMT** | American Tower | S&P 500 | 200WMA | 191.64 | 60.2 | 194.77 | -1.6% | – |
-| **TROW** | T. Rowe Price | S&P 500 | 200WMA | 108.93 | 54.3 | 106.93 | +1.9% | – |
-| **T** | AT&T | S&P 500 | 200WMA | 22.18 | 43.2 | 21.77 | +1.9% | – |
-| **ABT** | Abbott Laboratories | S&P 500 | Bull.div | 108.52 | 55.7 | 112.43 | -3.5% | regulier ↗ RSI 29.2→43.2 (2026-01-26 → 2026-09-28) |
-| **LDOS** | Leidos | S&P 500 | 200WMA-intraweek + Bull.div | 130.53 | 48.3 | 136.47 | -4.3% | regulier ↗ RSI 27.0→41.9 (2026-05-18 → 2026-10-05) |
-| **FRT** | Federal Realty Investment Trust | S&P 500 | Verborgen bull.div | 112.92 | 49.9 | 103.59 | +9.0% | verborgen ↘ RSI 51.5→36.3 (2026-03-23 → 2026-10-12) |
-| **KMB** | Kimberly-Clark | S&P 500 | Bull.div | 109.43 | 56.4 | 124.07 | -11.8% | regulier ↗ RSI 26.7→40.4 (2026-01-05 → 2026-10-05) |
-| **SBAC** | SBA Communications | S&P 500 | Bull.div | 189.35 | 51.5 | 215.14 | -12.0% | regulier ↗ RSI 32.0→47.9 (2026-01-05 → 2026-10-05) |
-| **SBUX** | Starbucks | S&P 500 + Nasdaq-100 | Verborgen bull.div | 106.44 | 58.2 | 94.86 | +12.2% | verborgen ↘ RSI 44.9→36.8 (2026-03-23 → 2026-10-05) |
-| **PSA** | Public Storage | S&P 500 | Verborgen bull.div | 332.59 | 61.3 | 295.48 | +12.6% | verborgen ↘ RSI 52.5→37.5 (2026-02-02 → 2026-09-28) |
-| **BALL** | Ball Corporation | S&P 500 | Verborgen bull.div | 65.47 | 58.8 | 57.53 | +13.8% | verborgen ↘ RSI 48.8→41.5 (2026-06-08 → 2026-09-28) |
-| **ERIE** | Erie Indemnity | S&P 500 | Bull.div | 274.73 | 61.0 | 321.06 | -14.4% | regulier ↗ RSI 24.6→40.1 (2026-03-23 → 2026-09-21) |
-| **CL** | Colgate-Palmolive | S&P 500 | Verborgen bull.div | 99.67 | 67.4 | 86.3 | +15.5% | verborgen ↘ RSI 47.2→38.8 (2026-04-20 → 2026-09-28) |
-| **MAA** | Mid-America Apartment Communities | S&P 500 | Bull.div | 117.89 | 38.7 | 141.57 | -16.7% | regulier ↗ RSI 29.2→34.2 (2026-03-23 → 2026-10-05) |
-| **NVR** | NVR, Inc. | S&P 500 | Bull.div | 5853.92 | 40.4 | 7095.41 | -17.5% | regulier ↗ RSI 30.2→40.4 (2026-03-16 → 2026-10-19) |
-| **CLX** | Clorox | S&P 500 | Bull.div | 109.46 | 62.9 | 133.36 | -17.9% | regulier ↗ RSI 26.7→31.8 (2025-12-22 → 2026-09-28) |
-| **D** | Dominion Energy | S&P 500 | Verborgen bull.div | 67.66 | 56.6 | 56.3 | +20.2% | verborgen ↘ RSI 49.3→38.4 (2025-12-22 → 2026-09-28) |
-| **TT** | Trane Technologies | S&P 500 | Verborgen bull.div | 417.99 | 42.0 | 343.05 | +21.8% | verborgen ↘ RSI 52.2→41.1 (2026-03-30 → 2026-09-14) |
-| **ED** | Consolidated Edison | S&P 500 | Verborgen bull.div | 121.0 | 69.2 | 99.14 | +22.1% | verborgen ↘ RSI 48.5→41.1 (2026-01-05 → 2026-09-28) |
-| **PNW** | Pinnacle West Capital | S&P 500 | Verborgen bull.div | 107.0 | 60.4 | 86.61 | +23.5% | verborgen ↘ RSI 49.2→34.2 (2026-01-05 → 2026-09-21) |
-| **GD** | General Dynamics | S&P 500 | Verborgen bull.div | 363.46 | 52.8 | 290.3 | +25.2% | verborgen ↘ RSI 52.2→38.7 (2026-04-27 → 2026-10-05) |
-| **AEP** | American Electric Power | S&P 500 + Nasdaq-100 | Verborgen bull.div | 129.18 | 53.6 | 102.21 | +26.4% | verborgen ↘ RSI 55.9→39.8 (2026-01-05 → 2026-09-21) |
-| **KEY** | KeyCorp | S&P 500 | Verborgen bull.div | 21.46 | 51.1 | 16.66 | +28.8% | verborgen ↘ RSI 47.4→37.5 (2026-03-16 → 2026-10-12) |
-| **GL** | Globe Life | S&P 500 | Verborgen bull.div | 160.74 | 47.0 | 124.6 | +29.0% | verborgen ↘ RSI 67.5→41.0 (2026-06-01 → 2026-10-19) |
-| **CPRT** | Copart | S&P 500 + Nasdaq-100 | Bull.div | 31.83 | 52.8 | 45.13 | -29.5% | regulier ↗ RSI 27.7→38.0 (2026-07-20 → 2026-10-12) |
-| **PNC** | PNC Financial Services | S&P 500 | Verborgen bull.div | 232.29 | 51.5 | 178.06 | +30.5% | verborgen ↘ RSI 46.6→38.8 (2026-03-16 → 2026-10-12) |
-| **AFL** | Aflac | S&P 500 | Verborgen bull.div | 127.61 | 65.0 | 97.25 | +31.2% | verborgen ↘ RSI 46.1→41.0 (2026-01-19 → 2026-09-28) |
-| **EVRG** | Evergy | S&P 500 | Verborgen bull.div | 88.78 | 64.7 | 65.83 | +34.9% | verborgen ↘ RSI 49.1→40.6 (2026-01-05 → 2026-09-21) |
-| **PODD** | Insulet Corporation | S&P 500 | Bull.div | 152.48 | 46.0 | 234.44 | -35.0% | regulier ↗ RSI 20.1→31.8 (2026-05-25 → 2026-09-28) |
-| **INTU** | Intuit | S&P 500 + Nasdaq-100 | Bull.div | 341.7 | 49.6 | 544.44 | -37.2% | regulier ↗ RSI 30.1→35.9 (2026-04-06 → 2026-09-28) |
-| **SKYD** | Skydance | S&P 500 | Bull.div | 7.52 | 37.4 | 12.94 | -41.9% | regulier ↗ RSI 31.9→38.1 (2026-02-09 → 2026-10-19) |
-| **SPG** | Simon Property Group | S&P 500 | Verborgen bull.div | 232.97 | 67.1 | 162.1 | +43.7% | verborgen ↘ RSI 57.6→41.2 (2026-01-12 → 2026-10-05) |
-| **ZTS** | Zoetis | S&P 500 | Bull.div | 83.82 | 51.1 | 151.38 | -44.6% | regulier ↗ RSI 19.3→28.4 (2026-05-11 → 2026-09-28) |
-| **MS** | Morgan Stanley | S&P 500 | Verborgen bull.div | 190.65 | 46.2 | 129.33 | +47.4% | verborgen ↘ RSI 41.1→35.6 (2026-03-09 → 2026-10-12) |
-| **ETR** | Entergy | S&P 500 | Verborgen bull.div | 111.15 | 57.2 | 75.26 | +47.7% | verborgen ↘ RSI 54.2→41.3 (2025-12-22 → 2026-09-28) |
-| **PH** | Parker Hannifin | S&P 500 | Verborgen bull.div | 955.68 | 51.6 | 644.42 | +48.3% | verborgen ↘ RSI 48.8→39.8 (2026-06-01 → 2026-10-19) |
-| **FISV** | Fiserv | S&P 500 | Bull.div | 63.78 | 63.2 | 126.61 | -49.6% | regulier ↗ RSI 23.1→30.1 (2026-03-23 → 2026-09-28) |
-| **FIS** | Fidelity National Information Services | S&P 500 | Bull.div | 29.54 | 31.8 | 63.47 | -53.5% | regulier ↗ RSI 20.2→26.2 (2026-02-09 → 2026-09-28) |
-| **RL** | Ralph Lauren Corporation | S&P 500 | Verborgen bull.div | 386.3 | 54.8 | 235.53 | +64.0% | verborgen ↘ RSI 56.9→40.1 (2026-05-18 → 2026-09-14) |
-| **GE** | GE Aerospace | S&P 500 | Verborgen bull.div | 331.81 | 52.6 | 200.2 | +65.7% | verborgen ↘ RSI 45.3→37.0 (2026-04-20 → 2026-10-19) |
+| **NVDA** | Nvidia | S&P 500 + Nasdaq-100 | RSI<30 + 200WMA | 125.53 | 25.0 | 124.14 | +1.1% | – |
+| **FIS** | Fidelity National Information Services | S&P 500 | RSI<30 + Bull.div | 25.83 | 28.0 | 63.23 | -59.1% | regulier ↗ RSI 20.2→26.2 (2026-02-09 → 2026-09-28) |
+| **FCX** | Freeport-McMoRan | S&P 500 | RSI<30 + 200WMA | 45.99 | 30.0 | 46.84 | -1.8% | – |
+| **CMI** | Cummins | S&P 500 | RSI<30 | 403.61 | 22.3 | 371.04 | +8.8% | – |
+| **APTV** | Aptiv | S&P 500 | RSI<30 | 35.33 | 25.1 | 75.29 | -53.1% | – |
+| **BA** | Boeing | S&P 500 | RSI<30 | 155.89 | 26.0 | 200.3 | -22.2% | – |
+| **CAT** | Caterpillar Inc. | S&P 500 | RSI<30 | 510.45 | 26.7 | 444.41 | +14.9% | – |
+| **ALNY** | Alnylam Pharmaceuticals, Inc. | Nasdaq-100 | RSI<30 | 143.82 | 28.4 | 257.32 | -44.1% | – |
+| **NFLX** | Netflix | S&P 500 + Nasdaq-100 | RSI<30 | 56.73 | 28.5 | 74.54 | -23.9% | – |
+| **COIN** | Coinbase | S&P 500 | RSI<30 | 101.97 | 29.2 | 190.49 | -46.5% | – |
+| **PLD** | Prologis | S&P 500 | 200WMA | 122.5 | 33.9 | 122.43 | +0.1% | – |
+| **DASH** | DoorDash | S&P 500 + Nasdaq-100 | 200WMA | 152.6 | 35.1 | 152.29 | +0.2% | – |
+| **DHR** | Danaher Corporation | S&P 500 | 200WMA | 220.36 | 54.3 | 220.84 | -0.2% | – |
+| **O** | Realty Income | S&P 500 | 200WMA | 58.03 | 45.0 | 58.24 | -0.4% | – |
+| **MDLZ** | Mondelez International | S&P 500 + Nasdaq-100 | 200WMA | 66.28 | 60.4 | 65.87 | +0.6% | – |
+| **AON** | Aon plc | S&P 500 | 200WMA | 333.07 | 53.7 | 335.23 | -0.6% | – |
+| **PEG** | Public Service Enterprise Group | S&P 500 | 200WMA | 73.9 | 47.7 | 74.45 | -0.7% | – |
+| **PCAR** | Paccar | S&P 500 + Nasdaq-100 | 200WMA | 102.2 | 35.0 | 101.33 | +0.9% | – |
+| **ETN** | Eaton Corporation | S&P 500 | 200WMA | 311.33 | 31.4 | 308.63 | +0.9% | – |
+| **XYZ** | Block, Inc. | S&P 500 | 200WMA | 69.66 | 42.7 | 69.06 | +0.9% | – |
+| **NWSA** | News Corp (Class A) | S&P 500 | 200WMA | 25.05 | 38.9 | 25.27 | -0.9% | – |
+| **NWS** | News Corp (Class B) | S&P 500 | 200WMA | 27.87 | 38.5 | 27.55 | +1.1% | – |
+| **OMC** | Omnicom Group | S&P 500 | 200WMA | 85.18 | 56.4 | 84.19 | +1.2% | – |
+| **SLB** | Schlumberger | S&P 500 | 200WMA | 45.89 | 42.0 | 46.51 | -1.3% | – |
+| **OXY** | Occidental Petroleum | S&P 500 | 200WMA | 53.9 | 44.4 | 54.66 | -1.4% | – |
+| **CRH** | CRH plc | S&P 500 | 200WMA | 88.05 | 41.4 | 86.78 | +1.5% | – |
+| **DOC** | Healthpeak Properties | S&P 500 | 200WMA | 19.24 | 46.1 | 19.54 | -1.5% | – |
+| **HON** | Honeywell Technologies | S&P 500 + Nasdaq-100 | 200WMA | 212.64 | 44.6 | 209.46 | +1.5% | – |
+| **ADM** | Archer Daniels Midland | S&P 500 | 200WMA | 66.95 | 37.1 | 65.92 | +1.6% | – |
+| **IFF** | International Flavors & Fragrances | S&P 500 | 200WMA | 79.62 | 46.8 | 80.97 | -1.7% | – |
+| **IR** | Ingersoll Rand | S&P 500 | 200WMA | 78.3 | 48.8 | 79.87 | -2.0% | – |
+| **FRT** | Federal Realty Investment Trust | S&P 500 | Verborgen bull.div | 110.27 | 45.1 | 103.6 | +6.4% | verborgen ↘ RSI 51.5→36.3 (2026-03-23 → 2026-10-12) |
+| **BR** | Broadridge Financial Solutions | S&P 500 | Bull.div | 181.41 | 55.2 | 196.53 | -7.7% | regulier ↗ RSI 20.8→49.6 (2026-02-09 → 2026-10-05) |
+| **ABT** | Abbott Laboratories | S&P 500 | Bull.div | 103.0 | 48.7 | 112.38 | -8.3% | regulier ↗ RSI 29.2→43.2 (2026-01-26 → 2026-09-28) |
+| **SBUX** | Starbucks | S&P 500 + Nasdaq-100 | Verborgen bull.div | 103.13 | 53.2 | 94.85 | +8.7% | verborgen ↘ RSI 44.9→36.8 (2026-03-23 → 2026-10-05) |
+| **PSA** | Public Storage | S&P 500 | Verborgen bull.div | 325.42 | 57.3 | 295.66 | +10.1% | verborgen ↘ RSI 52.5→37.5 (2026-02-02 → 2026-09-28) |
+| **BALL** | Ball Corporation | S&P 500 | Verborgen bull.div | 63.49 | 54.0 | 57.56 | +10.3% | verborgen ↘ RSI 48.8→41.5 (2026-06-08 → 2026-09-28) |
+| **LDOS** | Leidos | S&P 500 | Bull.div | 122.21 | 43.5 | 136.6 | -10.5% | regulier ↗ RSI 27.0→41.9 (2026-05-18 → 2026-10-05) |
+| **BRO** | Brown & Brown | S&P 500 | Bull.div | 73.07 | 56.7 | 82.86 | -11.8% | regulier ↗ RSI 27.5→37.4 (2026-03-23 → 2026-09-28) |
+| **TMUS** | T-Mobile US | S&P 500 + Nasdaq-100 | Bull.div | 165.6 | 45.1 | 188.82 | -12.3% | regulier ↗ RSI 29.8→39.0 (2026-01-19 → 2026-10-26) |
+| **KMB** | Kimberly-Clark | S&P 500 | Bull.div | 106.38 | 51.7 | 123.92 | -14.2% | regulier ↗ RSI 26.7→40.4 (2026-01-05 → 2026-10-05) |
+| **CL** | Colgate-Palmolive | S&P 500 | Verborgen bull.div | 98.71 | 64.9 | 86.41 | +14.2% | verborgen ↘ RSI 47.2→38.8 (2026-04-20 → 2026-09-28) |
+| **SCHW** | Charles Schwab Corporation | S&P 500 | Verborgen bull.div | 90.16 | 39.5 | 78.55 | +14.8% | verborgen ↘ RSI 39.7→33.9 (2026-05-25 → 2026-10-26) |
+| **ERIE** | Erie Indemnity | S&P 500 | Bull.div | 272.43 | 59.8 | 321.21 | -15.2% | regulier ↗ RSI 24.6→40.1 (2026-03-23 → 2026-09-21) |
+| **KEY** | KeyCorp | S&P 500 | Verborgen bull.div | 19.45 | 38.0 | 16.67 | +16.7% | verborgen ↘ RSI 47.4→37.5 (2026-03-16 → 2026-10-12) |
+| **PNW** | Pinnacle West Capital | S&P 500 | Verborgen bull.div | 101.28 | 50.3 | 86.74 | +16.8% | verborgen ↘ RSI 49.2→34.2 (2026-01-05 → 2026-09-21) |
+| **GD** | General Dynamics | S&P 500 | Verborgen bull.div | 341.5 | 45.2 | 290.84 | +17.4% | verborgen ↘ RSI 52.2→38.7 (2026-04-27 → 2026-10-05) |
+| **D** | Dominion Energy | S&P 500 | Verborgen bull.div | 66.28 | 52.3 | 56.32 | +17.7% | verborgen ↘ RSI 49.3→38.4 (2025-12-22 → 2026-09-28) |
+| **SBAC** | SBA Communications | S&P 500 | Bull.div | 173.33 | 42.7 | 214.53 | -19.2% | regulier ↗ RSI 32.0→47.9 (2026-01-05 → 2026-10-05) |
+| **PNC** | PNC Financial Services | S&P 500 | Verborgen bull.div | 213.12 | 39.5 | 178.35 | +19.5% | verborgen ↘ RSI 46.6→38.8 (2026-03-16 → 2026-10-12) |
+| **MAA** | Mid-America Apartment Communities | S&P 500 | Bull.div | 112.91 | 33.5 | 141.36 | -20.1% | regulier ↗ RSI 29.2→34.2 (2026-03-23 → 2026-10-05) |
+| **ED** | Consolidated Edison | S&P 500 | Verborgen bull.div | 119.36 | 65.3 | 99.27 | +20.2% | verborgen ↘ RSI 48.5→41.1 (2026-01-05 → 2026-09-28) |
+| **CLX** | Clorox | S&P 500 | Bull.div | 104.73 | 57.8 | 133.17 | -21.4% | regulier ↗ RSI 26.7→31.8 (2025-12-22 → 2026-09-28) |
+| **GL** | Globe Life | S&P 500 | Verborgen bull.div | 151.65 | 40.4 | 124.77 | +21.5% | verborgen ↘ RSI 67.5→41.0 (2026-06-01 → 2026-10-19) |
+| **AEP** | American Electric Power | S&P 500 + Nasdaq-100 | Verborgen bull.div | 125.14 | 48.3 | 102.37 | +22.2% | verborgen ↘ RSI 55.9→39.8 (2026-01-05 → 2026-09-21) |
+| **NVR** | NVR, Inc. | S&P 500 | Bull.div | 5468.04 | 34.4 | 7097.63 | -23.0% | regulier ↗ RSI 30.2→40.4 (2026-03-16 → 2026-10-19) |
+| **AFL** | Aflac | S&P 500 | Verborgen bull.div | 124.32 | 58.5 | 97.52 | +27.5% | verborgen ↘ RSI 46.1→41.0 (2026-01-19 → 2026-09-28) |
+| **MS** | Morgan Stanley | S&P 500 | Verborgen bull.div | 165.67 | 33.3 | 129.68 | +27.8% | verborgen ↘ RSI 41.1→35.6 (2026-03-09 → 2026-10-12) |
+| **EVRG** | Evergy | S&P 500 | Verborgen bull.div | 85.93 | 56.6 | 65.96 | +30.3% | verborgen ↘ RSI 49.1→40.6 (2026-01-05 → 2026-09-21) |
+| **CPRT** | Copart | S&P 500 + Nasdaq-100 | Bull.div | 31.09 | 50.1 | 45.13 | -31.1% | regulier ↗ RSI 27.7→38.0 (2026-07-20 → 2026-10-12) |
+| **PH** | Parker Hannifin | S&P 500 | Verborgen bull.div | 871.86 | 41.3 | 647.25 | +34.7% | verborgen ↘ RSI 48.8→39.8 (2026-06-01 → 2026-10-19) |
+| **SPG** | Simon Property Group | S&P 500 | Verborgen bull.div | 224.35 | 58.8 | 162.61 | +38.0% | verborgen ↘ RSI 57.6→41.2 (2026-01-12 → 2026-10-05) |
+| **ETR** | Entergy | S&P 500 | Verborgen bull.div | 104.38 | 46.1 | 75.51 | +38.2% | verborgen ↘ RSI 54.2→41.3 (2025-12-22 → 2026-09-28) |
+| **BSX** | Boston Scientific | S&P 500 | Bull.div | 41.98 | 36.5 | 72.22 | -41.9% | regulier ↗ RSI 24.0→34.3 (2026-07-13 → 2026-10-26) |
+| **PODD** | Insulet Corporation | S&P 500 | Bull.div | 133.17 | 37.2 | 233.64 | -43.0% | regulier ↗ RSI 20.1→31.8 (2026-05-25 → 2026-09-28) |
+| **ZTS** | Zoetis | S&P 500 | Bull.div | 79.11 | 45.1 | 150.95 | -47.6% | regulier ↗ RSI 19.3→28.4 (2026-05-11 → 2026-09-28) |
+| **INTU** | Intuit | S&P 500 + Nasdaq-100 | Bull.div | 270.44 | 36.5 | 543.8 | -50.3% | regulier ↗ RSI 30.1→35.9 (2026-04-06 → 2026-09-28) |
+| **SKYD** | Skydance | S&P 500 | Bull.div | 6.2 | 31.8 | 12.87 | -51.8% | regulier ↗ RSI 31.9→38.1 (2026-02-09 → 2026-10-19) |
+| **GE** | GE Aerospace | S&P 500 | Verborgen bull.div | 309.62 | 46.1 | 201.44 | +53.7% | verborgen ↘ RSI 45.3→37.0 (2026-04-20 → 2026-10-19) |
+| **FISV** | Fiserv | S&P 500 | Bull.div | 55.88 | 51.2 | 126.36 | -55.8% | regulier ↗ RSI 23.1→30.1 (2026-03-23 → 2026-09-28) |
+| **ARE** | Alexandria Real Estate Equities | S&P 500 | Bull.div | 40.2 | 38.8 | 91.98 | -56.3% | regulier ↗ RSI 30.8→36.3 (2026-03-30 → 2026-10-26) |
+| **CSGP** | CoStar Group | S&P 500 | Bull.div | 29.61 | 41.3 | 69.43 | -57.4% | regulier ↗ RSI 27.1→42.1 (2026-05-11 → 2026-10-26) |
 
-*Divergentie: bij 40 van deze 62 aandelen. **regulier ↗** = koers zette een lagere bodem terwijl de RSI een hógere bodem maakte (verkoopdruk neemt af, klassiek omkeersignaal). **verborgen ↘** = koers zette een hógere bodem terwijl de RSI lager ging, in een stijgende trend (meestal voortzetting van die trend). De datums zijn de twee weken waarin die bodems lagen.*
+*Divergentie: bij 42 van deze 72 aandelen. **regulier ↗** = koers zette een lagere bodem terwijl de RSI een hógere bodem maakte (verkoopdruk neemt af, klassiek omkeersignaal). **verborgen ↘** = koers zette een hógere bodem terwijl de RSI lager ging, in een stijgende trend (meestal voortzetting van die trend). De datums zijn de twee weken waarin die bodems lagen.*
 
-## Ter info: 15 intraweek aangeraakt
+## Ter info: 29 intraweek aangeraakt
 
 Deze aandelen raakten de 200-weeks MA tijdens de week wel aan (high/low), maar sloten er verder dan 2% vandaan.
 
 | Ticker | Bedrijf | Index | Signaal | Slot | RSI (w) | 200WMA | Afstand | Divergentie |
 |---|---|---|---|---:|---:|---:|---:|---|
-| **PEG** | Public Service Enterprise Group | S&P 500 | 200WMA-intraweek | 75.88 | 51.8 | 74.38 | +2.0% | – |
-| **HPQ** | HP Inc. | S&P 500 | 200WMA-intraweek | 29.36 | 52.3 | 28.75 | +2.1% | – |
-| **MDLZ** | Mondelez International | S&P 500 + Nasdaq-100 | 200WMA-intraweek | 67.54 | 64.5 | 65.86 | +2.5% | – |
-| **MLM** | Martin Marietta Materials | S&P 500 | 200WMA-intraweek | 513.61 | 43.6 | 528.51 | -2.8% | – |
-| **BKNG** | Booking Holdings | S&P 500 + Nasdaq-100 | 200WMA-intraweek | 159.58 | 42.3 | 164.32 | -2.9% | – |
-| **BXP** | BXP, Inc. | S&P 500 | 200WMA-intraweek | 63.78 | 49.7 | 65.71 | -2.9% | – |
-| **BG** | Bunge Global | S&P 500 | 200WMA-intraweek | 101.65 | 42.5 | 98.24 | +3.5% | – |
-| **KKR** | KKR & Co. | S&P 500 | 200WMA-intraweek | 98.05 | 49.3 | 101.7 | -3.6% | – |
-| **SWKS** | Skyworks Solutions | S&P 500 | 200WMA-intraweek | 89.94 | 62.2 | 86.78 | +3.6% | – |
-| **ZBH** | Zimmer Biomet | S&P 500 | 200WMA-intraweek | 103.21 | 59.4 | 108.2 | -4.6% | – |
-| **HAL** | Halliburton | S&P 500 | 200WMA-intraweek | 33.78 | 48.5 | 32.14 | +5.1% | – |
-| **GPN** | Global Payments | S&P 500 | 200WMA-intraweek | 91.9 | 57.8 | 98.0 | -6.2% | – |
-| **OXY** | Occidental Petroleum | S&P 500 | 200WMA-intraweek | 58.75 | 51.5 | 54.73 | +7.3% | – |
-| **DVN** | Devon Energy | S&P 500 | 200WMA-intraweek | 46.58 | 50.0 | 43.32 | +7.5% | – |
-| **FSLR** | First Solar | S&P 500 | 200WMA-intraweek | 171.39 | 40.8 | 195.82 | -12.5% | – |
+| **ADSK** | Autodesk | S&P 500 + Nasdaq-100 | 200WMA-intraweek | 244.48 | 52.1 | 249.96 | -2.2% | – |
+| **TXT** | Textron | S&P 500 | 200WMA-intraweek | 79.62 | 44.3 | 81.41 | -2.2% | – |
+| **CDNS** | Cadence Design Systems | S&P 500 + Nasdaq-100 | 200WMA-intraweek | 281.58 | 39.6 | 288.32 | -2.3% | – |
+| **T** | AT&T | S&P 500 | 200WMA-intraweek | 22.31 | 43.9 | 21.79 | +2.4% | – |
+| **AVY** | Avery Dennison | S&P 500 | 200WMA-intraweek | 181.15 | 56.4 | 185.9 | -2.6% | – |
+| **HBAN** | Huntington Bancshares | S&P 500 | 200WMA-intraweek | 14.28 | 34.0 | 14.67 | -2.6% | – |
+| **UHS** | Universal Health Services | S&P 500 | 200WMA-intraweek | 179.43 | 51.0 | 174.77 | +2.7% | – |
+| **HPQ** | HP Inc. | S&P 500 | 200WMA-intraweek | 27.96 | 48.9 | 28.75 | -2.8% | – |
+| **HD** | Home Depot (The) | S&P 500 | 200WMA-intraweek | 339.04 | 54.2 | 349.33 | -3.0% | – |
+| **DHI** | D. R. Horton | S&P 500 | 200WMA-intraweek | 145.44 | 49.7 | 141.19 | +3.0% | – |
+| **VMRK** | Vivmark Residential | S&P 500 | 200WMA-intraweek | 63.04 | 47.5 | 65.13 | -3.2% | – |
+| **QCOM** | Qualcomm | S&P 500 + Nasdaq-100 | 200WMA-intraweek | 149.94 | 42.1 | 155.23 | -3.4% | – |
+| **DVN** | Devon Energy | S&P 500 | 200WMA-intraweek | 41.54 | 42.9 | 43.21 | -3.9% | – |
+| **PPG** | PPG Industries | S&P 500 | 200WMA-intraweek | 117.12 | 54.1 | 122.42 | -4.3% | – |
+| **APO** | Apollo Global Management | S&P 500 | 200WMA-intraweek | 111.16 | 41.6 | 116.65 | -4.7% | – |
+| **TDG** | TransDigm Group | S&P 500 | 200WMA-intraweek | 1121.22 | 43.7 | 1177.32 | -4.8% | – |
+| **HAL** | Halliburton | S&P 500 | 200WMA-intraweek | 30.53 | 41.7 | 32.09 | -4.8% | – |
+| **PFE** | Pfizer | S&P 500 | 200WMA-intraweek | 27.4 | 48.6 | 28.87 | -5.1% | – |
+| **ROP** | Roper Technologies | S&P 500 + Nasdaq-100 | 200WMA-intraweek | 459.83 | 64.0 | 484.93 | -5.2% | – |
+| **SRE** | Sempra | S&P 500 | 200WMA-intraweek | 76.16 | 36.9 | 80.44 | -5.3% | – |
+| **TROW** | T. Rowe Price | S&P 500 | 200WMA-intraweek | 100.99 | 42.3 | 106.84 | -5.5% | – |
+| **ISRG** | Intuitive Surgical | S&P 500 + Nasdaq-100 | 200WMA-intraweek | 399.05 | 45.8 | 425.63 | -6.2% | – |
+| **UBER** | Uber | S&P 500 | 200WMA-intraweek | 63.47 | 38.4 | 68.05 | -6.7% | – |
+| **ELV** | Elevance Health | S&P 500 | 200WMA-intraweek | 394.48 | 48.6 | 424.29 | -7.0% | – |
+| **BG** | Bunge Global | S&P 500 | 200WMA-intraweek | 90.9 | 35.3 | 98.21 | -7.4% | – |
+| **ARES** | Ares Management | S&P 500 | 200WMA-intraweek | 123.3 | 46.9 | 134.49 | -8.3% | – |
+| **CI** | Cigna | S&P 500 | 200WMA-intraweek | 270.9 | 43.0 | 299.67 | -9.6% | – |
+| **SW** | Smurfit Westrock | S&P 500 | 200WMA-intraweek | 37.7 | 38.4 | 42.6 | -11.5% | – |
+| **SWKS** | Skyworks Solutions | S&P 500 | 200WMA-intraweek | 73.91 | 48.5 | 86.64 | -14.7% | – |
 
 _Databron: Yahoo Finance (koersen split-adjusted). Geen beleggingsadvies._
