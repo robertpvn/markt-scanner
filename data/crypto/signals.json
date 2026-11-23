@@ -1,13 +1,13 @@
 {
- "scan_date_utc": "2026-11-16T17:20:40+00:00",
+ "scan_date_utc": "2026-11-23T19:27:27+00:00",
  "market": "crypto",
  "criteria": {
   "ma": "slotkoers binnen \u00b12% van de 200-weeks SMA (100-weeks bij jonge munten)",
   "rsi": "RSI(14) weekly < 30",
   "divergentie": "koers lagere bodem + RSI hogere bodem (regulier), of koers hogere bodem + RSI lagere bodem in stijgende trend (verborgen)"
  },
- "universe_size": 172,
- "coins_scanned": 130,
+ "universe_size": 169,
+ "coins_scanned": 129,
  "coins_without_data": [
   "DHN",
   "MKR",
@@ -18,57 +18,72 @@
   "XDCE",
   "BCHSV",
   "LUNC",
-  "NFT",
   "BTSE",
-  "KAIA",
+  "NFT",
   "DCR",
-  "TWT",
-  "TIBBIR",
+  "KAIA",
   "OZO",
-  "THETA",
+  "INST",
+  "TIBBIR",
   "MX",
+  "TWT",
+  "THETA",
   "MIOTA",
+  "RLB",
   "SHFL",
   "NEO",
-  "XEC",
   "YZY",
+  "XEC",
   "BR",
+  "RAIL",
   "B",
   "SFP",
   "PROM",
   "HEX",
-  "SN51",
-  "MWC",
   "LBT",
-  "FTT",
-  "NILA",
   "DEXE",
-  "GEOD",
-  "GAS",
-  "XDATA",
-  "KNTQ",
   "SLG",
-  "DATA",
+  "FTT",
+  "GAS",
+  "QRL",
+  "GEOD",
   "HOT",
-  "ORDI"
+  "XDATA"
  ],
  "sources": {
-  "coinbase": 101,
-  "kraken": 29
+  "coinbase": 99,
+  "kraken": 30
  },
- "signal_count": 6,
+ "signal_count": 9,
  "intraweek_count": 0,
  "divergence_count": 2,
  "warnings": [],
  "signals": [
   {
-   "close": 1.61,
-   "week_end": "2026-11-12",
-   "weeks_history": 42,
+   "close": 0.00032,
+   "week_end": "2026-11-19",
+   "weeks_history": 64,
    "signals": [
     "RSI<30"
    ],
-   "rsi": 22.0,
+   "rsi": 7.1,
+   "ma_period": null,
+   "ma": null,
+   "dist_pct": null,
+   "divergence": null,
+   "symbol": "UXLINK",
+   "name": "UXLINK",
+   "rank": 186,
+   "source": "kraken"
+  },
+  {
+   "close": 1.59,
+   "week_end": "2026-11-19",
+   "weeks_history": 43,
+   "signals": [
+    "RSI<30"
+   ],
+   "rsi": 22.6,
    "ma_period": null,
    "ma": null,
    "dist_pct": null,
@@ -79,71 +94,132 @@
    "source": "kraken"
   },
   {
-   "close": 0.04566,
-   "week_end": "2026-11-22",
-   "weeks_history": 64,
+   "close": 0.04235,
+   "week_end": "2026-11-29",
+   "weeks_history": 65,
    "signals": [
     "RSI<30"
    ],
-   "rsi": 27.4,
+   "rsi": 25.4,
    "ma_period": null,
    "ma": null,
    "dist_pct": null,
    "divergence": null,
    "symbol": "WLFI",
    "name": "World Liberty Financial",
-   "rank": 44,
+   "rank": 48,
    "source": "coinbase"
   },
   {
-   "close": 0.0843,
-   "week_end": "2026-11-12",
-   "weeks_history": 63,
+   "close": 0.0814,
+   "week_end": "2026-11-19",
+   "weeks_history": 64,
    "signals": [
     "RSI<30"
    ],
-   "rsi": 29.2,
+   "rsi": 28.8,
    "ma_period": null,
    "ma": null,
    "dist_pct": null,
    "divergence": null,
    "symbol": "OPEN",
    "name": "Open Platform",
-   "rank": 163,
+   "rank": 165,
    "source": "kraken"
   },
   {
-   "close": 0.94,
-   "week_end": "2026-11-22",
-   "weeks_history": 96,
+   "close": 0.8939,
+   "week_end": "2026-11-29",
+   "weeks_history": 97,
    "signals": [
     "RSI<30"
    ],
-   "rsi": 29.9,
+   "rsi": 29.6,
    "ma_period": null,
    "ma": null,
    "dist_pct": null,
    "divergence": null,
    "symbol": "TRUMP",
    "name": "OFFICIAL TRUMP",
-   "rank": 109,
+   "rank": 111,
    "source": "coinbase"
   },
   {
-   "close": 0.2902,
-   "week_end": "2026-11-12",
-   "weeks_history": 70,
+   "close": 3.06,
+   "week_end": "2026-11-29",
+   "weeks_history": 216,
+   "signals": [
+    "200WMA"
+   ],
+   "rsi": 49.5,
+   "ma_period": 200,
+   "ma": 3.05,
+   "dist_pct": 0.3,
+   "divergence": null,
+   "symbol": "NEAR",
+   "name": "NEAR Protocol",
+   "rank": 25,
+   "source": "coinbase"
+  },
+  {
+   "close": 35.94,
+   "week_end": "2026-11-29",
+   "weeks_history": 216,
+   "signals": [
+    "200WMA"
+   ],
+   "rsi": 44.3,
+   "ma_period": 200,
+   "ma": 35.62,
+   "dist_pct": 0.89,
+   "divergence": null,
+   "symbol": "DASH",
+   "name": "Dash",
+   "rank": 75,
+   "source": "coinbase"
+  },
+  {
+   "close": 0.001605,
+   "week_end": "2026-11-19",
+   "weeks_history": 44,
    "signals": [
     "Bull.div"
    ],
-   "rsi": 40.2,
+   "rsi": 35.8,
+   "ma_period": null,
+   "ma": null,
+   "dist_pct": null,
+   "divergence": {
+    "type": "regulier",
+    "weeks_apart": 7,
+    "age_weeks": 3,
+    "low1": 0.0,
+    "low2": 0.0,
+    "rsi1": 21.8,
+    "rsi2": 31.5,
+    "date1": "2026-09-10",
+    "date2": "2026-10-29"
+   },
+   "symbol": "TEL",
+   "name": "Telcoin",
+   "rank": 125,
+   "source": "kraken"
+  },
+  {
+   "close": 0.2746,
+   "week_end": "2026-11-19",
+   "weeks_history": 71,
+   "signals": [
+    "Bull.div"
+   ],
+   "rsi": 37.4,
    "ma_period": null,
    "ma": null,
    "dist_pct": null,
    "divergence": {
     "type": "regulier",
     "weeks_apart": 34,
-    "age_weeks": 4,
+    "age_weeks": 5,
     "low1": 0.3,
     "low2": 0.28,
     "rsi1": 20.8,
@@ -153,35 +229,8 @@
    },
    "symbol": "SOSO",
    "name": "SoSoValue",
-   "rank": 171,
+   "rank": 176,
    "source": "kraken"
-  },
-  {
-   "close": 0.00132,
-   "week_end": "2026-11-22",
-   "weeks_history": 83,
-   "signals": [
-    "Bull.div"
-   ],
-   "rsi": 42.0,
-   "ma_period": null,
-   "ma": null,
-   "dist_pct": null,
-   "divergence": {
-    "type": "regulier",
-    "weeks_apart": 30,
-    "age_weeks": 3,
-    "low1": 0.0,
-    "low2": 0.0,
-    "rsi1": 28.0,
-    "rsi2": 44.5,
-    "date1": "2026-04-05",
-    "date2": "2026-11-01"
-   },
-   "symbol": "RSR",
-   "name": "Reserve Rights",
-   "rank": 173,
-   "source": "coinbase"
   }
  ],
  "signals_intraweek": []
