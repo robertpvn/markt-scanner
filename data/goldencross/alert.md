@@ -1,40 +1,41 @@
-Scan van 2026-11-21 op de weekchart (50/200).
+Scan van 2026-11-28 op de weekchart (50/200).
 
-**17 naderen een golden cross:**
+**16 naderen een golden cross:**
 
 | Ticker | Bedrijf | Index | Slot | MA50 | MA200 | Gat | Verwacht over | Koers staat |
 |---|---|---|---:|---:|---:|---:|---:|---|
-| **OXY** | Occidental Petroleum | S&P 500 | 53.9 | 54.56 | 54.66 | -0.2% | 0.3 wk | onder beide MA's |
-| **CHD** | Church & Dwight | S&P 500 | 110.84 | 97.32 | 97.52 | -0.2% | 0.7 wk | boven beide MA's |
-| **BIIB** | Biogen | S&P 500 | 249.59 | 201.97 | 204.84 | -1.4% | 1.6 wk | boven beide MA's |
-| **EG** | Everest Group | S&P 500 | 421.98 | 355.81 | 361.09 | -1.5% | 4.4 wk | boven beide MA's |
-| **BBY** | Best Buy | S&P 500 | 97.95 | 76.54 | 77.99 | -1.9% | 5.3 wk | boven beide MA's |
-| **IFF** | International Flavors & Fragrances | S&P 500 | 79.62 | 77.75 | 80.97 | -4.0% | 6.0 wk | boven MA50 |
-| **CNC** | Centene Corporation | S&P 500 | 63.78 | 54.8 | 60.53 | -9.5% | 8.2 wk | boven beide MA's |
-| **AWK** | American Water Works | S&P 500 | 149.53 | 133.63 | 135.7 | -1.5% | 8.5 wk | boven beide MA's |
-| **BDX** | Becton Dickinson | S&P 500 | 212.78 | 168.06 | 177.02 | -5.1% | 8.6 wk | boven beide MA's |
-| **HUM** | Humana | S&P 500 | 390.0 | 312.32 | 348.64 | -10.4% | 9.7 wk | boven beide MA's |
-| **EIX** | Edison International | S&P 500 | 62.24 | 66.63 | 67.07 | -0.6% | 9.9 wk | onder beide MA's |
-| **DOC** | Healthpeak Properties | S&P 500 | 19.24 | 18.9 | 19.54 | -3.2% | 10.3 wk | boven MA50 |
-| **REGN** | Regeneron Pharmaceuticals | S&P 500 + Nasdaq-100 | 920.69 | 753.82 | 783.72 | -3.8% | 10.6 wk | boven beide MA's |
-| **ZBRA** | Zebra Technologies | S&P 500 | 301.53 | 279.34 | 294.41 | -5.1% | 10.7 wk | boven beide MA's |
-| **KDP** | Keurig Dr Pepper | S&P 500 + Nasdaq-100 | 34.84 | 30.29 | 31.98 | -5.3% | 10.8 wk | boven beide MA's |
-| **PFE** | Pfizer | S&P 500 | 27.4 | 26.79 | 28.87 | -7.2% | 10.8 wk | boven MA50 |
-| **SJM** | J.M. Smucker Company (The) | S&P 500 | 133.68 | 111.61 | 119.27 | -6.4% | 12.7 wk | boven beide MA's |
+| **BIIB** | Biogen | S&P 500 | 264.2 | 203.77 | 204.71 | -0.5% | 0.5 wk | boven beide MA's |
+| **EG** | Everest Group | S&P 500 | 436.0 | 357.98 | 361.51 | -1.0% | 2.5 wk | boven beide MA's |
+| **BBY** | Best Buy | S&P 500 | 104.18 | 77.16 | 78.09 | -1.2% | 2.8 wk | boven beide MA's |
+| **AWK** | American Water Works | S&P 500 | 153.76 | 134.07 | 135.68 | -1.2% | 5.0 wk | boven beide MA's |
+| **IFF** | International Flavors & Fragrances | S&P 500 | 85.22 | 78.18 | 80.84 | -3.3% | 5.0 wk | boven beide MA's |
+| **EIX** | Edison International | S&P 500 | 63.53 | 66.74 | 67.04 | -0.5% | 5.2 wk | onder beide MA's |
+| **BDX** | Becton Dickinson | S&P 500 | 219.36 | 169.29 | 177.13 | -4.4% | 7.2 wk | boven beide MA's |
+| **DOC** | Healthpeak Properties | S&P 500 | 20.96 | 18.99 | 19.5 | -2.6% | 7.4 wk | boven beide MA's |
+| **CNC** | Centene Corporation | S&P 500 | 65.78 | 55.3 | 60.48 | -8.6% | 7.6 wk | boven beide MA's |
+| **HUM** | Humana | S&P 500 | 405.46 | 315.06 | 348.26 | -9.5% | 8.7 wk | boven beide MA's |
+| **REGN** | Regeneron Pharmaceuticals | S&P 500 + Nasdaq-100 | 992.14 | 758.84 | 784.97 | -3.3% | 9.3 wk | boven beide MA's |
+| **KDP** | Keurig Dr Pepper | S&P 500 + Nasdaq-100 | 35.45 | 30.41 | 31.98 | -4.9% | 9.9 wk | boven beide MA's |
+| **ZBRA** | Zebra Technologies | S&P 500 | 331.5 | 280.6 | 294.49 | -4.7% | 9.9 wk | boven beide MA's |
+| **EXR** | Extra Space Storage | S&P 500 | 161.78 | 143.3 | 146.7 | -2.3% | 10.0 wk | boven beide MA's |
+| **PFE** | Pfizer | S&P 500 | 28.52 | 26.84 | 28.8 | -6.8% | 10.7 wk | boven MA50 |
+| **SJM** | J.M. Smucker Company (The) | S&P 500 | 126.86 | 112.12 | 119.15 | -5.9% | 11.1 wk | boven beide MA's |
 
-**10 net gekruist:**
+**12 net gekruist:**
 
 | Ticker | Bedrijf | Index | Slot | MA50 | MA200 | Gat | Gekruist | Koers staat |
 |---|---|---|---:|---:|---:|---:|---:|---|
-| **DG** | Dollar General | S&P 500 | 130.53 | 127.74 | 127.41 | +0.3% | 1 wk geleden | boven beide MA's |
-| **TGT** | Target Corporation | S&P 500 | 165.83 | 132.54 | 131.64 | +0.7% | 1 wk geleden | boven beide MA's |
-| **WST** | West Pharmaceutical Services | S&P 500 | 390.3 | 314.37 | 313.77 | +0.2% | 1 wk geleden | boven beide MA's |
-| **MRNA** | Moderna | S&P 500 + Nasdaq-100 | 195.0 | 89.14 | 82.34 | +8.3% | 2 wk geleden | boven beide MA's |
-| **SWK** | Stanley Black & Decker | S&P 500 | 106.62 | 86.54 | 84.85 | +2.0% | 3 wk geleden | boven beide MA's |
-| **RVTY** | Revvity | S&P 500 | 145.22 | 113.06 | 110.03 | +2.8% | 4 wk geleden | boven beide MA's |
-| **SW** | Smurfit Westrock | S&P 500 | 37.7 | 42.99 | 42.6 | +0.9% | 4 wk geleden | onder beide MA's |
-| **APD** | Air Products | S&P 500 | 297.09 | 287.07 | 281.87 | +1.9% | 6 wk geleden | boven beide MA's |
-| **DVN** | Devon Energy | S&P 500 | 41.54 | 44.85 | 43.21 | +3.8% | 6 wk geleden | onder beide MA's |
-| **IEX** | IDEX Corporation | S&P 500 | 219.64 | 212.98 | 205.46 | +3.7% | 7 wk geleden | boven beide MA's |
+| **CHD** | Church & Dwight | S&P 500 | 112.62 | 97.88 | 97.69 | +0.2% | 1 wk geleden | boven beide MA's |
+| **OXY** | Occidental Petroleum | S&P 500 | 54.17 | 54.82 | 54.6 | +0.4% | 1 wk geleden | onder beide MA's |
+| **DG** | Dollar General | S&P 500 | 138.84 | 127.86 | 126.93 | +0.7% | 2 wk geleden | boven beide MA's |
+| **TGT** | Target Corporation | S&P 500 | 171.97 | 134.04 | 131.66 | +1.8% | 2 wk geleden | boven beide MA's |
+| **WST** | West Pharmaceutical Services | S&P 500 | 366.17 | 316.35 | 314.26 | +0.7% | 2 wk geleden | boven beide MA's |
+| **MRNA** | Moderna | S&P 500 + Nasdaq-100 | 228.64 | 93.13 | 82.54 | +12.8% | 3 wk geleden | boven beide MA's |
+| **SWK** | Stanley Black & Decker | S&P 500 | 110.92 | 87.25 | 84.98 | +2.7% | 4 wk geleden | boven beide MA's |
+| **RVTY** | Revvity | S&P 500 | 151.27 | 114.07 | 110.09 | +3.6% | 5 wk geleden | boven beide MA's |
+| **SW** | Smurfit Westrock | S&P 500 | 43.59 | 43.12 | 42.6 | +1.2% | 5 wk geleden | boven beide MA's |
+| **APD** | Air Products | S&P 500 | 319.09 | 288.59 | 281.89 | +2.4% | 7 wk geleden | boven beide MA's |
+| **DVN** | Devon Energy | S&P 500 | 42.84 | 44.96 | 43.1 | +4.3% | 7 wk geleden | onder beide MA's |
+| **IEX** | IDEX Corporation | S&P 500 | 227.42 | 213.95 | 205.4 | +4.2% | 8 wk geleden | boven beide MA's |
 
 _Geen beleggingsadvies._
